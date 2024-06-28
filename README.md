@@ -296,6 +296,7 @@ You can fork this repository by using the following steps:
 ### Content
 
 | Source | Location | Notes |
+| --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 
 ### Media

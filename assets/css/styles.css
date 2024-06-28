@@ -1,0 +1,7 @@
+/* Asterisk selector added to not interfere with the specific designs e.g. adding more width than wanted. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}

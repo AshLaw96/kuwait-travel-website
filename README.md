@@ -29,8 +29,6 @@ The colours of the website will use the Kuwait flag to design different features
 - `#000000` used for secondary text.
 - `#CE1126` used for secondary highlights.
 
-Example: https://coolors.co/007a3d-ffffff-ce1126-000000
-
 I used [coolors.co](https://coolors.co/007a3d-ffffff-ce1126-000000) to generate my colour palette.
 
 ![screenshot](documentation/colour.png)

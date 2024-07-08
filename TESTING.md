@@ -73,11 +73,6 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Responsiveness
 
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
 | Device | Home | Gallery | Form | 404 | Notes |

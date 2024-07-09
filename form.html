@@ -32,7 +32,20 @@
             </nav>
         </header>
         <!-- Main content -->
-        <main></main>
+        <main>
+            <section id="form">
+                <form action="" id="sign-up" method="post">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" required placeholder="Full name required">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Email address required">
+                    <br>
+                    <label for="guests">Guests</label>
+                    <input type="number" id="guests" name="guests" required min="1" placeholder="Guests amount required">
+                </form>
+            </section>
+        </main>
         <!-- Footer content -->
         <footer>
             <ul id="socials">

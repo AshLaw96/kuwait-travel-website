@@ -1,7 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 /* Asterisk selector added to not interfere with the specific designs e.g. adding more width than wanted. */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+:root {
+    /* P = Primary | S = Secondary */
+    --p-text: #FFFFFF;
+    --p-highlight: #007A3D;
+    --s-text: #000000;
+    --s-highlight: #CE1126;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#header1 {
+    background: url("../images/header-img.jpg") no-repeat center center/cover;
+    margin-bottom: 1rem;  
+}
+
+header p {
+    background-color: rgba(0, 122, 61, 0.5);
+    color: #FFFFFF;
+    text-align: center;
 }

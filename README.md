@@ -47,11 +47,7 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 
 ### Typography
 
-- [Arabic Ramadhan](https://www.dafont.com/arabic-ramadhan.font?back=theme&text=Hello) was used for the secondary texts.
-
-- [Ramadhan Mubarok](https://www.dafont.com/ramadhan-mubarok.font?text=Kuwait&back=theme) was used for primary text like headers and titles.
-
-- [Arabian Night](https://www.dafont.com/arabian-night.font?text=First+name&back=theme) was used for the form text.
+- 
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 

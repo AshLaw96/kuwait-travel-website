@@ -92,6 +92,9 @@ Gallery
 Form
   - ![screenshot](documentation/wireframes/mobile-form.png)
 
+Confirmation
+  - ![screenshot](documentation/wireframes/mobile-confirmation.png)  
+
 404 Page
   - ![screenshot](documentation/wireframes/mobile-404.png)
 
@@ -111,6 +114,9 @@ Gallery
 Form
   - ![screenshot](documentation/wireframes/form-tablet.png)
 
+Confirmation
+  - ![screenshot](documentation/wireframes/confirmation-tablet.png)  
+
 404
   - ![screenshot](documentation/wireframes/404-tablet.png)
 
@@ -129,6 +135,9 @@ Gallery
 
 Form
   - ![screenshot](documentation/wireframes/form.png)
+
+Confirmation
+  - ![screenshot](documentation/wireframes/confirmation.png)  
 
 404
   - ![screenshot](documentation/wireframes/404.png)
@@ -152,6 +161,9 @@ Form
   <br>
   ![screenshot]()
   </details>
+  <br>
+  ![screenshot]()
+  </details>
 
 #### Main
 
@@ -170,7 +182,7 @@ Form
   </details>
   <br>
 
-  - The main section on the third page will contain a form block so the user can fill out some personal details and two buttons to refresh the form and to submit the form where a message will show saying that someone will be in touch. This section will again follow the same colour scheme as the other sections.
+  - The main section on the third page will contain a form block so the user can fill out some personal details and two buttons to refresh the form and to submit the form where it will then take them to the confirmation page. This section will again follow the same colour scheme as the other sections.
 
    <details>
   <summary>click here to see the form page main section</summary>
@@ -178,7 +190,15 @@ Form
   </details>
   <br>
 
-  - The main section of the final page will contain text informing the user that an error has occurred and they need to go back to the previous page.
+   The main section of the confirmation page will contain text informing the user that they have successfully filled out the form and some one will be in-touch shortly and that they will be automatically returned to the home page. This will contain the same layout and colour scheme as the other 3 main pages.
+
+   <details>
+  <summary>click here to see the confirmation page main section</summary>
+  ![screenshot]()
+  </details>
+  <br>
+
+  - The main section of the 404 page will contain text informing the user that an error has occurred and they need to go back to the previous page.
 
    <details>
   <summary>click here to see the 404 page main section</summary>
@@ -276,7 +296,6 @@ A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/conf
 
 #### Forking
 
-By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
 You can fork this repository by using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/AshLaw96/kuwait-travel-website)

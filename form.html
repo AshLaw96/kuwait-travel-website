@@ -36,7 +36,7 @@
                 <form action="confirmation.html" id="sign-up">
                     <!-- Personal details content -->
                     <fieldset>
-                        <legend>Personal Details</legend>
+                        <legend>Personal Details <i class="fa-solid fa-id-card"></i></legend>
                         <label for="full-name">Full Name: </label>
                         <input type="text" id="full-name" name="full-name" required placeholder="Full name required">
                         <br>
@@ -45,7 +45,7 @@
                     </fieldset>
                     <!-- Travel details content -->
                     <fieldset>
-                        <legend>Travel Details</legend>
+                        <legend>Travel Details <i class="fa-solid fa-globe"></i></legend>
                         <label for="adults">Adults: </label>
                         <input type="number" id="adults" name="adults" required min="1">
                         <label for="children">Children: </label>
@@ -84,7 +84,9 @@
                     </fieldset>
                     <div> 
                         <label for="terms">
-                            <a href="https://documents.travelguard.com/dynamicdoc?parser=tags&document-type=pwd&partner=qatar&country=kw" target="_blank">Terms & Conditions</a>
+                            <p>
+                                I agree to the <a href="https://documents.travelguard.com/dynamicdoc?parser=tags&document-type=pwd&partner=qatar&country=kw" target="_blank">Terms & Conditions</a>
+                            </p>
                         </label>
                         <input type="checkbox" id="terms" name="terms" value="Terms-and-Conditions" required>
                     </div>

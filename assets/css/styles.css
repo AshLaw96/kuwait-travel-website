@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 body {
@@ -40,9 +40,8 @@ body {
 header {
     border-bottom: 5px solid var(--s-highlight);
     width: 100vw;
-    height: 20vh;
-    position: relative;
-    display: block;
+    height: 30vh;
+    display: flex;
 }
 
 #header1 {
@@ -54,21 +53,33 @@ header p {
     background-color: rgba(0, 122, 61, 0.8);
     color: var(--p-text);
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    padding: 1rem 0;
-    line-height: 25px;
+    padding: 5px 0;
+    line-height: 20px;
+    align-self: flex-end;
 }
 
 nav {
-    box-sizing: border-box;
-    min-height: 100vh;
-    margin-right: 15%;
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+#tab-bar:checked~nav {
+    display: block;
+}
+
+#tab-bar {
+    display: none;
+}
+
+.tab-label {
+    font-size: 2rem;
 }
 
 #navbar {
     background-color: rgba(0, 122, 61, 0.9);
-    width: 13%;
+    width: 15%;
     min-height: 100vh;
     border-right: 5px solid var(--s-highlight);
     position: absolute;
@@ -115,31 +126,30 @@ nav {
     border: 2px inset var(--s-highlight);
     background-color: var(--p-highlight);
     color: var(--p-text);
-    max-width: 50%;
+    max-width: 70%;
     border-radius: 2%;
     margin: 2px;
 }
 
 .txt-area-1 {
     position: relative;
-    left: 34rem;
-    bottom: 58rem;
+    left: 6rem;
+    bottom: 5rem;
     box-shadow: 0 0 6px 4px var(--s-highlight);
     z-index: 1;
 }
 
 .img-area {
-    width: 100%;
+    width: 150vw;
     position: absolute;
-    background-color: none;
     height: auto;
-    bottom: -38rem;
-    left: 10rem;
+    bottom: -55rem;
+    right: 4rem;
     box-shadow: 0 0 6px 4px var(--s-highlight);
 }
 
 .img-area img {
-    max-width: 100%;
+    max-width: 70vw;
     border-radius: 2%;
     max-height: fit-content;
 }
@@ -149,6 +159,18 @@ nav {
     left: 34rem;
     bottom: 10rem;
     box-shadow: 0 0 6px 4px var(--s-highlight);
+}
+
+.vid-area {
+    width: 100%;
+    position: absolute;
+    height: auto;
+}
+
+.vid-area video {
+    max-width: 100%;
+    border-radius: 2%;
+    max-height: fit-content;
 }
 
 footer {

@@ -20,6 +20,9 @@
 body {
     font-family: 'Quicksand', sans-serif;
     position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Title styles */
@@ -38,7 +41,6 @@ h1, h2 {
 
 h1 {
     font-size: 200%;
-    top: 50%;
     padding: 0.9em;
 }
 
@@ -52,6 +54,8 @@ header {
     width: 100vw;
     height: 30vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #header1 {
@@ -62,10 +66,18 @@ header {
     background-color: rgba(0, 122, 61, 0.8);
     color: var(--p-text);
     text-align: center;
-    padding: 10px 4px 4px 4px;
+    padding: 4px 2px;
     line-height: 15px;
-    vertical-align: baseline;
-    font-size: 13px;
+    font-size: 14px;
+}
+
+#sights-header {
+    background-color: var(--p-highlight);
+    max-height: 10vh;
+}
+
+#sights-title {
+   font-size: 200%;
 }
 
 /* Navbar styles with dropout button */
@@ -94,7 +106,8 @@ nav {
 }
 
 #navbar {
-    background-color: rgba(0, 122, 61, 0.9);
+    margin-top: 90px;
+    background-color: var(--p-highlight);
     width: 18%;
     min-height: 100vh;
     border-right: 5px solid var(--s-text);
@@ -221,12 +234,31 @@ main a {
     z-index: 1;
 }
 
+#photos img {
+    width: 80%;
+    line-height: 1em;
+    float: right;
+}
+
+#photos > img {
+    margin-top: 5px;
+}
+
+#photos {
+    line-height: 0;
+}
+
+/* Footer styles */
 footer {
-    background-color: rgba(0, 122, 61, 0.9);
+    background-color: var(--p-highlight);
     border-top: 5px solid var(--s-text);
     width: 100vw;
     bottom: -45rem;
     position: absolute; 
+}
+
+#sights-footer {
+    bottom: -8em;
 }
 
 #socials {

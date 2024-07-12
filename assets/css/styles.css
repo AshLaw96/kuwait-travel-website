@@ -18,7 +18,7 @@
 
 h1, h2, h3 {
     text-transform: uppercase;
-    color: var(--s-text);
+    color: var(--s-highlight);
     letter-spacing: 2px;
     text-decoration: underline;
     font-weight: bolder;
@@ -31,6 +31,8 @@ h1, h2 {
 
 h1 {
     font-size: 200%;
+    top: 50%;
+    padding: 0.9em;
 }
 
 body {
@@ -38,7 +40,7 @@ body {
 }
 
 header {
-    border-bottom: 5px solid var(--s-highlight);
+    border-bottom: 5px solid var(--s-text);
     width: 100vw;
     height: 30vh;
     display: flex;
@@ -46,16 +48,16 @@ header {
 
 #header1 {
     background: url("../images/header-img.jpg") no-repeat center center/cover;
-    padding-bottom: 1em;  
 }
 
-header p {
+#header1 p {
     background-color: rgba(0, 122, 61, 0.8);
     color: var(--p-text);
     text-align: center;
-    padding: 5px 0;
-    line-height: 20px;
-    align-self: flex-end;
+    padding: 10px 4px 4px 4px;
+    line-height: 15px;
+    vertical-align: baseline;
+    font-size: 13px;
 }
 
 nav {
@@ -63,6 +65,7 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
+    z-index: 2;
 }
 
 #tab-bar:checked~nav {
@@ -75,11 +78,14 @@ nav {
 
 .tab-label {
     font-size: 2rem;
+    position: fixed;
+    z-index: 3;
+    padding-left: 1%;
 }
 
 #navbar {
     background-color: rgba(0, 122, 61, 0.9);
-    width: 15%;
+    width: 18%;
     min-height: 100vh;
     border-right: 5px solid var(--s-highlight);
     position: absolute;
@@ -91,23 +97,35 @@ nav {
     display: block;
     font-family: 'Quicksand', sans-serif;
     color: var(--p-text);
-    font-weight: 500;
     position: fixed;
     padding: 5px;
     margin: 1rem 0;
     text-decoration: none;
     left: 8px;
     width: fit-content;
+    z-index: 3;
+    transform: translate(15%, 15%);
 }
 
 #home-nav, #gallery-nav, #form-nav {
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    height: 5vh;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    height: 10vh;
+    width: 10vw;
 }
 
 #home-nav > a:hover, #gallery-nav > a:hover, #form-nav > a:hover {
     color: var(--s-highlight)
+}
+
+#hide-home {
+    display: none;
+}
+
+#home-nav > a:hover + #hide-home {
+    display: block;
+    color: var(--s-highlight);
+    
 }
 
 .current {
@@ -123,19 +141,20 @@ nav {
 }
 
 .block {
-    border: 2px inset var(--s-highlight);
+    border: 2px solid var(--s-text);
     background-color: var(--p-highlight);
     color: var(--p-text);
     max-width: 70%;
     border-radius: 2%;
     margin: 2px;
+    height: auto;
 }
 
 .txt-area-1 {
     position: relative;
-    left: 6rem;
-    bottom: 5rem;
-    box-shadow: 0 0 6px 4px var(--s-highlight);
+    left: 5rem;
+    top: 1rem;
+    box-shadow: 0 0 6px 4px var(--s-text);
     z-index: 1;
 }
 
@@ -143,15 +162,16 @@ nav {
     width: 150vw;
     position: absolute;
     height: auto;
-    bottom: -55rem;
-    right: 4rem;
+    bottom: -54rem;
+    left: 5rem;
     box-shadow: 0 0 6px 4px var(--s-highlight);
 }
 
 .img-area img {
-    max-width: 70vw;
+    width: 240px;
+    height: auto;
     border-radius: 2%;
-    max-height: fit-content;
+    object-fit: cover;
 }
 
 .txt-area-2 {
@@ -175,6 +195,6 @@ nav {
 
 footer {
     background-color: rgba(0, 122, 61, 0.9);
-    border-top: 5px solid var(--s-highlight);
+    border-top: 5px solid var(--s-text);
     width: 100vw; 
 }

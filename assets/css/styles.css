@@ -63,13 +63,28 @@ header {
     background: url("../images/header-img.jpg") no-repeat center center/cover;
 }
 
-#header1 p {
+header p {
     background-color: rgba(0, 122, 61, 0.8);
     color: var(--p-text);
     text-align: center;
     padding: 4px 2px;
     line-height: 15px;
     font-size: 14px;
+}
+
+/* Gallery styles */
+#sights-title {
+    margin: 0 10px;
+}
+
+#sights-h-txt {
+    background-color: rgba(0, 122, 61, 0.8);
+    color: var(--p-text);
+    text-align: center;
+    padding: 14px 1px;
+    margin-left: 10px;
+    line-height: 18px;
+    font-size: 14.5px;
 }
 
 /* Navbar styles with dropout button */
@@ -234,6 +249,7 @@ main a {
     width: 80%;
     line-height: 1em;
     float: right;
+    border-radius: 2%;
 }
 
 #photos > img {
@@ -246,8 +262,48 @@ main a {
 
 #external-link {
     position: absolute;
-    bottom: -3em;
-    right: 7em;
+    bottom: -2.5em;
+    right: -1.5em;
+    margin: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: translate(-50%, -50%);
+    text-shadow:
+     0 1px 0 rgb(206,17,38), 
+     0 2px 0 rgb(201,12,33),
+     0 3px 0 rgb(196,7,28),
+     0 4px 0 rgb(191,2,23),
+     0 5px 0 rgb(186,0,18),
+     0 6px 0 rgb(181,0,13),
+     0 7px 0 rgb(176,0,8),
+     0 1px 5px rgb(50, 1, 8),
+     0 3px 5px rgb(55, 6, 13),
+     0 5px 10px rgba(60,11,18),
+     0 7px 10px rgba(65,16,23),
+     0 10px 15px rgba(70,21,28);
+    transition: all 0.3s ease-in-out; 
+}
+
+#external-link:hover {
+    text-shadow:
+    0 1px 0 rgb(206,17,38),
+    0 2px 0 rgb(201,12,33),
+    0 3px 0 rgb(196,7,28),
+    0 4px 0 rgb(191,2,23),
+    0 5px 0 rgb(186,0,18),
+    0 6px 0 rgb(181,0,13),
+    0 7px 0 rgb(176,0,8),
+    0 8px 0 rgb(171,0,3),
+    0 9px 0 rgb(166,0,0),
+    0 1px 5px rgba(50,1,8),
+    0 5px 5px rgba(55,6,13),
+    0 10px 10px rgba(60,11,18),
+    0 15px 10px rgba(65,16,23),
+    0 20px 15px rgba(70,21,28);
+    transform: translate(-51%,-51%);
+    transition: all 0.3s ease-in-out;
 }
 
 /* Footer styles */

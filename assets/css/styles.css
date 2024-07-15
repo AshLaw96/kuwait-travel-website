@@ -172,7 +172,7 @@ nav {
     background-color: var(--p-highlight);
     /* Makes navbar reach the desired height & width without overlapping */
     width: 18%;
-    max-height: 100vh;
+    min-height: 125.5vh;
     border-right: 5px solid var(--s-text);
     position: absolute;
     list-style-type: none;
@@ -343,7 +343,7 @@ main a {
     background-size: cover;
     /* background-repeat: no-repeat; */
     flex-grow: 1;
-    padding: 25em 10% 25em 20%;
+    padding: 5em 10% 5em 20%;
 }
 
 #sign-up {
@@ -383,6 +383,10 @@ fieldset {
     margin-top: 5px;
 }
 
+textarea {
+    min-height: 50%;
+}
+
 .form-button {
     border-radius: 4px;
     font-size: 100%;
@@ -405,6 +409,10 @@ footer {
 
 #sights-footer {
     bottom: -9.9em;
+}
+
+#sign-up-footer {
+    bottom: -4.9em;
 }
 
 #socials {

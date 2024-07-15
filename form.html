@@ -24,7 +24,7 @@
         </label>
         <input type="checkbox" id="tab-bar" name="tab-bar">
         <nav>
-            <ul id="navbar">
+            <ul id="form-navbar">
                 <li id="home-nav">
                     <a href="index.html">
                         <i class="fa-solid fa-house"></i>
@@ -53,25 +53,25 @@
                     <fieldset>
                         <legend>Personal Details <i class="fa-solid fa-id-card"></i></legend>
                         <label for="full-name">Full Name: </label>
-                        <input type="text" id="full-name" name="full-name" required placeholder="Full name required">
+                        <input type="text" id="full-name" name="full-name" class="details" required placeholder="Full name required">
                         <br>
                         <label for="email">Email: </label>
-                        <input type="email" id="email" name="email" required placeholder="Email address required">
+                        <input type="email" id="email" name="email" class="details" required placeholder="Email address required">
                     </fieldset>
                     <!-- Travel details content -->
                     <fieldset>
                         <legend>Travel Details <i class="fa-solid fa-globe"></i></legend>
                         <label for="adults">Adults: </label>
-                        <input type="number" id="adults" name="adults" required min="1">
-                        <label for="children">Children: </label>
-                        <input type="number" id="adults" name="adults" required>
+                        <input type="number" id="adults" name="adults" class="details" required min="1" placeholder="Amount required">
+                        <label for="child">Children: </label>
+                        <input type="number" id="child" name="child" class="details" required placeholder="Amount required">
                         <br>
                         <label for="arrival">Arrival: </label>
-                        <input type="date" id="arrival" name="arrival">
+                        <input type="date" id="arrival" name="arrival" class="details">
                         <label for="depart">Departure: </label>
-                        <input type="date" id="depart" name="depart">
+                        <input type="date" id="depart" name="depart" class="details">
                         <br>
-                        <div id="package-container">
+                        <div id="packages">
                             <label for="board">Packages:</label>
                             <br>
                             <label for="board">All Inclusive</label>
@@ -84,7 +84,7 @@
                             <input type="checkbox" id="board" name="board" value="B&B">
                         </div>
                         <div>
-                            <label for="area-of-stay">City/Town/Village (optional)</label>
+                            <label for="area-of-stay" class="options-label">City/Town/Village (optional)</label>
                             <select name="area-of-stay" id="area-of-stay" class="area-options">
                                 <option value="">(select one)</option>
                                 <option value="1">Kuwait City</option>
@@ -94,7 +94,7 @@
                                 <option value="5">Other</option>
                             </select>
                             <br>
-                            <textarea name="area-of-stay" id="area-of-stay" rows="3" cols="30" placeholder="Please tells us if there is a specific place or zone you would like to stay."></textarea>
+                            <textarea name="area-of-stay" id="area-of-stay" class="details" rows="4" cols="40" placeholder="Please tells us if there is a specific place or zone you would like to stay."></textarea>
                         </div>
                     </fieldset>
                     <div> 
@@ -103,10 +103,13 @@
                                 I agree to the <a href="https://documents.travelguard.com/dynamicdoc?parser=tags&document-type=pwd&partner=qatar&country=kw" target="_blank">Terms & Conditions</a>
                             </p>
                         </label>
-                        <input type="checkbox" id="terms" name="terms" value="Terms-and-Conditions" required>
+                        <label for="terms">Agree</label>
+                        <input type="radio" id="terms" name="terms" value="Terms-and-Conditions" required>
+                        <label for="terms">Disagree</label>
+                        <input type="radio" id="terms" name="terms" value="Terms-and-Conditions" checked>
                     </div>
-                    <input type="submit" value="Submit!">
-                    <input type="reset" value="Refresh">
+                    <input type="submit" class="submit form-button" value="Submit!">
+                    <input type="reset" class="reset form-button" value="Refresh">
                 </form>
             </section>
         </main>

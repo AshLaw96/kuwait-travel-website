@@ -44,6 +44,10 @@ h1 {
     padding: 0.9em;
 }
 
+h2 {
+    font-size: 200%;
+}
+
 h3 {
     color: var(--s-text);
 }
@@ -56,9 +60,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#header1 {
     background: url("../images/header-img.jpg") no-repeat center center/cover;
 }
 
@@ -71,15 +72,6 @@ header {
     font-size: 14px;
 }
 
-#sights-header {
-    background-color: var(--p-highlight);
-    max-height: 10vh;
-}
-
-#sights-title {
-   font-size: 200%;
-}
-
 /* Navbar styles with dropout button */
 nav {
     display: none;
@@ -87,6 +79,7 @@ nav {
     width: 100%;
     left: 0;
     z-index: 2;
+    margin-top: 10.9rem;
 }
 
 #tab-bar:checked~nav {
@@ -103,13 +96,15 @@ nav {
     z-index: 3;
     padding-left: 1%;
     cursor: pointer;
+    margin: 17rem 0 0 10px;
 }
 
 #navbar {
     margin-top: 90px;
     background-color: var(--p-highlight);
+    /* Makes navbar reach the desired height & width without overlapping */
     width: 18%;
-    min-height: 100vh;
+    min-height: 409.77vh;
     border-right: 5px solid var(--s-text);
     position: absolute;
     list-style-type: none;
@@ -234,6 +229,7 @@ main a {
     z-index: 1;
 }
 
+/* Gallery styles */
 #photos img {
     width: 80%;
     line-height: 1em;
@@ -248,6 +244,12 @@ main a {
     line-height: 0;
 }
 
+#external-link {
+    position: absolute;
+    bottom: -3em;
+    right: 7em;
+}
+
 /* Footer styles */
 footer {
     background-color: var(--p-highlight);
@@ -258,7 +260,7 @@ footer {
 }
 
 #sights-footer {
-    bottom: -8em;
+    bottom: -9.9em;
 }
 
 #socials {

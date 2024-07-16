@@ -176,6 +176,36 @@ nav {
     padding: 1px;
 }
 
+/* Gallery navbar styles */
+#sights-navbar {
+    margin-top: 90px;
+    background-color: var(--p-highlight);
+    /* Makes navbar reach the desired height & width without overlapping */
+    width: 18%;
+    min-height: 409.77vh;
+    border-right: 5px solid var(--s-text);
+    position: absolute;
+    list-style-type: none;
+    overflow: auto;
+}
+
+#sights-navbar a {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    color: var(--p-text);
+    position: fixed;
+    padding: 5px;
+    margin: 1rem 0;
+    text-decoration: none;
+    left: 8px;
+    width: fit-content;
+    z-index: 3;
+}
+
+#sights-navbar i {
+    font-size: 170%;
+}
+    
 /* Form navbar styles */
 #form-navbar {
     margin-top: 90px;
@@ -479,4 +509,61 @@ footer {
 
 #socials i:hover {
     color: var(--s-highlight);
+}
+
+/* Tablets or landscape mobiles */
+@media screen and (min-width: 576px) {
+    /* Home styles */
+    #navbar {
+        max-width: 10%;
+    }
+
+    .block {
+        max-width: 80%;
+    }
+
+    .img-area {
+        top: 58rem;
+    }
+
+    .img-area img {
+        width: 458px;
+        height: 360px;
+    }
+
+    .txt-area-2 {
+        top: 28.5rem;
+    }
+
+    .vid-area {
+        top: 120rem;
+        height: 16.4em;
+    }
+
+    .vid-area video {
+        width: 458px;
+    }
+
+    .txt-area-3 {
+        bottom: -49.5rem;
+    }
+
+    footer {
+        bottom: -55.5em;
+    }
+
+    #navbar {
+        min-height: 287vh;
+    }
+
+    #sights-navbar {
+        min-height: 184.6vh;
+        max-width: 10%;
+    }
+
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }

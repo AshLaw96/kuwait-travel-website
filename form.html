@@ -60,7 +60,7 @@
                         <input type="email" id="email" name="email" class="details" required placeholder="Email address required">
                     </fieldset>
                     <!-- Travel details content -->
-                    <fieldset>
+                    <fieldset id="travel-details">
                         <legend>Travel Details <i class="fa-solid fa-globe"></i></legend>
                         <label for="adults">Adults: </label>
                         <input type="number" id="adults" name="adults" class="details" required min="1" placeholder="Amount required">
@@ -85,7 +85,7 @@
                             <label for="board">Bed & Breakfast</label>
                             <input type="checkbox" id="board" name="board" value="B&B">
                         </div>
-                        <div>
+                        <div id="area-wrap">
                             <label for="area-of-stay" class="options-label">City/Town/Village (optional)</label>
                             <select name="area-of-stay" id="area-of-stay" class="area-options">
                                 <option value="">(select one)</option>

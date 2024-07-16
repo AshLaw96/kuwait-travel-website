@@ -406,6 +406,7 @@ fieldset {
 
 label {
     display: block;
+    width: 70%;
 }
 
 .details {
@@ -426,10 +427,20 @@ label {
     opacity: 0.8;
 }
 
+#travel-details {
+    max-width: 50%;
+}
+
+#packages {
+    width: 70%
+}
+
 #board {
-    width: 80%;
-    /* display: flex;
-    justify-content: space-between; */
+    width: 100%;
+}
+
+#area-wrap {
+    width: 70%;
 }
 
 #area-of-stay {
@@ -442,18 +453,16 @@ label {
 
 .area-text {
     background: transparent;
-    max-width: 65%;
+    max-width: 95%;
     min-height: 100px;
     opacity: 0.6;
     border: 3px inset var(--s-text);
 }
 
 #terms-wrap {
+    position: relative;
+    right: -30px;
     text-align: center;
-}
-
-input[type="radio"] {
-    margin: 0 5px;    
 }
 
 .form-button {
@@ -576,6 +585,29 @@ footer {
 
     #sights-footer {
         bottom: -7.9em;
+    }
+
+    /* Form styles */
+    #form-navbar {
+        max-width: 10%;
+        min-height: 149.9vh;
+    }
+
+    #sign-up {
+        position: relative;
+        right: 20px;
+    }
+
+    #adults, #child, #arrival, #depart {
+        width: 97%;
+    }
+
+    #board {
+        width: 100%;
+    }
+
+    .area-text {
+        min-width: 98%;
     }
 
 }

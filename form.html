@@ -59,10 +59,11 @@
                         <input type="email" id="email" name="email" class="details" required placeholder="Email address required">
                     </fieldset>
                     <!-- Travel details content -->
-                    <fieldset>
+                    <fieldset id="travel-details">
                         <legend>Travel Details <i class="fa-solid fa-globe"></i></legend>
                         <label for="adults">Adults: </label>
                         <input type="number" id="adults" name="adults" class="details" required min="1" placeholder="Amount required">
+                        <br>
                         <label for="child">Children: </label>
                         <input type="number" id="child" name="child" class="details" required placeholder="Amount required">
                         <br>
@@ -94,10 +95,10 @@
                                 <option value="5">Other</option>
                             </select>
                             <br>
-                            <textarea name="area-of-stay" id="area-of-stay" class="details" rows="4" cols="40" placeholder="Please tells us if there is a specific place or zone you would like to stay."></textarea>
+                            <textarea name="area-of-stay" id="area-of-stay" class="area-text" rows="4" cols="40" placeholder="Please tells us if there is a specific place or zone you would like to stay."></textarea>
                         </div>
                     </fieldset>
-                    <div> 
+                    <div id="terms-wrap"> 
                         <label for="terms">
                             <p>
                                 I agree to the <a href="https://documents.travelguard.com/dynamicdoc?parser=tags&document-type=pwd&partner=qatar&country=kw" target="_blank">Terms & Conditions</a>

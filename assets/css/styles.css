@@ -40,12 +40,12 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 200%;
-    padding: 0.9em;
+    font-size: 220%;
+    padding: 0.6em;
 }
 
 h2 {
-    font-size: 200%;
+    font-size: 190%;
 }
 
 h3 {
@@ -343,34 +343,50 @@ main a {
     background-size: cover;
     /* background-repeat: no-repeat; */
     flex-grow: 1;
-    padding: 5em 10% 5em 20%;
+    padding: 8em 5% 8em 18%;
 }
 
 #sign-up {
     color: #FFFFFF;
-    background-color: rgba(0, 122, 61, 0.8);
-    padding: 18px;
+    background-color: rgba(0, 122, 61, 0.9);
+    padding: 10px;
     border: 2px solid var(--s-text);
     margin: 5px;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 110vh;
+    width: auto;
 }
 
 fieldset {
     border: 1px solid var(--p-text);
-    margin-bottom: 25px;
-    padding: 2px 5px 8px 5px;
+    margin: 2px 2px 25px 2px;
+    padding: 2px 5px 15px 5px;
+}
+
+#travel-details {
+    min-height: 70vh;
+    width: auto;
+}
+
+label {
+    display: block;
 }
 
 .details {
     background: transparent;
-    height: 25px;
+    height: 30px;
     width: 100%;
-    margin: 5px 0 20px 0;
+    margin: 5px 2px 8px 2px;
     padding: 0 5px;
+}
+
+#adults, #child, #arrival, #depart {
+    width: 68%
 }
 
 ::placeholder {
     color: var(--s-text);
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 #board {
@@ -383,8 +399,21 @@ fieldset {
     margin-top: 5px;
 }
 
-textarea {
-    min-height: 50%;
+.options-label {
+    margin: 5px;
+}
+
+.area-text {
+    background: transparent;
+    max-width: fit-content;
+}
+
+#terms-wrap {
+    text-align: center;
+}
+
+input[type="radio"] {
+    margin: 0 5px;    
 }
 
 .form-button {
@@ -396,6 +425,14 @@ textarea {
 
 .form-button:hover {
     background-color: var(--s-highlight);
+}
+
+.submit {
+    margin-right: 20px;
+}
+
+.reset {
+    margin-left: 20px;
 }
 
 /* Footer styles */
@@ -412,7 +449,7 @@ footer {
 }
 
 #sign-up-footer {
-    bottom: -4.9em;
+    bottom: -8em;
 }
 
 #socials {

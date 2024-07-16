@@ -17,7 +17,8 @@
     <body>
         <!-- Header content -->
         <header>
-            <h2>kuwait Registration</h2>
+            <h2 id="register-title">kuwait Registration</h2>
+            <p id="register-h-txt">Now is your time to input your details, so that we can help you secure your journey of a lifetime and go on that holiday people only dream of.</p>
         </header>
         <label for="tab-bar" class="tab-label">
             <i class="fa-solid fa-bars"></i>
@@ -59,7 +60,7 @@
                         <input type="email" id="email" name="email" class="details" required placeholder="Email address required">
                     </fieldset>
                     <!-- Travel details content -->
-                    <fieldset id="travel-details">
+                    <fieldset>
                         <legend>Travel Details <i class="fa-solid fa-globe"></i></legend>
                         <label for="adults">Adults: </label>
                         <input type="number" id="adults" name="adults" class="details" required min="1" placeholder="Amount required">
@@ -105,9 +106,9 @@
                             </p>
                         </label>
                         <label for="terms">Agree</label>
-                        <input type="radio" id="terms" name="terms" value="Terms-and-Conditions" required>
+                        <input type="radio" id="terms" name="terms" value="Agree" required>
                         <label for="terms">Disagree</label>
-                        <input type="radio" id="terms" name="terms" value="Terms-and-Conditions" checked>
+                        <input type="radio" id="terms" name="terms" value="Disagree" checked>
                     </div>
                     <input type="submit" class="submit form-button" value="Submit!">
                     <input type="reset" class="reset form-button" value="Refresh">

@@ -72,20 +72,30 @@ header p {
     font-size: 14px;
 }
 
-/* Gallery styles */
+/* Gallery styles (header) */
 #sights-title {
     margin: 0 10px;
 }
 
 #sights-h-txt {
-    background-color: rgba(0, 122, 61, 0.8);
-    color: var(--p-text);
-    text-align: center;
     padding: 14px 1px;
     margin-left: 10px;
     line-height: 18px;
     font-size: 14.5px;
 }
+
+/* Form styles (header) */
+#register-title {
+    margin: 0 7px;
+}
+
+#register-h-txt {
+    padding: 14.5px 1px;
+    margin-left: 4px;
+    line-height: 18px;
+    font-size: 15px;
+}
+
 
 /* Navbar styles with dropout button */
 nav {
@@ -172,7 +182,7 @@ nav {
     background-color: var(--p-highlight);
     /* Makes navbar reach the desired height & width without overlapping */
     width: 18%;
-    min-height: 125.5vh;
+    min-height: 151.8vh;
     border-right: 5px solid var(--s-text);
     position: absolute;
     list-style-type: none;
@@ -354,18 +364,14 @@ main a {
     margin: 5px;
     font-family: 'Quicksand', sans-serif;
     min-height: 110vh;
-    width: auto;
+    width: 100%;
 }
 
 fieldset {
     border: 1px solid var(--p-text);
     margin: 2px 2px 25px 2px;
     padding: 2px 5px 15px 5px;
-}
-
-#travel-details {
-    min-height: 70vh;
-    width: auto;
+    font-family: 'Quicksand', sans-serif;
 }
 
 label {
@@ -375,24 +381,25 @@ label {
 .details {
     background: transparent;
     height: 30px;
-    width: 100%;
+    width: 97%;
     margin: 5px 2px 8px 2px;
     padding: 0 5px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #adults, #child, #arrival, #depart {
-    width: 68%
+    width: 65%
 }
 
 ::placeholder {
     color: var(--s-text);
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 #board {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    width: 80%;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 #area-of-stay {
@@ -405,7 +412,10 @@ label {
 
 .area-text {
     background: transparent;
-    max-width: fit-content;
+    max-width: 65%;
+    min-height: 100px;
+    opacity: 0.6;
+    border: 3px inset var(--s-text);
 }
 
 #terms-wrap {
@@ -428,11 +438,12 @@ input[type="radio"] {
 }
 
 .submit {
-    margin-right: 20px;
+    margin-right: 18px;
+    margin-left: 9px;
 }
 
 .reset {
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
 /* Footer styles */
@@ -449,7 +460,7 @@ footer {
 }
 
 #sign-up-footer {
-    bottom: -8em;
+    bottom: -5.2em;
 }
 
 #socials {

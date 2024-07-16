@@ -556,14 +556,26 @@ footer {
         min-height: 287vh;
     }
 
+    /* Gallery styles */
     #sights-navbar {
-        min-height: 184.6vh;
+        min-height: 178vh;
         max-width: 10%;
     }
 
     #photos {
         column-count: 2;
         column-gap: 0;
+        margin: 0 5px;
+    }
+
+    #external-link {
+        font-size: 220%;
+        bottom: -2rem;
+        right: -2.5em;
+    }
+
+    #sights-footer {
+        bottom: -7.9em;
     }
 
 }

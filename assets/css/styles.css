@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    font-size: 190%;
+    font-size: 200%;
 }
 
 h3 {
@@ -718,4 +718,82 @@ footer {
         width: 606.5px;
     }
 
+    /* Gallery styles */
+    #sights-h-txt {
+        font-size: 20px;
+        line-height: 20px;
+        margin-left: 10px;
+        padding: 10px 2px;
+    }
+
+    #sights-navbar {
+        max-width: 13.8%;
+        min-height: 192.8vh;
+        margin-top: 8.3em;
+    }
+
+    #sights-navbar a {
+        font-size: 160%;
+    }
+
+    #external-link {
+        font-size: 300%;
+    }
+
+    /* Form styles */
+    #register-h-txt {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #form-navbar {
+        max-width: 13.8%;
+        min-height: 135.7vh;
+        margin-top: 8.3em;
+    }
+
+    #form-navbar a {
+        font-size: 160%;
+    }
+
+    #sign-up {
+        font-size: 110%;
+    }
+
+    fieldset {
+        padding-left: 15px;
+    }
+
+    legend {
+        font-size: 20px;
+    }
+
+    ::placeholder {
+        font-size: 15px;
+    }
+
+    input[type="checkbox"] {
+        /* Increase-sized checkboxes */
+        -ms-transform: scale(1.5); /* IE */
+        -moz-transform: scale(1.5); /* FF */
+        -webkit-transform: scale(1.5); /* Safari and Chrome */
+        -o-transform: scale(1.5); /* Opera */
+        transform: scale(1.5);
+    }
+
+    select {
+        font-size: 18px;
+    }
+
+    #terms-wrap {
+        font-size: 150%;
+    }
+
+    .form-button {
+        margin-top: 10px;
+    }
+
+    .submit {
+        margin-top: 20px;
+    }
 }

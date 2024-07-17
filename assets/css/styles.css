@@ -390,7 +390,8 @@ main a {
     color: #FFFFFF;
     background-color: rgba(0, 122, 61, 0.9);
     padding: 10px;
-    border: 2px solid var(--s-text);
+    /* border: 2px solid var(--s-text); */
+    border-radius: 5px;
     margin: 5px;
     font-family: 'Quicksand', sans-serif;
     min-height: 110vh;
@@ -432,7 +433,8 @@ label {
 }
 
 #packages {
-    width: 70%
+    width: 70%;
+    margin-bottom: 5px;
 }
 
 #board {
@@ -520,55 +522,82 @@ footer {
     color: var(--s-highlight);
 }
 
-/* Tablets or landscape mobiles */
+/* landscape mobiles */
 @media screen and (min-width: 576px) {
+    header p {
+        border-radius: 5px;
+    }
+
+    .tab-label {
+        margin: 11rem 0 0 15px;
+    }
+
     /* Home styles */
     #navbar {
+        margin-top: -1px;
         max-width: 10%;
+        min-height: 433.8vh;
+    }
+
+    #navbar i {
+        margin-left: 10px;
+    }
+
+    #navbar a {
+        padding-right: 12px;
+        margin-left: 5px;
     }
 
     .block {
         max-width: 80%;
     }
 
+    .txt-area-1 {
+        top: 2em;
+        left: 8rem;
+    }
+
     .img-area {
-        top: 58rem;
+        top: 45rem;
+        left: 8rem;
+        height: 500px;
     }
 
     .img-area img {
-        width: 458px;
-        height: 360px;
+        width: 700px;
+        height: 496px;
     }
 
     .txt-area-2 {
-        top: 28.5rem;
+        top: 38.4rem;
+        left: 8rem;
     }
 
     .vid-area {
-        top: 120rem;
-        height: 16.4em;
+        top: 107em;
+        left: 8rem;
+        height: 450px;
     }
 
     .vid-area video {
-        width: 458px;
+        width: 699px;
+        height: 446px;
     }
 
     .txt-area-3 {
-        bottom: -49.5rem;
+        bottom: -72em;
+        left: 8rem;
     }
 
     footer {
-        bottom: -55.5em;
-    }
-
-    #navbar {
-        min-height: 287vh;
+        bottom: -79em;
     }
 
     /* Gallery styles */
     #sights-navbar {
-        min-height: 178vh;
+        min-height: 176.4vh;
         max-width: 10%;
+        margin-top: 92px;
     }
 
     #photos {
@@ -590,7 +619,8 @@ footer {
     /* Form styles */
     #form-navbar {
         max-width: 10%;
-        min-height: 149.9vh;
+        min-height: 144.89vh;
+        margin-top: 92px;
     }
 
     #sign-up {
@@ -602,12 +632,48 @@ footer {
         width: 97%;
     }
 
-    #board {
-        width: 100%;
-    }
-
     .area-text {
         min-width: 98%;
     }
 
+    #travel-details {
+        min-width: 100%;
+    }
+
+    #packages {
+        min-width: 100%;
+    }
+
+    #area-wrap {
+        width: 100%;
+    }
+
+    .options-label {
+        width: 60%;
+        display: inline;
+    }
+
+    #terms-wrap {
+        right: 0;
+    }
+
+    label[for="terms"] {
+        display: inline;
+    }
+
+    #terms {
+        margin-right: 5px;
+    }
+
+    .form-button {
+        width: 100%;
+        font-size: x-large;
+        margin: 5px 0;
+    }
+
+    .form-button:hover {
+        background-color: var(--s-highlight);
+    }
 }
+
+

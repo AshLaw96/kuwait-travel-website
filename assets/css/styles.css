@@ -797,3 +797,59 @@ footer {
         margin-top: 20px;
     }
 }
+
+/* Large tablets and laptops */
+@media screen and (min-width: 992px) {
+    /* Home styles */
+    h1 {
+        font-size: 250%;
+    }
+
+    header p {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    #navbar {
+        margin-top: 14.7em;
+        max-width: 12%;
+        min-height: 247.14vh;
+    }
+
+    #navbar a {
+        font-size: 170%;
+        margin-left: 25px;
+    }
+
+    .tab-label {
+        margin: 26rem 0 0 35px;
+    }
+
+    .block {
+        max-width: 85%;
+        left: 7.2em;
+    }
+
+    .img-area {
+        height: 600px;
+    }
+
+    .img-area img {
+        height: 595px;
+        width: 835px;
+    }
+
+    .vid-area {
+        top: 10em;
+        height: 550px;
+    }
+
+    .vid-area video {
+        width: 836px;
+        height: 546.5px;
+    }
+
+    .txt-area-3 {
+        bottom: -13em;
+    }
+}

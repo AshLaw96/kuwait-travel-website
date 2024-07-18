@@ -800,6 +800,10 @@ footer {
 
 /* Large tablets and laptops */
 @media screen and (min-width: 992px) {
+    h2 {
+        font-size: 220%;
+    }
+
     .tab-label {
         margin: 26rem 0 0 35px;
     }
@@ -854,9 +858,6 @@ footer {
     }
 
     /* Gallery styles */
-    #sights-title {
-        font-size: 220%;
-    }
 
     #sights-h-txt {
         font-size: 24px;
@@ -880,5 +881,70 @@ footer {
 
     #external-link {
         font-size: 400%;
+    }
+
+    /* Form styles */
+    #register-h-txt {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    #form-navbar {
+        margin-top: 14.7em;
+        max-width: 12%;
+        min-height: 119.3vh;
+    }
+
+    #form-navbar a {
+        font-size: 170%;
+        margin-left: 20px;
+    }
+
+    #sign-up {
+        font-size: 140%;
+        padding-right: 5px;
+        min-height: 100vh;
+    }
+
+    fieldset {
+        margin-right: 10px;
+    }
+
+    #travel-details {
+        min-width: 98.5%;
+    }
+
+    legend {
+        font-size: 25px;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+    }
+
+    input[type="checkbox"] {
+        /* Increase-sized checkboxes */
+        -ms-transform: scale(1.8); /* IE */
+        -moz-transform: scale(1.8); /* FF */
+        -webkit-transform: scale(1.8); /* Safari and Chrome */
+        -o-transform: scale(1.8); /* Opera */
+        transform: scale(1.8);
+    }
+
+    .options-label {
+        letter-spacing: 3px;
+    }
+
+    #terms-wrap {
+        margin: 45px 0 15px 0;
+    }
+
+    #terms-wrap a {
+        font-size: 100%;
+    }
+
+    .form-button {
+        font-size: xx-large;
+        width: 99%;
     }
 }

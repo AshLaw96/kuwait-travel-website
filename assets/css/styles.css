@@ -800,6 +800,10 @@ footer {
 
 /* Large tablets and laptops */
 @media screen and (min-width: 992px) {
+    .tab-label {
+        margin: 26rem 0 0 35px;
+    }
+
     /* Home styles */
     h1 {
         font-size: 250%;
@@ -819,10 +823,6 @@ footer {
     #navbar a {
         font-size: 170%;
         margin-left: 25px;
-    }
-
-    .tab-label {
-        margin: 26rem 0 0 35px;
     }
 
     .block {
@@ -851,5 +851,34 @@ footer {
 
     .txt-area-3 {
         bottom: -13em;
+    }
+
+    /* Gallery styles */
+    #sights-title {
+        font-size: 220%;
+    }
+
+    #sights-h-txt {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    #sights-navbar {
+        margin-top: 14.7em;
+        max-width: 12%;
+        min-height: 185.5vh;
+    }
+
+    #sights-navbar a {
+        font-size: 170%;
+        margin-left: 20px;
+    }
+
+    #photos {
+        margin-right: 15px;
+    }
+
+    #external-link {
+        font-size: 400%;
     }
 }

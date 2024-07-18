@@ -20,8 +20,8 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    position: relative;
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -36,7 +36,6 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-    text-align: center;
     color: var(--s-highlight);
 }
 
@@ -55,13 +54,9 @@ h3 {
 
 /* Header styles */
 header {
-    border-bottom: 5px solid var(--s-text);
-    width: 100vw;
-    height: 30vh;
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url("../images/header-img.jpg") no-repeat center center/cover;
+    background: url("../images/header.webp") no-repeat center center/cover;
 }
 
 header p {
@@ -69,8 +64,8 @@ header p {
     color: var(--p-text);
     text-align: center;
     padding: 4px 2px;
-    line-height: 15px;
-    font-size: 14px;
+    line-height: 18px;
+    font-size: 16px;
 }
 
 /* Gallery styles (header) */
@@ -79,33 +74,29 @@ header p {
 }
 
 #sights-h-txt {
-    padding: 14px 1px;
-    margin-left: 10px;
+    padding: 10px 2px;
     line-height: 18px;
-    font-size: 14.5px;
+    font-size: 16px;
 }
 
 /* Form styles (header) */
 #register-title {
+    text-align: center;
     margin: 0 7px;
 }
 
 #register-h-txt {
-    padding: 14.5px 1px;
-    margin-left: 4px;
+    padding: 14px 2px;
     line-height: 18px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 
 /* Navbar styles with dropout button */
 nav {
     display: none;
-    position: absolute;
     width: 100%;
-    left: 0;
     z-index: 2;
-    margin-top: 10.9rem;
 }
 
 #tab-bar:checked~nav {
@@ -117,37 +108,33 @@ nav {
 }
 
 .tab-label {
-    font-size: 2rem;
-    position: fixed;
-    z-index: 3;
-    padding-left: 1%;
+    font-size: 200%;
     cursor: pointer;
-    margin: 17rem 0 0 10px;
+    margin: 5px 0 0 1rem;
+    position: fixed;
+    z-index: 100;
 }
 
 #navbar {
-    margin-top: 90.5px;
     background-color: var(--p-highlight);
-    /* Makes navbar reach the desired height & width without overlapping */
-    width: 18%;
-    min-height: 430.7vh;
-    border-right: 5px solid var(--s-text);
-    position: absolute;
+    width: 100%;
+    min-height: 1vh;
+    border-bottom: 5px solid var(--s-highlight);
+    border-top: 5px solid var(--s-highlight);
     list-style-type: none;
-    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 99;
+    justify-content: space-between;
 }
 
 #navbar a {
-    display: block;
     font-family: 'Quicksand', sans-serif;
     color: var(--p-text);
-    position: fixed;
-    padding: 5px;
-    margin: 1rem 0;
     text-decoration: none;
-    left: 8px;
-    width: fit-content;
-    z-index: 3;
+    padding: 5px;
+    display: block;
 }
 
 #navbar i {
@@ -155,19 +142,26 @@ nav {
 }
 
 #home-nav, #gallery-nav, #form-nav {
-    padding: 2rem 0;
-    margin: 2rem 0;
+    padding: 3em 0 10px;
 }
 
-#home-nav > a:hover, #gallery-nav > a:hover, #form-nav > a:hover {
+#home-nav {
+    padding-left: 5px;
+}
+
+#form-nav {
+    padding-right: 5px;
+}
+
+#navbar a:hover {
     color: var(--s-highlight)
 }
 
-#home-nav a span, #gallery-nav a span, #form-nav a span {
+#navbar a span {
     display: none;
 }
 
-#home-nav a:hover span, #gallery-nav a:hover span, #form-nav a:hover span {
+#navbar a:hover span {
     display: block;
 }
 
@@ -177,83 +171,14 @@ nav {
     padding: 1px;
 }
 
-/* Gallery navbar styles */
-#sights-navbar {
-    margin-top: 90.5px;
-    background-color: var(--p-highlight);
-    /* Makes navbar reach the desired height & width without overlapping */
-    width: 18%;
-    min-height: 409.7vh;
-    border-right: 5px solid var(--s-text);
-    position: absolute;
-    list-style-type: none;
-    overflow: auto;
-}
-
-#sights-navbar a {
-    display: block;
-    font-family: 'Quicksand', sans-serif;
-    color: var(--p-text);
-    position: fixed;
-    padding: 5px;
-    margin: 1rem 0;
-    text-decoration: none;
-    left: 8px;
-    width: fit-content;
-    z-index: 3;
-}
-
-#sights-navbar i {
-    font-size: 170%;
-}
-    
-/* Form navbar styles */
-#form-navbar {
-    margin-top: 90.5px;
-    background-color: var(--p-highlight);
-    /* Makes navbar reach the desired height & width without overlapping */
-    width: 18%;
-    min-height: 153vh;
-    border-right: 5px solid var(--s-text);
-    position: absolute;
-    list-style-type: none;
-    overflow: auto;
-}
-
-#form-navbar a {
-    display: block;
-    font-family: 'Quicksand', sans-serif;
-    color: var(--p-text);
-    position: fixed;
-    padding: 5px;
-    margin: 1rem 0;
-    text-decoration: none;
-    left: 8px;
-    width: fit-content;
-    z-index: 3;
-}
-
-#form-navbar i {
-    font-size: 170%;
-}
-
 /* Main styles */
-#home-section-wrap {
-    display: inline-block;
-    width: 100%;
-    padding: 2px;
-}
-
 .block {
-    border: 2px solid var(--s-text);
+    border: 2px solid var(--s-highlight);
     background-color: var(--p-highlight);
     color: var(--p-text);
-    max-width: 70%;
+    max-width: 80%;
     border-radius: 2%;
-    margin: 2px;
-    height: auto;
-    position: relative;
-    left: 5rem;
+    margin: 2em 0 0 4rem;
     font-size: 18px;
 }
 
@@ -268,26 +193,21 @@ main a {
 }
 
 .txt-area-1 {
-    top: 2rem;
-    box-shadow: 0 0 6px 4px var(--s-text);
+    box-shadow: 0 0 6px 4px var(--s-highlight);
 }
 
 .img-area {
-    width: 153vw;
-    height: 41.3vh;
-    top: 4rem;
+    height: 20em;
     box-shadow: 0 0 6px 4px var(--s-text);
 }
 
 .img-area img {
-    width: 234px;
-    height: 360px;
-    border-radius: 2%;
-    object-fit: cover;
+    border-radius: 5px;
+    width: 296px;
+    height: 356px;
 }
 
 .txt-area-2 {
-    top: 6rem;
     box-shadow: 0 0 6px 4px var(--s-text);
 }
 
@@ -400,7 +320,7 @@ fieldset {
     font-family: 'Quicksand', sans-serif;
 }
 
-label {
+#form label {
     display: block;
     width: 70%;
 }
@@ -487,18 +407,8 @@ label {
 /* Footer styles */
 footer {
     background-color: var(--p-highlight);
-    border-top: 5px solid var(--s-text);
-    width: 100vw;
-    bottom: -17rem;
-    position: absolute; 
-}
-
-#sights-footer {
-    bottom: -9.9em;
-}
-
-#sign-up-footer {
-    bottom: -4.9em;
+    border-top: 5px solid var(--s-highlight);
+    width: 100%; 
 }
 
 #socials {

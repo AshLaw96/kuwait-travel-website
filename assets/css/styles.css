@@ -948,3 +948,66 @@ footer {
         width: 99%;
     }
 }
+
+/* Large screens */
+@media screen and (min-width: 1200px) {
+    .tab-label {
+        font-size: 300%;
+        margin-bottom: 2em;
+    }
+
+    /* Home styles */
+    h1 {
+        font-size: 400%;
+    }
+
+    header p {
+        font-size: 26px;
+        padding: 15px 8px;
+    }
+
+    #navbar {
+        width: 10%;
+        height: 267vh;
+    }
+
+    #home-nav, #gallery-nav, #form-nav {
+        margin: 5rem 0;
+    }
+
+    #home-nav {
+        margin-top: 15em;
+    }
+
+    #navbar a {
+        font-size: 200%;
+    }
+
+    .block {
+        max-width: 45%;
+        min-height: 600px;
+    }
+
+    .txt-area-1 {
+        left: 40em;
+        z-index: 1;
+    }
+
+    .img-area {
+        left: 10em;
+        top: 10px;
+        max-width: 42em;
+        min-height: 37em;
+    }
+
+    .img-area img {
+        width: 751px;
+        height: 661px;
+    }
+
+    .txt-area-2 {
+        left: 40em;
+        z-index: 1;
+        bottom: 20em;
+    }
+}

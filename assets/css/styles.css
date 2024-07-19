@@ -118,7 +118,7 @@ nav {
 #navbar {
     background-color: var(--p-highlight);
     width: 100%;
-    min-height: 1vh;
+    max-height: 12vh;
     border-bottom: 5px solid var(--s-highlight);
     border-top: 5px solid var(--s-highlight);
     list-style-type: none;
@@ -142,11 +142,11 @@ nav {
 }
 
 #home-nav, #gallery-nav, #form-nav {
-    padding: 3em 0 10px;
+    padding: 1em 0 20px;
 }
 
 #home-nav {
-    padding-left: 5px;
+    padding-left: 5em;
 }
 
 #form-nav {
@@ -241,17 +241,14 @@ main a {
 }
 
 #photos img:last-child {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 #external-link-wrap {
-    position: relative;
+    margin: 0 177px 18px;
 }
 
 #external-link {
-    position: absolute;
-    top: 132em;
-    left: 185px;
     font-size: xx-large;
     font-weight: bolder;
     text-transform: uppercase;
@@ -320,7 +317,6 @@ fieldset {
 
 #form label {
     display: block;
-    width: 76%;
 }
 
 .details {
@@ -332,17 +328,12 @@ fieldset {
     font-family: 'Quicksand', sans-serif;
 }
 
-#adults, #child, #arrival, #depart {
-    width: 74%
-}
-
 ::placeholder {
     color: var(--s-text);
     opacity: 0.8;
 }
 
 #packages {
-    width: 76%;
     margin-bottom: 5px;
 }
 
@@ -351,7 +342,6 @@ fieldset {
 }
 
 #area-wrap {
-    width: 76%;
     margin: 5px 2px;
 }
 
@@ -365,19 +355,14 @@ fieldset {
 
 .area-text {
     background: transparent;
-    max-width: 100%;
+    width: 100%;
     min-height: 100px;
     opacity: 0.6;
     border: 3px inset var(--s-text);
 }
 
 #terms-wrap {
-    margin-left: 50px;
     text-align: center;
-}
-
-input[type="radio"] {
-    margin-right: 50px;
 }
 
 .form-button {
@@ -421,163 +406,62 @@ footer {
 
 /* landscape mobiles */
 @media screen and (min-width: 576px) {
-    header {
-        min-height: 160px;
-    }
-
-    header p {
-        border-radius: 5px;
-    }
-
-    .tab-label {
-        margin: 11rem 0 0 15px;
-    }
-
     /* Home styles */
-    #navbar {
-        margin-top: -14px;
-        max-width: 15%;
-        min-height: 188.8rem;
-    }
-
-    #navbar a {
-        margin: 1rem 0 1rem 10px;
-    }
-
-    #navbar a {
-        padding-right: 12px;
-        margin-left: 5px;
-    }
-
-    .block {
-        max-width: 75%;
-        left: 8rem;
-    }
-
-    .txt-area-1 {
-        top: 2em;
-    }
-
     .img-area {
-        top: 5rem;
         height: 500px;
     }
 
     .img-area img {
-        width: 425px;
+        width: 446px;
         height: 496px;
     }
 
-    .txt-area-2 {
-        top: 8rem;
-    }
-
     .vid-area {
-        top: 11em;
         height: 450px;
     }
 
     .vid-area video {
-        width: 425px;
+        width: 446px;
         height: 446px;
     }
 
-    .txt-area-3 {
-        bottom: -14em;
-    }
-
-    footer {
-        bottom: -22em;
-    }
-
     /* Gallery styles */
-    #sights-navbar {
-        min-height: 442.5vh;
-        max-width: 15%;
-        margin-top: -14px;
-    }
-
-    #sights-navbar a {
-        margin: 1rem 0 1rem 10px;
-    }
-
     #photos {
         column-count: 2;
         column-gap: 0;
         margin: 0 5px 0 40px;
     }
 
-    #external-link {
-        font-size: 220%;
-        bottom: -2rem;
-        right: -2.5em;
+    #photos img:first-child {
+        margin-top: 5px;
     }
 
-    #sights-footer {
-        bottom: -7.9em;
+    #external-link {
+        font-size: 220%;
     }
 
     /* Form styles */
-    #form-navbar {
-        max-width: 15%;
-        min-height: 384.5vh;
-        margin-top: -14px;
+    input[type="checkbox"] {
+        /* Increase-sized checkboxes */
+        -ms-transform: scale(1.3); /* IE */
+        -moz-transform: scale(1.3); /* FF */
+        -webkit-transform: scale(1.3); /* Safari and Chrome */
+        -o-transform: scale(1.3); /* Opera */
+        transform: scale(1.3);
     }
 
-    #form-navbar a {
-        margin: 1rem 0 1rem 10px;
-    }
-
-    #sign-up {
-        position: relative;
-        right: 10px;
-    }
-
-    #adults, #child, #arrival, #depart {
-        width: 97%;
-    }
-
-    .area-text {
-        min-width: 98%;
-    }
-
-    #travel-details {
-        min-width: 100%;
-    }
-
-    #packages {
-        min-width: 100%;
-    }
-
-    #area-wrap {
-        width: 100%;
-    }
-
-    .options-label {
-        width: 60%;
-        display: inline;
-    }
-
-    #terms-wrap {
-        right: 0;
-    }
-
-    label[for="terms"] {
-        display: inline;
-    }
-
-    #terms {
-        margin-right: 5px;
+    #area-wrap .options-label {
+        width: 52%;
     }
 
     .form-button {
-        width: 100%;
         font-size: x-large;
         margin: 5px 0;
     }
 
-    .form-button:hover {
-        background-color: var(--s-highlight);
+    #board {
+        width: 72%;
+        margin-left: 5em;
     }
 }
 

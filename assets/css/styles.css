@@ -203,8 +203,8 @@ main a {
 
 .img-area img {
     border-radius: 5px;
-    width: 296px;
-    height: 356px;
+    width: 100%;
+    height: 100%;
 }
 
 .txt-area-2 {
@@ -218,8 +218,8 @@ main a {
 
 .vid-area video {
     border-radius: 5px;
-    width: 296px;
-    height: 356px;
+    width: 100%;
+    height: 100%;
     object-fit: fill;
 }
 
@@ -411,18 +411,8 @@ footer {
         height: 500px;
     }
 
-    .img-area img {
-        width: 446px;
-        height: 496px;
-    }
-
     .vid-area {
         height: 450px;
-    }
-
-    .vid-area video {
-        width: 446px;
-        height: 446px;
     }
 
     /* Gallery styles */
@@ -467,57 +457,68 @@ footer {
 
 /* Tablets and bigger */
 @media screen and (min-width: 768px) {
-    /* Home styles */
     header p {
         font-size: 20px;
         padding: 15px 2px;
         line-height: 20px;
     }
 
-    .tab-label {
-        margin: 20rem 0 0 25px;
+    aside {
+        position: relative;
     }
 
     #navbar {
-        max-width: 13.8%;
-        min-height: 301.39vh;
-        margin-top: 8.3em;
+        max-width: 11%;
+        min-height: 100vh;
+        flex-direction: column;
+        position: absolute;
+        border-right: 5px solid var(--s-highlight);
+        border-bottom: none;
+        border-top: none;
+        justify-content: normal;
     }
 
     #navbar a {
-        margin: 1rem 0 1rem 10px;
-        padding-right: 5px;
-        font-size: 160%;
+        font-size: 130%;
+        position: fixed;
+        margin: 5px 0 0 1rem;
     }
 
+    #home-nav, #gallery-nav, #form-nav {
+        padding-top: 9em;   
+    }
+
+    #home-nav {
+        padding-left: 0;
+    }
+
+    #form-nav {
+        padding-right: 0;
+    }
+
+    #navbar a span {
+        transform: rotate(-90deg);
+        margin-bottom: 40px;
+        padding: 20px 0;
+    }
+
+    /* Home styles */
     .block {
-        max-width: 80%;
+        max-width: 83%;
+        margin-left: 6.6em;
     }
 
-    .img-area img {
-        width: 606px;
+    .img-area {
+        height: 581px;
     }
 
-    .vid-area video {
-        width: 606.5px;
+    .vid-area {
+        height: 570px;
     }
 
     /* Gallery styles */
-    #sights-h-txt {
-        font-size: 20px;
-        line-height: 20px;
-        margin-left: 10px;
-        padding: 10px 2px;
-    }
-
-    #sights-navbar {
-        max-width: 13.8%;
-        min-height: 192.8vh;
-        margin-top: 8.3em;
-    }
-
-    #sights-navbar a {
-        font-size: 160%;
+    #external-link-wrap {
+        margin: 0 6em 18px 22em;
     }
 
     #external-link {
@@ -525,31 +526,24 @@ footer {
     }
 
     /* Form styles */
-    #register-h-txt {
-        font-size: 20px;
-        line-height: 20px;
-    }
-
-    #form-navbar {
-        max-width: 13.8%;
-        min-height: 135.7vh;
-        margin-top: 8.3em;
-    }
-
-    #form-navbar a {
-        font-size: 160%;
+    #form {
+        background-position: 65%;
     }
 
     #sign-up {
-        font-size: 110%;
+        margin-left: 1em;
     }
 
     fieldset {
-        padding-left: 15px;
+        padding-left: 10px;
     }
 
     legend {
         font-size: 20px;
+    }
+
+    .details {
+        width: 99%;
     }
 
     ::placeholder {

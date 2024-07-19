@@ -582,77 +582,78 @@ footer {
         font-size: 220%;
     }
 
-    .tab-label {
-        margin: 26rem 0 0 35px;
-    }
-
-    /* Home styles */
-    h1 {
-        font-size: 250%;
-    }
-
     header p {
         font-size: 24px;
         line-height: 25px;
     }
 
+    #home-nav, #gallery-nav, #form-nav {
+        padding-bottom: 3px;
+    }
+
     #navbar {
-        margin-top: 14.7em;
-        max-width: 12%;
-        min-height: 247.14vh;
+        max-width: 7%;
     }
 
     #navbar a {
-        font-size: 170%;
-        margin-left: 25px;
+        font-size: 125%;
+        margin-left: 3px;
+    }
+
+    #navbar a span {
+        margin-bottom: 34px;
+        padding: 22px 0;
+    }
+
+     /* Home styles */
+     h1 {
+        font-size: 250%;
+    }
+
+    #home-section-wrap {
+        display: flex;
+        flex-direction: column;
+        padding-right: 12px;
     }
 
     .block {
-        max-width: 85%;
-        left: 7.2em;
+        display: flex;
+        max-width: 52%;
+    }
+
+    .txt-area-1, .txt-area-2, .txt-area-3 {
+        flex-direction: column;
+        margin-bottom: auto;
+        margin-left: auto;
+        z-index: 1;
+    }
+
+    .txt-area-2, .txt-area-3 {
+        margin-top: -30px;
+    }
+
+    .block p {
+        margin: 5px 0;
+    }
+
+    .img-area, .vid-area {
+        margin-left: 9%;
+        margin-top: -30px;
     }
 
     .img-area {
         height: 600px;
     }
 
-    .img-area img {
-        height: 595px;
-        width: 835px;
-    }
-
     .vid-area {
-        top: 10em;
         height: 550px;
     }
 
-    .vid-area video {
-        width: 836px;
-        height: 546.5px;
-    }
-
-    .txt-area-3 {
-        bottom: -13em;
+    #home-footer {
+        margin-top: 2em;
     }
 
     /* Gallery styles */
-
-    #sights-h-txt {
-        font-size: 24px;
-        line-height: 25px;
-    }
-
-    #sights-navbar {
-        margin-top: 14.7em;
-        max-width: 12%;
-        min-height: 185.5vh;
-    }
-
-    #sights-navbar a {
-        font-size: 170%;
-        margin-left: 20px;
-    }
-
     #photos {
         margin-right: 15px;
     }
@@ -662,22 +663,6 @@ footer {
     }
 
     /* Form styles */
-    #register-h-txt {
-        font-size: 24px;
-        line-height: 25px;
-    }
-
-    #form-navbar {
-        margin-top: 14.7em;
-        max-width: 12%;
-        min-height: 119.3vh;
-    }
-
-    #form-navbar a {
-        font-size: 170%;
-        margin-left: 20px;
-    }
-
     #sign-up {
         font-size: 140%;
         padding-right: 5px;

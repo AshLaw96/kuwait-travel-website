@@ -413,7 +413,8 @@ fieldset {
 footer {
     background-color: var(--p-highlight);
     border-top: 5px solid var(--s-highlight);
-    width: 100%; 
+    width: 100%;
+    margin-top: auto; 
 }
 
 #socials {
@@ -432,14 +433,6 @@ footer {
 
 #socials i:hover {
     color: var(--s-highlight);
-}
-
-#error-footer {
-    margin-top: auto;
-}
-
-#confirm-footer {
-    margin-top: auto;
 }
 
 /* landscape mobiles */

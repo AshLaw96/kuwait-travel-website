@@ -37,15 +37,16 @@ h1, h2, h3 {
 
 h1, h2 {
     color: var(--s-highlight);
+    text-align: center;
 }
 
 h1 {
     font-size: 220%;
-    padding: 0.6em;
 }
 
 h2 {
     font-size: 200%;
+    padding: 0.6em;
 }
 
 h3 {
@@ -133,7 +134,7 @@ nav {
     font-family: 'Quicksand', sans-serif;
     color: var(--p-text);
     text-decoration: none;
-    padding: 5px;
+    padding: 2px;
     display: block;
 }
 
@@ -171,7 +172,7 @@ nav {
     padding: 1px;
 }
 
-/* Main styles */
+/* Home styles */
 .block {
     border: 2px solid var(--s-highlight);
     background-color: var(--p-highlight);
@@ -481,7 +482,7 @@ footer {
     #navbar a {
         font-size: 130%;
         position: fixed;
-        margin: 5px 0 0 1rem;
+        margin: 5px 0 0 10px;
     }
 
     #home-nav, #gallery-nav, #form-nav {
@@ -532,6 +533,8 @@ footer {
 
     #sign-up {
         margin-left: 1em;
+        max-width: 75%;
+        margin-left: 14%;
     }
 
     fieldset {
@@ -597,7 +600,7 @@ footer {
 
     #navbar a {
         font-size: 125%;
-        margin-left: 3px;
+        margin-left: 0;
     }
 
     #navbar a span {
@@ -655,7 +658,7 @@ footer {
 
     /* Gallery styles */
     #photos {
-        margin-right: 15px;
+        column-count: 3;
     }
 
     #external-link {
@@ -664,25 +667,33 @@ footer {
 
     /* Form styles */
     #sign-up {
-        font-size: 140%;
         padding-right: 5px;
-        min-height: 100vh;
+        max-width: 70%;
     }
 
     fieldset {
-        margin-right: 10px;
-    }
-
-    #travel-details {
-        min-width: 98.5%;
+        margin-right: 8px;
     }
 
     legend {
         font-size: 25px;
     }
 
-    ::placeholder {
+    label {
         font-size: 20px;
+    }
+
+    input[type='text'] { 
+        font-size: 16px; 
+    }
+
+    ::placeholder {
+        font-size: 16px;
+    }
+
+    #board {
+        width: 65%;
+        margin-left: 8em;
     }
 
     input[type="checkbox"] {
@@ -696,14 +707,6 @@ footer {
 
     .options-label {
         letter-spacing: 3px;
-    }
-
-    #terms-wrap {
-        margin: 45px 0 15px 0;
-    }
-
-    #terms-wrap a {
-        font-size: 100%;
     }
 
     .form-button {

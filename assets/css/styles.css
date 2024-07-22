@@ -92,6 +92,9 @@ header p {
     font-size: 16px;
 }
 
+#error-title {
+    font-size: 300%;
+}
 
 /* Navbar styles with dropout button */
 nav {
@@ -384,15 +387,21 @@ fieldset {
     background-color: var(--s-highlight);
 }
 
-#error-title {
-    font-size: 300%;
-}
-
+/* 404 styles */
 #error-wrap {
     text-align: center;
     font-size: 150%;
     margin-top: 40%;
     padding: 0 10px;
+    font-weight: bold;
+}
+
+/* Confirmation styles */
+#confirm-wrap {
+    font-size: 160%;
+    margin-top: 40%;
+    padding: 0 15px;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -422,6 +431,11 @@ footer {
 }
 
 #error-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#confirm-footer {
     position: absolute;
     bottom: 0;
 }
@@ -613,6 +627,17 @@ footer {
         margin-top: 30%;
         line-height: 45px;
     }
+
+    /* Confirmation styles */
+    #confirm-title {
+        font-size: 400%;
+    }
+
+    #confirm-wrap {
+        font-size: 170%;
+        margin-top: 20%;
+        line-height: 50px;
+    }
 }
 
 /* Large tablets and laptops */
@@ -758,6 +783,16 @@ footer {
     #error-wrap {
         font-size: 170%;
         margin-top: 20%;
+    }
+
+    /* Confirmation styles */
+    #confirm-title {
+        font-size: 60px;
+    }
+    
+    #confirm-wrap {
+        font-size: 180%;
+        margin-top: 10%;
     }
 }
 

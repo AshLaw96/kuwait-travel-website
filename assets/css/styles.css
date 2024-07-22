@@ -297,7 +297,7 @@ main a {
 
 /* Form styles */
 #form {
-    background: url("../images/pin-map.jpg");
+    background-image: url("../images/pin-map.jpg");
     background-position: 60%;
     background-size: cover;
     padding: 6em 2em 6em 4em;
@@ -391,9 +391,13 @@ fieldset {
 #error-wrap {
     text-align: center;
     font-size: 150%;
-    margin-top: 40%;
-    padding: 0 10px;
     font-weight: bold;
+    color: var(--s-highlight);
+    padding: 0 10px;
+}
+
+#error-img {
+    width: 100%;;
 }
 
 /* Confirmation styles */
@@ -431,21 +435,15 @@ footer {
 }
 
 #error-footer {
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
 }
 
 #confirm-footer {
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
 }
 
 /* landscape mobiles */
 @media screen and (min-width: 576px) {
-    /* header p {
-        visibility: visible;
-    } */
-
     /* Home styles */
     .img-area {
         height: 500px;
@@ -491,6 +489,11 @@ footer {
 
     #board {
         margin-left: 22em;
+    }
+
+    /* Error styles */
+    #error-img {
+        width: 500px;
     }
 }
 
@@ -592,11 +595,10 @@ footer {
     }
 
     input[type="checkbox"] {
-        /* Increase-sized checkboxes */
-        -ms-transform: scale(1.5); /* IE */
-        -moz-transform: scale(1.5); /* FF */
-        -webkit-transform: scale(1.5); /* Safari and Chrome */
-        -o-transform: scale(1.5); /* Opera */
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
         transform: scale(1.5);
     }
 
@@ -624,7 +626,6 @@ footer {
     
     #error-wrap {
         font-size: 160%;
-        margin-top: 30%;
         line-height: 45px;
     }
 
@@ -757,11 +758,10 @@ footer {
     }
 
     input[type="checkbox"] {
-        /* Increase-sized checkboxes */
-        -ms-transform: scale(1.8); /* IE */
-        -moz-transform: scale(1.8); /* FF */
-        -webkit-transform: scale(1.8); /* Safari and Chrome */
-        -o-transform: scale(1.8); /* Opera */
+        -ms-transform: scale(1.8);
+        -moz-transform: scale(1.8);
+        -webkit-transform: scale(1.8);
+        -o-transform: scale(1.8);
         transform: scale(1.8);
     }
 
@@ -782,7 +782,6 @@ footer {
     
     #error-wrap {
         font-size: 170%;
-        margin-top: 20%;
     }
 
     /* Confirmation styles */
@@ -857,6 +856,5 @@ footer {
     
     #error-wrap {
         font-size: 180%;
-        margin-top: 10%;
     }
 }

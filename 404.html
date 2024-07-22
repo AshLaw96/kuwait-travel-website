@@ -19,27 +19,30 @@
     <header>
         <h2>404!</h2>
     </header>
-    <label for="tab-bar" class="tab-label">
-        <i class="fa-solid fa-bars"></i>
-    </label>
-    <input type="checkbox" id="tab-bar" name="tab-bar">
-    <nav>
-        <ul id="navbar">
-            <li>
-                <form>
-                    <input type="button" value="&#128281;" onclick="history.back()" class="current">
-                </form>
-            </li>
-        </ul>
-    </nav>
-    <!-- Main content -->
     <main>
-        <p>Oops! Looks like you've wandered off into the Kuwaiti desert. &#128042;
-            Our oasis of information isn't here, but don't worry, there's plenty more to explore! Try navigating back to civilization or enjoy a virtual sunset over the Arabian Gulf. &#127964;
-            Happy travels from Kuwait!</p>
+         <!-- Navigation content -->
+         <aside>
+            <label for="tab-bar" class="tab-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="tab-bar" name="tab-bar">
+            <nav>
+                <ul id="navbar">
+                    <li>
+                        <form>
+                            <input type="button" value="&#128281;" onclick="history.back()" class="current">
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- Main content -->
+        <section id="error-wrap">
+            <p>Oops! Looks like you've wandered off into the Kuwaiti desert. &#128042; Our oasis of information isn't here, but don't worry, there's plenty more to explore! Try navigating back to civilization or enjoy a virtual sunset over the Arabian Gulf. &#127964; Happy travels from Kuwait!</p>
+        </section>
     </main>
     <!-- Footer content -->
-    <footer>
+    <footer id="404-footer">
         <ul id="socials">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>

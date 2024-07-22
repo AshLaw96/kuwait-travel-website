@@ -38,6 +38,7 @@ h1, h2, h3 {
 h1, h2 {
     color: var(--s-highlight);
     text-align: center;
+    padding: 0.6em;
 }
 
 h1 {
@@ -46,7 +47,6 @@ h1 {
 
 h2 {
     font-size: 200%;
-    padding: 0.6em;
 }
 
 h3 {
@@ -65,7 +65,7 @@ header p {
     color: var(--p-text);
     text-align: center;
     padding: 4px 2px;
-    line-height: 18px;
+    line-height: 16px;
     font-size: 16px;
 }
 
@@ -111,7 +111,7 @@ nav {
 .tab-label {
     font-size: 200%;
     cursor: pointer;
-    margin: 5px 0 0 1rem;
+    margin: 5px 0 0 6px;
     position: fixed;
     z-index: 100;
 }
@@ -179,7 +179,7 @@ nav {
     color: var(--p-text);
     max-width: 80%;
     border-radius: 2%;
-    margin: 2em 0 0 4rem;
+    margin: 2em 0 0 3rem;
     font-size: 18px;
 }
 
@@ -246,7 +246,8 @@ main a {
 }
 
 #external-link-wrap {
-    margin: 0 177px 18px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 #external-link {
@@ -296,7 +297,6 @@ main a {
     background: url("../images/pin-map.jpg");
     background-position: 60%;
     background-size: cover;
-    flex-grow: 1;
     padding: 6em 2em 6em 4em;
 }
 
@@ -339,7 +339,11 @@ fieldset {
 }
 
 #board {
-    width: 100%;
+    margin-left: 11em;
+}
+
+#board:last-of-type {
+    margin-bottom: 10px;
 }
 
 #area-wrap {
@@ -405,8 +409,17 @@ footer {
     color: var(--s-highlight);
 }
 
+#404-footer {
+    position: absolute;
+    bottom: 0;
+}
+
 /* landscape mobiles */
 @media screen and (min-width: 576px) {
+    /* header p {
+        visibility: visible;
+    } */
+
     /* Home styles */
     .img-area {
         height: 500px;
@@ -451,8 +464,7 @@ footer {
     }
 
     #board {
-        width: 72%;
-        margin-left: 5em;
+        margin-left: 22em;
     }
 }
 
@@ -518,10 +530,6 @@ footer {
     }
 
     /* Gallery styles */
-    #external-link-wrap {
-        margin: 0 6em 18px 22em;
-    }
-
     #external-link {
         font-size: 300%;
     }
@@ -551,6 +559,10 @@ footer {
 
     ::placeholder {
         font-size: 15px;
+    }
+
+    #board {
+        margin-left: 20em;
     }
 
     input[type="checkbox"] {
@@ -692,8 +704,7 @@ footer {
     }
 
     #board {
-        width: 65%;
-        margin-left: 8em;
+        margin-left: 27em;
     }
 
     input[type="checkbox"] {
@@ -707,6 +718,7 @@ footer {
 
     .options-label {
         letter-spacing: 3px;
+        min-width: 63%;
     }
 
     .form-button {
@@ -718,62 +730,54 @@ footer {
 /* Large screens */
 @media screen and (min-width: 1200px) {
     .tab-label {
-        font-size: 300%;
-        margin-bottom: 2em;
+        font-size: 220%;
+    }
+
+    header p {
+        padding: 12px 0;
+    }
+
+    #home-nav, #gallery-nav, #form-nav {
+        margin: 20px 0;
+    }
+
+    #navbar a {
+        font-size: 170%;
     }
 
     /* Home styles */
     h1 {
-        font-size: 400%;
-    }
-
-    header p {
-        font-size: 26px;
-        padding: 15px 8px;
-    }
-
-    #navbar {
-        width: 10%;
-        height: 267vh;
-    }
-
-    #home-nav, #gallery-nav, #form-nav {
-        margin: 5rem 0;
-    }
-
-    #home-nav {
-        margin-top: 15em;
-    }
-
-    #navbar a {
-        font-size: 200%;
+        font-size: 300%;
     }
 
     .block {
-        max-width: 45%;
-        min-height: 600px;
+        max-width: 56%;
     }
 
-    .txt-area-1 {
-        left: 40em;
-        z-index: 1;
+    .img-area {   
+        height: 37em;
     }
 
-    .img-area {
-        left: 10em;
-        top: 10px;
-        max-width: 42em;
-        min-height: 37em;
+    .vid-area {
+        height: 35em;
     }
 
-    .img-area img {
-        width: 751px;
-        height: 661px;
+    #socials i {
+        font-size: 200%;
+    }
+    
+    /* Gallery styles */
+    #external-link {
+        font-size: 70px;
     }
 
-    .txt-area-2 {
-        left: 40em;
-        z-index: 1;
-        bottom: 20em;
+    /* Form styles */
+    #form {
+        background-position: center;
+    }
+
+    #sign-up {
+        max-width: 55%;
+        margin-left: 19%;
     }
 }

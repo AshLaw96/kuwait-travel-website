@@ -384,6 +384,18 @@ fieldset {
     background-color: var(--s-highlight);
 }
 
+#error-title {
+    font-size: 300%;
+}
+
+#error-wrap {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 40%;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
 /* Footer styles */
 footer {
     background-color: var(--p-highlight);
@@ -409,7 +421,7 @@ footer {
     color: var(--s-highlight);
 }
 
-#404-footer {
+#error-footer {
     position: absolute;
     bottom: 0;
 }
@@ -589,6 +601,18 @@ footer {
     .submit {
         margin-top: 20px;
     }
+
+    /* 404 styles */
+    #error-title {
+        font-size: 400%;
+        letter-spacing: 5px;
+    }
+    
+    #error-wrap {
+        font-size: 160%;
+        margin-top: 30%;
+        line-height: 45px;
+    }
 }
 
 /* Large tablets and laptops */
@@ -725,6 +749,16 @@ footer {
         font-size: xx-large;
         width: 99%;
     }
+
+     /* 404 styles */
+     #error-title {
+        font-size: 500%;
+    }
+    
+    #error-wrap {
+        font-size: 170%;
+        margin-top: 20%;
+    }
 }
 
 /* Large screens */
@@ -779,5 +813,15 @@ footer {
     #sign-up {
         max-width: 55%;
         margin-left: 19%;
+    }
+
+    /* 404 styles */
+    #error-title {
+        font-size: 600%;
+    }
+    
+    #error-wrap {
+        font-size: 180%;
+        margin-top: 10%;
     }
 }

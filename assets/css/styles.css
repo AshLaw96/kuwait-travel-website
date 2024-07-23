@@ -11,11 +11,12 @@
 
 /* Colour section to easy style pages */
 :root {
-    /* P = Primary | S = Secondary */
-    --p-text: #FFFFFF;
-    --p-highlight: #007A3D;
-    --s-text: #000000;
-    --s-highlight: #CE1126;
+    /* P = Primary | S = Secondary L = Links */
+    --p-text: #CE1126;
+    --p-highlight: #FFFFF0;
+    --s-text: #FF7B1F;
+    --s-highlight: #F2DDA0;
+    --l-highlight: #007A3D;
 }
 
 body {
@@ -40,7 +41,7 @@ h1, h2 {
     text-align: center;
     margin: auto 5px;
     padding: 2px;
-    color: var(--s-highlight);
+    color: var(--p-text);
     background-color: rgba(242, 221, 160, 0.8);
     border-radius: 5px;
 }
@@ -62,7 +63,7 @@ header {
 
 header p {
     background-color: rgba(242, 221, 160, 0.8);
-    color: var(--s-highlight);
+    color: var(--p-text);
     text-align: center;
     padding: 4px 2px;
     line-height: 16px;
@@ -75,9 +76,15 @@ header p {
 /* 404 styles (header) */
 #error-title {
     font-size: 300%;
+    margin: 5px;
 }
 
-/* Navbar styles with dropout button */
+/* Confirmation styles (header) */
+#confirm-title {
+    margin: 5px;
+}
+
+/* Navbar styles with dropdown button */
 nav {
     display: none;
     width: 100%;
@@ -101,12 +108,10 @@ nav {
 }
 
 #navbar {
-    background-color: #f2dda0;
+    background-color: var(--s-highlight);
     width: 100%;
     max-height: 12vh;
     box-shadow: 0 0 6px 4px #ffeaaa;
-    /* border-bottom: 5px solid var(--s-highlight);
-    border-top: 5px solid var(--s-highlight); */
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -117,7 +122,7 @@ nav {
 
 #navbar a {
     font-family: 'Quicksand', sans-serif;
-    color: 	#ff7b1f;
+    color: 	var(--s-text);
     text-decoration: none;
     padding: 2px;
     display: block;
@@ -140,7 +145,7 @@ nav {
 }
 
 #navbar a:hover {
-    color: var(--s-highlight)
+    color: var(--p-text)
 }
 
 #navbar a span {
@@ -152,24 +157,24 @@ nav {
 }
 
 .current {
-    border: 2px solid var(--s-highlight);
+    border: 2px solid var(--p-text);
     border-radius: 10%;
     padding: 1px;
 }
 
 /* Home styles */
 .block {
-    /* border: 2px solid var(--s-highlight); */
-    background-color: #FFFFF0;
-    color: var(--s-highlight);
+    background-color: var(--p-highlight);
+    color: var(--p-text);
     max-width: 80%;
     border-radius: 2%;
     margin: 2em 0 0 3rem;
     font-size: 18px;
+    box-shadow: 0 0 6px 4px #FFF;
 }
 
 main a {
-    color: var(--p-highlight);
+    color: var(--l-highlight);
     font-weight: bolder;
     font-size: 20px;
 }
@@ -178,13 +183,8 @@ main a {
     padding: 5px;
 }
 
-.txt-area-1 {
-    box-shadow: 0 0 6px 4px var(--p-text);
-}
-
 .img-area {
     height: 20em;
-    box-shadow: 0 0 6px 4px var(--p-text);
 }
 
 .img-area img {
@@ -193,13 +193,8 @@ main a {
     height: 100%;
 }
 
-.txt-area-2 {
-    box-shadow: 0 0 6px 4px var(--p-text);
-}
-
 .vid-area {
     height: 20em;
-    box-shadow: 0 0 6px 4px var(--p-text);
 }
 
 .vid-area video {
@@ -210,7 +205,6 @@ main a {
 }
 
 .txt-area-3 {
-    box-shadow: 0 0 6px 4px var(--p-text);
     margin-bottom: 2rem;
 }
 
@@ -220,7 +214,7 @@ main a {
     float: right;
     border-radius: 2%;
     margin: 5px 5px 5px 0;
-    box-shadow: 0 0 6px 4px var(--p-text);
+    box-shadow: 0 0 6px 4px #FFF;
 }
 
 #photos img:first-child {
@@ -287,9 +281,9 @@ main a {
 }
 
 #sign-up {
-    color: #ff7b1f;
-    background-color: rgba(255, 255, 240, 0.9);
-    box-shadow: 0 0 6px 4px var(--p-text);
+    color: var(--s-text);
+    background-color: var(--p-highlight);
+    box-shadow: 0 0 6px 4px #FFF;
     padding: 10px;
     border-radius: 5px;
     margin: 5px;
@@ -297,7 +291,7 @@ main a {
 }
 
 fieldset {
-    border: 1px solid #ff7b1f;
+    border: 1px solid var(--s-text);
     margin: 2px 2px 25px 2px;
     padding: 5px;
     font-family: 'Quicksand', sans-serif;
@@ -317,7 +311,7 @@ fieldset {
 }
 
 ::placeholder {
-    color: var(--s-text);
+    color: #000;
     opacity: 0.8;
 }
 
@@ -350,7 +344,7 @@ fieldset {
     width: 100%;
     min-height: 100px;
     opacity: 0.6;
-    border: 3px inset var(--s-text);
+    border: 3px inset #000;
 }
 
 #terms-wrap {
@@ -365,18 +359,38 @@ fieldset {
     padding: 7px 16px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .form-button:hover {
-    background-color: var(--s-highlight);
+    background-color: var(--p-text);
 }
 
 /* 404 styles */
+button {
+    margin: 10px 5em;
+    background-color: transparent;
+    color: var(--s-text);
+    font-size: 170%;
+}
+
+button:hover {
+    color: var(--p-text);
+}
+
+button span {
+    display: none;
+}
+
+button:hover span {
+    display: block;
+}
+
 #error-wrap {
     text-align: center;
     font-size: 150%;
     font-weight: bold;
-    color: var(--s-highlight);
+    color: var(--p-text);
     padding: 0 10px;
 }
 
@@ -391,13 +405,12 @@ fieldset {
     padding: 0 15px;
     text-align: center;
     font-weight: bold;
-    color: #ff7b1f;
+    color: var(--s-text);
 }
 
 /* Footer styles */
 footer {
-    background-color: #f2dda0;
-    box-shadow: 0 0 6px 4px #ffeaaa;
+    background-color: var(--s-highlight);
     width: 100%;
     margin-top: auto; 
 }
@@ -413,11 +426,11 @@ footer {
 #socials i {
     font-size: 150%;
     padding: 4%;
-    color: #ff7b1f;
+    color: var(--s-text);
 }
 
 #socials i:hover {
-    color: var(--s-highlight);
+    color: var(--p-text);
 }
 
 #gallery-footer {
@@ -602,10 +615,21 @@ footer {
         font-size: 400%;
         letter-spacing: 5px;
     }
+
+    button {
+        margin: 3em 10px;
+        font-size: 130%;
+    }
+
+    button span {
+        transform: rotate(-90deg);
+        padding: 20px 0;
+    }
     
     #error-wrap {
         font-size: 160%;
         line-height: 45px;
+        margin-left: 4em;
     }
 
     /* Confirmation styles */
@@ -758,6 +782,11 @@ footer {
      #error-title {
         font-size: 500%;
     }
+
+    button {
+        margin: 3em 5px;
+        font-size: 125%;
+    }
     
     #error-wrap {
         font-size: 170%;
@@ -831,6 +860,10 @@ footer {
     /* 404 styles */
     #error-title {
         font-size: 600%;
+    }
+
+    #navbar button i {
+        font-size: 300%
     }
     
     #error-wrap {

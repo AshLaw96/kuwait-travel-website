@@ -111,7 +111,7 @@ nav {
     background-color: var(--s-highlight);
     width: 100%;
     max-height: 12vh;
-    box-shadow: 0 0 6px 4px #ffeaaa;
+    box-shadow: 0 0 6px 4px #FFEAAA;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -515,7 +515,7 @@ footer {
     #navbar a {
         font-size: 130%;
         position: fixed;
-        margin: 5px 0 0 10px;
+        margin-left: 2px;
     }
 
     #home-nav, #gallery-nav, #form-nav {
@@ -532,8 +532,8 @@ footer {
 
     #navbar a span {
         transform: rotate(-90deg);
-        margin-bottom: 40px;
-        padding: 20px 0;
+        margin-bottom: 38px;
+        padding: 23px 0;
     }
 
     /* Home styles */

@@ -8,7 +8,7 @@
 
 Kuwait Escapes is a travel website hoping to both encourage and inform people to visit Kuwait and explore all of it Arabian wonders. 
 
-Users enticed on to the website, will find an abundance of information about the top attractions, the most beautiful sceneries, and the most exceptional accommodations they can stop at if they visit Kuwait. The demographic of the site is directed to anyone going or wanting to go explore Kuwait.
+Users enticed on to the website, will find an abundance of information about the top attractions, the most beautiful sceneries, and the most exceptional accommodations they can stop at if they visit the country of Kuwait. The demographic of the site is directed to anyone going or wanting to go explore Kuwait.
 
 ![screenshot](documentation/mockup.png)
 
@@ -16,40 +16,46 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://ashlaw96.github
 
 ## UX
 
-The purpose of Kuwait Escapes is to help the user avoid travel headaches and the stress of finding the perfect accommodation.
+The purpose of Kuwait Escapes is to help the user avoid travel headaches and the stress of finding the perfect accommodation and activities to do.
 
-Kuwait Escapes, will have a home page that has wealth of information to help users with their holiday worries. There will then be a gallery page to visually allure the user with the beautiful sites of Kuwait. The final page will contain a form that the user can fill out with basic personal information, which when submitted will inform the user that someone will be in touch.   
+Kuwait Escapes, will have a home page that has wealth of information to help users with their holiday worries. There will then be a gallery page to visually allure the user with the beautiful sites of Kuwait. The final page will contain a form that the user can fill out with basic personal information, which when submitted will take the user to a confirmation page letting them know that someone will be in touch.   
 
 ### Colour Scheme
 
-The colours of the website will use the Kuwait flag to design different features on the site.
+The tone of the desert, such as sand, sun and clouds will be the basis for the colour scheme. I will also integrate the red, green, black and white which make up the colours of the Kuwait flag.
 
-- `#FFFFFF` used for primary text.
-- `#007A3D` used for primary highlights.
-- `#000000` used for secondary text.
-- `#CE1126` used for secondary highlights.
+- `#CE1126` used for primary text.
+- `#FFFFF0` used for primary highlights.
+- `#FF7B1F` used for secondary text.
+- `#F2DDA0` used for secondary highlights.
+- `#007A3D` used for links.
+- `#9ACAE7` used for background colour.
+- `#000` used for different elements.
+- `#FFF` used for shadows.
+- `#FFEAAA` used for shadows.
 
-I used [coolors.co](https://coolors.co/007a3d-ffffff-ce1126-000000) to generate my colour palette.
 
-![screenshot](documentation/colour.png)
+I used [coolors.co](https://coolors.co/ce1126-fffff0-ff7b1f-f2dda0-007a3d) to generate my colour palette.
+
+![screenshot](documentation/colours.png)
 
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
 :root {
-    /* P = Primary | S = Secondary */
-    --p-text: #FFFFFF;
-    --p-highlight: #007A3D;
-    --s-text: #000000;
-    --s-highlight: #CE1126;
+     /* P = Primary | S = Secondary L = Links */
+    --p-text: #CE1126;
+    --p-highlight: #FFFFF0;
+    --s-text: #FF7B1F;
+    --s-highlight: #F2DDA0;
+    --l-highlight: #007A3D;
 }
 ```
 
 ### Typography
 
-- 
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Google Font](https://fonts.google.com/specimen/Quicksand?query=quicksand) The 'Quicksand' font was used to style text throughout the site
+- [Font Awesome](https://fontawesome.com) Icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
 
@@ -149,16 +155,16 @@ Confirmation
   <details>
   <summary>click here to see the Headers for each page</summary>
   <br>
-  ![screenshot]()
+  ![Home]()
   <br>
-  ![screenshot]()
+  ![Gallery]()
   <br>
-  ![screenshot]()
+  ![Form]()
   <br>
-  ![screenshot]()
+  ![Confirmation]()
   </details>
   <br>
-  ![screenshot]()
+  ![404]()
   </details>
 
 #### Main
@@ -166,7 +172,7 @@ Confirmation
   - The main section on the first page will have informative blocks to tell the user about attractions and activities, like restaurants and tours. The text will also inform users of top quality accommodations. The first page will have visual pleasing images and videos of Kuwait. Using the colour scheme to design parts of the main section to make it pop and look professional.
   <details>
   <summary>click here to see the home page main section</summary>
-  ![screenshot]()
+  ![Home]()
   </details>
   <br>
 
@@ -174,7 +180,7 @@ Confirmation
 
    <details>
   <summary>click here to see the gallery page main section</summary>
-  ![screenshot]()
+  ![Gallery]()
   </details>
   <br>
 
@@ -182,7 +188,7 @@ Confirmation
 
    <details>
   <summary>click here to see the form page main section</summary>
-  ![screenshot]()
+  ![Form]()
   </details>
   <br>
 
@@ -190,7 +196,7 @@ Confirmation
 
    <details>
   <summary>click here to see the confirmation page main section</summary>
-  ![screenshot]()
+  ![Confirmation]()
   </details>
   <br>
 
@@ -198,20 +204,20 @@ Confirmation
 
    <details>
   <summary>click here to see the 404 page main section</summary>
-  ![screenshot]()
+  ![404]()
   </details>
 
 #### Navigation
 
-  - This will be situated at the side of the pages, containing three buttons so the user can switch between the three main pages. These buttons will be fixed to the screen, so as the user scrolls down, they will not have to scroll back up to change pages. It will follow the colour scheme as the rest of the page.
+  - This will be situated near the top of the site on screen widths smaller than 768px and down the left side on larger. It will contain three buttons so the user can switch between the three main pages. These buttons will be fixed to the screen, so as the user scrolls down, they will not have to scroll back up to change pages. It will follow the colour scheme as the rest of the page.
    <details>
   <summary>click here to see the navigation sections</summary>
   <br>
-  ![screenshot]()
+  ![Home]()
   <br>
-  ![screenshot]()
+  ![Gallery]()
   <br>
-  ![screenshot]()
+  ![Form]()
   </details>
   <br>
 
@@ -219,7 +225,7 @@ Confirmation
 
    <details>
   <summary>click here to see the 404 navigation section</summary>
-  ![screenshot]()
+  ![404]()
   </details>
 
 #### Footer
@@ -229,13 +235,15 @@ Confirmation
    <details>
   <summary>click here to see the footer sections</summary>
   <br>
-  ![screenshot]()
+  ![Home]()
   <br>
-  ![screenshot]()
+  ![Gallery]()
   <br>
-  ![screenshot]()
+  ![Form]()
   <br>
-  ![screenshot]()
+  ![Confirmation]()
+  <br>
+  ![404]()
   </details>
 
 ## Tools & Technologies Used
@@ -248,7 +256,6 @@ Confirmation
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
 - [![Moqups](https://img.shields.io/badge/Moqups-grey?logo=moqups&logoColor=0096FF)](https://moqups.com/) used for creating wireframes.
-- [![Google Maps API](https://img.shields.io/badge/Google_Maps_API-grey?logo=googlemaps&logoColor=4285F4)](https://developers.google.com/maps) used as an interactive map on my site.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
 
 ## Testing
@@ -304,17 +311,25 @@ You can fork this repository by using the following steps:
 
 ## Credits
 
-
-
 ### Content
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Github Repo](https://github.com/AshLaw96/my-love-running-project) | entire site | ideas on certain layout and structure |
+| [Booking Website](https://www.booking.com/searchresults.en-gb.html?ss=Kuwait&efdco=1&label=gog235jc-1DCAEoggI46AdICVgDaFCIAQGYAQm4ARnIAQzYAQPoAQH4AQKIAgGoAgO4Asb-_7QGwAIB0gIkYjEzN2M0ZmMtNWU4Zi00YTk1LWE5MWItNGY0YmU0ZjE1MTk42AIE4AIB&aid=397594&lang=en-gb&sb=1&src_elem=sb&src=index&dest_id=113&dest_type=country&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=c5ec8663c09c0508&ac_meta=GhBjNWVjODY2M2MwOWMwNTA4IAAoATICZW46Bmt1d2FpdEAASgBQAA%3D%3D&group_adults=2&no_rooms=1&group_children=0) | booking.com | home page accommodation content |
+| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form) | form page | help design and structure the form |
+| [W3Schools](https://www.w3schools.com/tags/att_meta_http_equiv.asp) | head in confirmation page | used to return to home page after required time |
 
 ### Media
 
-
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [YouTube](https://www.youtube.com/watch?v=R35XF4-waFc) | bottom of gallery page | link | used to provide a video link of Kuwait |
+| [Google](https://i0.wp.com/www.arabtimesonline.com/news/wp-content/uploads/2023/11/kuwait-city.jpg) | header on all pages | image | used for background image on header section |
+| [Pexels](https://www.pexels.com) | entire site | image | majority of images throughout the site |
+| [Videvo](https://www.videvo.net/search/?q=kuwait&mode=video) | home page | video | video on one of the block sections
 
 ### Acknowledgements
 

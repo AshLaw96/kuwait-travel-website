@@ -10,7 +10,7 @@ Kuwait Escapes is a travel website hoping to both encourage and inform people to
 
 Users enticed on to the website, will find an abundance of information about the top attractions, the most beautiful sceneries, and the most exceptional accommodations they can stop at if they visit the country of Kuwait. The demographic of the site is directed to anyone going or wanting to go explore Kuwait.
 
-![screenshot](documentation/mockup.png)
+![responsiveness](documentation/screenshots/mockup.png)
 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://ashlaw96.github.io/kuwait-travel-website)
 
@@ -22,22 +22,20 @@ Kuwait Escapes, will have a home page that has wealth of information to help use
 
 ### Colour Scheme
 
-The tone of the desert, such as sand, sun and clouds will be the basis for the colour scheme. I will also integrate the red, green, black and white which make up the colours of the Kuwait flag.
-
-- `#CE1126` used for primary text.
-- `#FFFFF0` used for primary highlights.
-- `#FF7B1F` used for secondary text.
-- `#F2DDA0` used for secondary highlights.
-- `#007A3D` used for links.
-- `#9ACAE7` used for background colour.
-- `#000` used for different elements.
-- `#FFF` used for shadows.
-- `#FFEAAA` used for shadows.
-
+ - The tone of the desert, such as sand, sun and clouds will be the basis for the colour scheme. I will also integrate the red, green, black and white which make up the colours of the Kuwait flag.
+   - `#CE1126` used for primary text.
+   - `#FFFFF0` used for primary highlights.
+   - `#FF7B1F` used for secondary text.
+   - `#F2DDA0` used for secondary highlights.
+   - `#007A3D` used for links.
+   - `#9ACAE7` used for background colour.
+   - `#000` used for different elements.
+   - `#FFF` used for shadows.
+   - `#FFEAAA` used for shadows.
 
 I used [coolors.co](https://coolors.co/ce1126-fffff0-ff7b1f-f2dda0-007a3d) to generate my colour palette.
 
-![screenshot](documentation/colours.png)
+![Colours](documentation/screenshots/colours.png)
 
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
@@ -85,21 +83,25 @@ I've used [Moqups](https://my.moqups.com/login) to design my site wireframes.
 <details>
 <summary> Click here to see the Mobile Wireframes </summary>
 
-Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+ - Home wireframe
 
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
+  ![Home](documentation/wireframes/mobile-home.png)
 
-Form
-  - ![screenshot](documentation/wireframes/mobile-form.png)
+ - Gallery wireframe
 
-Confirmation
-  - ![screenshot](documentation/wireframes/mobile-confirmation.png)  
+  ![Gallery](documentation/wireframes/mobile-gallery.png)
 
-404 Page
-  - ![screenshot](documentation/wireframes/mobile-404.png)
+ - Form wireframe
 
+  ![Form](documentation/wireframes/mobile-form.png)
+
+ - Confirmation wireframe
+
+  ![Confirmation](documentation/wireframes/mobile-confirmation.png)  
+
+ - 404 wireframe
+
+  ![404](documentation/wireframes/mobile-404.png)
 </details>
 
 ### Tablet Wireframes
@@ -107,21 +109,25 @@ Confirmation
 <details>
 <summary> Click here to see the Tablet Wireframes </summary>
 
-Home
-  - ![screenshot](documentation/wireframes/home-tablet.png)
+ - Home wireframe
 
-Gallery
-  - ![screenshot](documentation/wireframes/gallery-tablet.png)
+  ![Home](documentation/wireframes/home-tablet.png)
 
-Form
-  - ![screenshot](documentation/wireframes/form-tablet.png)
+ - Gallery wireframe
 
-Confirmation
-  - ![screenshot](documentation/wireframes/confirmation-tablet.png)  
+  ![Gallery](documentation/wireframes/gallery-tablet.png)
 
-404
-  - ![screenshot](documentation/wireframes/404-tablet.png)
+ - Form wireframe
 
+  ![Form](documentation/wireframes/form-tablet.png)
+
+ - Confirmation wireframe
+
+  ![Confirmation](documentation/wireframes/confirmation-tablet.png)  
+
+ - 404 wireframe
+
+  ![404](documentation/wireframes/404-tablet.png)
 </details>
 
 ### Desktop Wireframes
@@ -129,42 +135,55 @@ Confirmation
 <details>
 <summary> Click here to see the Desktop Wireframes </summary>
 
-Home
-  - ![screenshot](documentation/wireframes/home.png)
+ - Home wireframe
 
-Gallery
-  - ![screenshot](documentation/wireframes/gallery.png)
+  ![Home](documentation/wireframes/home.png)
 
-Form
-  - ![screenshot](documentation/wireframes/form.png)
+ - Gallery wireframe
 
-Confirmation
-  - ![screenshot](documentation/wireframes/confirmation.png)  
+  ![Gallery](documentation/wireframes/gallery.png)
 
-404
-  - ![screenshot](documentation/wireframes/404.png)
+ - Form wireframe
 
+  ![Form](documentation/wireframes/form.png)
+
+ - Confirmation wireframe
+
+  ![Confirmation](documentation/wireframes/confirmation.png)  
+
+ - 404 wireframe
+
+  ![404](documentation/wireframes/404.png)
 </details>
 
 ## Features
 
 #### Header
 
-  - The header contains the title of the current page, a background image or background colour and a brief description of what that page holds.
+ - The header contains the title of the current page, a background image or background colour and a brief description of what that page holds.
 
   <details>
   <summary>click here to see the Headers for each page</summary>
-  <br>
-  ![Home]()
-  <br>
-  ![Gallery]()
-  <br>
-  ![Form]()
-  <br>
-  ![Confirmation]()
-  </details>
-  <br>
-  ![404]()
+
+ - Home header
+
+  ![Home](documentation/screenshots/home-header.png)
+
+ - Gallery header
+
+  ![Gallery](documentation/screenshots/gallery-header.png)
+
+ - Form header
+
+  ![Form](documentation/screenshots/form-header.png)
+
+ - Confirmation header
+
+  ![Confirmation](documentation/screenshots/confirm-header.png)
+
+ - 404 header
+
+  ![404](documentation/screenshots/404-header.png)
   </details>
 
 #### Main
@@ -174,90 +193,105 @@ Confirmation
   <details>
   <summary>click here to see the home page main section</summary>
 
- - Home main 
-  ![Screenshot](documentation/screenshots/home-main.png)
+ - Home main
+
+  ![Home](documentation/screenshots/home-main.png)
   </details>
 
  - The main section on the second page will contain a multitude of images and again using the colour scheme to design different parts of this section to give a consistent feel.
 
-   <details>
+  <details>
   <summary>click here to see the gallery page main section</summary>
 
- - Gallery main 
-  ![Screenshot](documentation/screenshots/gallery-main.png)
+ - Gallery main
+
+  ![Gallery](documentation/screenshots/gallery-main.png)
   </details>
 
-  - The main section on the third page will contain a form block so the user can fill out some personal details and two buttons to refresh the form and to submit the form where it will then take them to the confirmation page. This section will again follow the same colour scheme as the other sections.
+ - The main section on the third page will contain a form block so the user can fill out some personal details and two buttons to refresh the form and to submit the form where it will then take them to the confirmation page. This section will again follow the same colour scheme as the other sections.
 
-   <details>
+  <details>
   <summary>click here to see the form page main section</summary>
 
  - Form main
-  ![Screenshot](documentation/screenshots/form-main.png)
+
+  ![Form](documentation/screenshots/form-main.png)
   </details>
 
  - The main section of the confirmation page will contain text informing the user that they have successfully filled out the form and some one will be in-touch shortly and that they will be automatically returned to the home page.
 
-   <details>
+  <details>
   <summary>click here to see the confirmation page main section</summary>
 
- - Confirmation main 
-  ![Screenshot](documentation/screenshots/confirm-main.png)
+ - Confirmation main
+
+  ![Confirmation](documentation/screenshots/confirm-main.png)
   </details>
 
  - The main section of the 404 page will contain text informing the user that an error has occurred and they need to go back to the previous page.
 
-   <details>
+  <details>
   <summary>click here to see the 404 page main section</summary>
 
- - 404 main 
-  ![Screenshot](documentation/screenshots/404-main.png)
+ - 404 main
+
+  ![404](documentation/screenshots/404-main.png)
   </details>
 
 #### Navigation
 
   - This will be situated near the top of the site on screen widths smaller than 768px and down the left side on larger. It will contain three buttons so the user can switch between the three main pages. These buttons will be fixed to the screen, so as the user scrolls down, they will not have to scroll back up to change pages. It will follow the colour scheme as the rest of the page.
-   <details>
+  <details>
   <summary>click here to see the navigation sections</summary>
 
  - Small screen Navbar
 
- ![Screenshot](documentation/screenshots/small-navbar.png)
+ ![Small nav](documentation/screenshots/small-navbar.png)
 
  - Large screen Navbar
 
- ![Screenshot](documentation/screenshots/large-navbar.png)
+ ![Large nav](documentation/screenshots/large-navbar.png)
   </details>
 
   - The 404 page navigation will still be featured at the side of the page on screens larger than 767px and at the top on smaller, however it will only contain one button so the user doesn't have to click the back button and can just press the navigation return to previous page button.
 
-   <details>
+  <details>
   <summary>click here to see the 404 navigation section</summary>
 
  - 404 Small screen Navbar
 
- ![404-Small](documentation/screenshots/404-small-navbar.png)
+ ![404 small](documentation/screenshots/404-small-navbar.png)
  
  - 404 Large screen Navbar
 
- ![404-Large](documentation/screenshots/404-large-navbar.png)
+ ![404 large](documentation/screenshots/404-large-navbar.png)
   </details>
 
 #### Footer
 
   - This will be situated at the bottom of each page and will contain external links and videos for the users and will follow a similar colour scheme as the rest of each page.
 
-   <details>
+  <details>
   <summary>click here to see the footer sections</summary>
-  <br>
+
+ - Home footer
+
   ![Home](documentation/screenshots/home-footer.png)
-  <br>
+
+ - Gallery footer
+
   ![Gallery](documentation/screenshots/gallery-footer.png)
-  <br>
+
+ - Form footer
+
   ![Form](documentation/screenshots/form-footer.png)
-  <br>
+  
+ - Confirmation footer
+
   ![Confirmation](documentation/screenshots/confirmation-footer.png)
-  <br>
+
+ - 404 footer
+
   ![404](documentation/screenshots/404-footer.png)
   </details>
 

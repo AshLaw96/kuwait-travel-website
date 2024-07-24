@@ -18,14 +18,6 @@ Feature-by-Feature Testing:
 
 ![Mobile](documentation/screenshots/mobile.jpeg)
 
-- Tablet
-
-![Tablet](documentation)
-
-- Laptop
-
-![Laptop](documentation/screenshots/laptop.jpeg)
-
 - Desktop
 
 ![Desktop](documentation)
@@ -43,22 +35,6 @@ Compatibility Testing:
 
 - Browser Compatibility: I tested on different browsers, to ensure consistent performance.
 
-<details>
-<summary>Click here to see the site on different browsers</summary>
-
-- Firefox
-
-[Firefox](documentation/screenshots/firefox.png)
-
-- Safari
-
-[Safari](documentation) 
-
-- Chrome
-
-[Chrome](documentation/screenshots/chrome.png)
-</details>
-<br>
 - Device Compatibility: I ensured functionality across various devices.
 
 <details>
@@ -68,21 +44,29 @@ Compatibility Testing:
 
 ![Huawei](documentation/screenshots/mobile.jpeg)
 
-- Fire
+- Dell
 
-![Fire](documentation)
+![Dell](documentation/screenshots/chrome.png)
 </details>
 <br>
-- Performance Testing:
-  - Speed and Load Testing: I used PageSpeed Insights to check page load times and optimized where necessary.
-  ![screenshot]()
-  - Scalability Testing: I assessed how the site handled increased traffic.
-  ![screenshot] ()
+Performance Testing:
+
+- Speed and Load Testing: I used PageSpeed Insights to check page load times and optimized where necessary.
+
+![screenshot]()
+
+- Scalability Testing: I assessed how the site handled increased traffic.
+
+![screenshot] ()
+
 Regression Testing:
 
 Documentation and Logs:
 
-  - Whilst inputting my Favicon I notice when screens were in dark mode the image was visibly flawed. To fix this I had to change to a more clearer icon. The issue: [screenshot](documentation/issues/dark-favicon.png). The fix: [screenshot](documentation/issues/light-favicon.png)  
+- Whilst inputting my Favicon I notice when screens were in dark mode the image was visibly flawed. To fix this I had to change to a more clearer icon. 
+  - The issue: [screenshot](documentation/issues/dark-favicon.png) 
+  - The fix: [screenshot](documentation/issues/light-favicon.png)
+  
 User Feedback Incorporation:
 
 ## Code Validation
@@ -103,27 +87,27 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 - [Chrome](https://www.google.com/chrome)
 - [Firefox](https://www.mozilla.org/firefox)
 - [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
+- [Amazon Silk](https://www.amazon.co.uk/Amazon-com-Amazon-Silk-Web-Browser/dp/B01M35MQV4)
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | Gallery | Form | 404 | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | ![screenshot](documentation/browsers/browser-firefox-about.png) | ![screenshot](documentation/browsers/browser-firefox-contact.png) | ![screenshot](documentation/browsers/browser-firefox-etc.png) | Works as expected |
-| Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-about.png) | ![screenshot](documentation/browsers/browser-chrome-edge.png) | ![screenshot](documentation/browsers/browser-edge-etc.png) | Works as expected |
-| Safari | ![screenshot](documentation/browsers/browser-safari-home.png) | ![screenshot](documentation/browsers/browser-safari-about.png) | ![screenshot](documentation/browsers/browser-safari-contact.png) | ![screenshot](documentation/browsers/browser-safari-etc.png) | Works as expected |
+| Browser | Home | Gallery | Form | 404 | Confirmation | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/screenshots/chrome-home.png) | ![screenshot](documentation/screenshots/chrome-gallery.png) | ![screenshot](documentation/screenshots/chrome.png) | ![screenshot](documentation/screenshots/chrome-404.png) | ![screenshot](documentation/screenshots/chrome-confirm.png) | Works as expected |
+| Firefox | ![screenshot](documentation/screenshots/firefox.png) | ![screenshot](documentation/screenshots/firefox-gallery.png) | ![screenshot](documentation/screenshots/firefox-form.png) | ![screenshot](documentation/screenshots/firefox-404.png) | ![screenshot](documentation/screenshots/firefox-confirm.png) | Works as expected |
+| Edge | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Works as expected |
+| Amazon Silk | ![screenshot](documentation/screenshots/tablet.jpeg) | ![screenshot](documentation/screenshots/amazon-gallery.jpeg) | ![screenshot](documentation/screenshots/amazon-form.jpeg) | ![screenshot](documentation/screenshots/amazon-404.jpeg) | ![screenshot](documentation/screenshots/amazon-confirm.jpeg) | Works as expected |
 
 ## Responsiveness
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | Gallery | Form | 404 | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-about.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
-| Tablet | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-about.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | Works as expected |
-| XL Screen | ![screenshot](documentation/responsiveness/responsive-xl-home.png) | ![screenshot](documentation/responsiveness/responsive-xl-about.png) | ![screenshot](documentation/responsiveness/responsive-xl-contact.png) | ![screenshot](documentation/responsiveness/responsive-xl-etc.png) | Scaling starts to have minor issues |
+| Device | Home | Gallery | Form | 404 | Confirmation | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mobile | ![screenshot](documentation) | ![screenshot](documentation/screenshots/mobile.jpeg) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation)  | Works as expected |
+| Tablet | ![screenshot](documentation/screenshots/tablet.jpeg) | ![screenshot](documentation/screenshots/amazon-gallery.jpeg) | ![screenshot](documentation/screenshots/amazon-form.jpeg) | ![screenshot](documentation/screenshots/amazon-404.jpeg) | ![screenshot](documentation/screenshots/amazon-confirm.jpeg) | Works as expected |
+| Desktop | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Works as expected |
+| XL Screen | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Scaling starts to have minor issues |
 
 ## Lighthouse Audit
 

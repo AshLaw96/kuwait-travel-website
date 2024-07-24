@@ -169,42 +169,49 @@ Confirmation
 
 #### Main
 
-  - The main section on the first page will have informative blocks to tell the user about attractions and activities, like restaurants and tours. The text will also inform users of top quality accommodations. The first page will have visual pleasing images and videos of Kuwait. Using the colour scheme to design parts of the main section to make it pop and look professional.
+ - The main section on the first page will have informative blocks to tell the user about attractions and activities, like restaurants and tours. The text will also inform users of top quality accommodations. The first page will have visual pleasing images and videos of Kuwait. Using the colour scheme to design parts of the main section to make it pop and look professional.
+
   <details>
   <summary>click here to see the home page main section</summary>
-  ![Home]()
-  </details>
-  <br>
 
-  - The main section on the second page will contain a multitude of images and again using the colour scheme to design different parts of this section to give a consistent feel.
+ - Home main 
+  ![Screenshot](documentation/screenshots/home-main.png)
+  </details>
+
+ - The main section on the second page will contain a multitude of images and again using the colour scheme to design different parts of this section to give a consistent feel.
 
    <details>
   <summary>click here to see the gallery page main section</summary>
-  ![Gallery]()
+
+ - Gallery main 
+  ![Screenshot](documentation/screenshots/gallery-main.png)
   </details>
-  <br>
 
   - The main section on the third page will contain a form block so the user can fill out some personal details and two buttons to refresh the form and to submit the form where it will then take them to the confirmation page. This section will again follow the same colour scheme as the other sections.
 
    <details>
   <summary>click here to see the form page main section</summary>
-  ![Form]()
-  </details>
-  <br>
 
-   The main section of the confirmation page will contain text informing the user that they have successfully filled out the form and some one will be in-touch shortly and that they will be automatically returned to the home page. This will contain the same layout and colour scheme as the other 3 main pages.
+ - Form main
+  ![Screenshot](documentation/screenshots/form-main.png)
+  </details>
+
+ - The main section of the confirmation page will contain text informing the user that they have successfully filled out the form and some one will be in-touch shortly and that they will be automatically returned to the home page.
 
    <details>
   <summary>click here to see the confirmation page main section</summary>
-  ![Confirmation]()
-  </details>
-  <br>
 
-  - The main section of the 404 page will contain text informing the user that an error has occurred and they need to go back to the previous page.
+ - Confirmation main 
+  ![Screenshot](documentation/screenshots/confirm-main.png)
+  </details>
+
+ - The main section of the 404 page will contain text informing the user that an error has occurred and they need to go back to the previous page.
 
    <details>
   <summary>click here to see the 404 page main section</summary>
-  ![404]()
+
+ - 404 main 
+  ![Screenshot](documentation/screenshots/404-main.png)
   </details>
 
 #### Navigation
@@ -212,20 +219,28 @@ Confirmation
   - This will be situated near the top of the site on screen widths smaller than 768px and down the left side on larger. It will contain three buttons so the user can switch between the three main pages. These buttons will be fixed to the screen, so as the user scrolls down, they will not have to scroll back up to change pages. It will follow the colour scheme as the rest of the page.
    <details>
   <summary>click here to see the navigation sections</summary>
-  <br>
-  ![Home]()
-  <br>
-  ![Gallery]()
-  <br>
-  ![Form]()
-  </details>
-  <br>
 
-  - The 404 page navigation will still be featured at the side of the page but will only contain one button so the user doesn't have to click the back button and can just press the navigation one.
+ - Small screen Navbar
+
+ ![Screenshot](documentation/screenshots/small-navbar.png)
+
+ - Large screen Navbar
+
+ ![Screenshot](documentation/screenshots/large-navbar.png)
+  </details>
+
+  - The 404 page navigation will still be featured at the side of the page on screens larger than 767px and at the top on smaller, however it will only contain one button so the user doesn't have to click the back button and can just press the navigation return to previous page button.
 
    <details>
   <summary>click here to see the 404 navigation section</summary>
-  ![404]()
+
+ - 404 Small screen Navbar
+
+ ![404-Small](documentation/screenshots/404-small-navbar.png)
+ 
+ - 404 Large screen Navbar
+
+ ![404-Large](documentation/screenshots/404-large-navbar.png)
   </details>
 
 #### Footer
@@ -235,15 +250,15 @@ Confirmation
    <details>
   <summary>click here to see the footer sections</summary>
   <br>
-  ![Home]()
+  ![Home](documentation/screenshots/home-footer.png)
   <br>
-  ![Gallery]()
+  ![Gallery](documentation/screenshots/gallery-footer.png)
   <br>
-  ![Form]()
+  ![Form](documentation/screenshots/form-footer.png)
   <br>
-  ![Confirmation]()
+  ![Confirmation](documentation/screenshots/confirmation-footer.png)
   <br>
-  ![404]()
+  ![404](documentation/screenshots/404-footer.png)
   </details>
 
 ## Tools & Technologies Used

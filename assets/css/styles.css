@@ -32,9 +32,7 @@ body {
 h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-decoration: underline;
     font-weight: bolder;
-    font-style: italic;;
 }
 
 h1, h2 {
@@ -231,6 +229,7 @@ main a {
 }
 
 #external-link {
+    color: var(--p-highlight);
     font-size: xx-large;
     font-weight: bolder;
     text-transform: uppercase;

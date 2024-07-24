@@ -269,7 +269,7 @@ I've used [Moqups](https://my.moqups.com/login) to design my site wireframes.
 
 #### Footer
 
-  - This will be situated at the bottom of each page and will contain external links and videos for the users and will follow a similar colour scheme as the rest of each page.
+  - This will be situated at the bottom of each page and will contain social media links for the users and will follow a similar colour scheme as the rest of each page.
 
   <details>
   <summary>click here to see the footer sections</summary>

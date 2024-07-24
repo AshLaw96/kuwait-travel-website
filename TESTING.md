@@ -7,11 +7,30 @@ Feature-by-Feature Testing:
 
 - Navigation: I've ensured smooth transitions between pages and the links direct to the correct destinations.
 - Responsive Design: I have checked for compatibility across various devices and screen sizes.
-
-![Mobile](), ![Tablet](), ![Laptop]()
+- Images/Videos: I have made sure that all images and videos are at high quality on different screen sizes. 
 - Display: I verified that each page were properly showcased with accurate descriptions, images, and links.
 - Form: I tested the form submission process, ensuring the user receives a confirmation message.
 
+<details>
+<summary>Click here to see website on different size devices</summary>
+
+- Mobile
+
+![Mobile](documentation/screenshots/mobile.jpeg)
+
+- Tablet
+
+![Tablet](documentation)
+
+- Laptop
+
+![Laptop](documentation/screenshots/laptop.jpeg)
+
+- Desktop
+
+![Desktop](documentation)
+</details>
+<br>
 User Experience Testing:
 
 - Usability Testing: I had users interact with the site and provide feedback.
@@ -24,17 +43,41 @@ Compatibility Testing:
 
 - Browser Compatibility: I tested on different browsers, to ensure consistent performance.
 
-[Firefox](), [Safari](), [Chrome]()
+<details>
+<summary>Click here to see the site on different browsers</summary>
+
+- Firefox
+
+[Firefox](documentation/screenshots/firefox.png)
+
+- Safari
+
+[Safari](documentation) 
+
+- Chrome
+
+[Chrome](documentation/screenshots/chrome.png)
+</details>
+<br>
 - Device Compatibility: I ensured functionality across various devices.
 
-![Huawei](), ![Fire]()
+<details>
+<summary>Click here to see the site on different devices</summary>
+
+- Huawei
+
+![Huawei](documentation/screenshots/mobile.jpeg)
+
+- Fire
+
+![Fire](documentation)
+</details>
+<br>
 - Performance Testing:
-
-      - Speed and Load Testing: I used PageSpeed Insights to check page load times and optimized where necessary.
-        ![screenshot]()
-
-      - Scalability Testing: I assessed how the site handled increased traffic.
-
+  - Speed and Load Testing: I used PageSpeed Insights to check page load times and optimized where necessary.
+  ![screenshot]()
+  - Scalability Testing: I assessed how the site handled increased traffic.
+  ![screenshot] ()
 Regression Testing:
 
 Documentation and Logs:

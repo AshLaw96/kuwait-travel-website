@@ -28,6 +28,20 @@ body {
     background-color: #9acae7;
 }
 
+main aside {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: var(--s-highlight);
+    box-shadow: 0 0 6px 4px #FFEAAA;
+}
+
+main section {
+    width: 100%;
+    padding: 2em 1em;
+}
+
 /* Title styles */
 h1, h2, h3 {
     text-transform: uppercase;
@@ -86,7 +100,7 @@ header p {
 nav {
     display: none;
     width: 100%;
-    z-index: 2;
+    z-index: 100;
 }
 
 #tab-bar:checked~nav {
@@ -98,32 +112,26 @@ nav {
 }
 
 .tab-label {
-    font-size: 200%;
+    font-size: 2rem;
     cursor: pointer;
-    margin: 5px 0 0 6px;
-    position: fixed;
-    z-index: 100;
+    margin-left: 10px;
 }
 
 #navbar {
     background-color: var(--s-highlight);
-    width: 100%;
-    max-height: 12vh;
     box-shadow: 0 0 6px 4px #FFEAAA;
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    position: fixed;
-    z-index: 99;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 #navbar a {
     font-family: 'Quicksand', sans-serif;
     color: 	var(--s-text);
     text-decoration: none;
-    padding: 2px;
-    display: block;
+    transition: all 0.2s ease-in-out;
 }
 
 #navbar i {
@@ -131,15 +139,7 @@ nav {
 }
 
 #home-nav, #gallery-nav, #form-nav {
-    padding: 1em 0 20px;
-}
-
-#home-nav {
-    padding-left: 5em;
-}
-
-#form-nav {
-    padding-right: 5px;
+    padding-top: 5px;
 }
 
 #navbar a:hover {
@@ -147,19 +147,19 @@ nav {
 }
 
 #navbar a span {
-    display: none;
+    display: block;
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
 }
 
 #navbar a:hover span {
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 
-.current {
+#navbar .current {
     color: var(--p-text);
-}
-
-.current:hover {
-    color: var(--s-text);
 }
 
 /* Home styles */
@@ -191,6 +191,7 @@ main a {
     border-radius: 5px;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .vid-area video {
@@ -211,6 +212,7 @@ main a {
     border-radius: 2%;
     margin: 5px 5px 5px 0;
     box-shadow: 0 0 6px 4px #FFF;
+    object-fit: cover;
 }
 
 #photos img:first-child {
@@ -279,7 +281,7 @@ main a {
 
 #sign-up {
     color: var(--s-text);
-    background-color: var(--p-highlight);
+    background-color: rgba(255, 255, 240, 0.90);
     box-shadow: 0 0 6px 4px #FFF;
     padding: 10px;
     border-radius: 5px;
@@ -371,10 +373,6 @@ button {
     font-size: 170%;
 }
 
-button:hover {
-    color: var(--p-text);
-}
-
 button span {
     display: none;
 }
@@ -392,7 +390,7 @@ button:hover span {
 }
 
 #error-img {
-    width: 100%;;
+    width: 350px;
 }
 
 /* Confirmation styles */
@@ -402,7 +400,7 @@ button:hover span {
     padding: 0 15px;
     text-align: center;
     font-weight: bold;
-    color: var(--s-text);
+    color: var(--p-text);
 }
 
 /* Footer styles */

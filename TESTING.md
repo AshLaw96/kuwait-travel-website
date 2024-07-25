@@ -74,7 +74,7 @@ Documentation and Logs:
 
 - Whilst making my form section, I became aware that my textarea was too small and the placeholder text was cut off slightly. To fix the issue I made the margin bigger so that the height could be increased making all the text visible.
   - The issue: [Issue](documentation/issues/small-textarea.png)
-  - The fix: ![Fix](documentation/issues/big-textarea.png)   
+  - The fix: [Fix](documentation/issues/big-textarea.png)   
 
 User Feedback Incorporation:
 
@@ -86,19 +86,19 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| documentation/screenshot/ | index.html | ![screenshot](documentation) | no errors occurred when checking |
-| documentation/screenshot | gallery.html | ![screenshot](documentation) | no errors occurred when checking |
-| documentation/screenshot | form.html | ![screenshot](documentation) | no errors occurred when checking |
-| documentation/screenshot | 404.html | ![screenshot](documentation) | no errors occurred when checking |
-| documentation/screenshot | conformation.html | ![screenshot](documentation) | no errors occurred when checking |
+| documentation/screenshot/home-check.png | index.html | ![screenshot](documentation/screenshots/home-check.png) | no errors occurred when checking |
+| documentation/screenshot/gallery-check.png | gallery.html | ![screenshot](documentation/screenshots/gallery-check.png) | no errors occurred when checking |
+| documentation/screenshot/form-check.png | form.html | ![screenshot](documentation/screenshots/form-check.png) | no errors occurred when checking |
+| documentation/screenshot/404-check.png | 404.html | ![screenshot](documentation/screenshots/404-check.png) | no errors occurred when checking |
+| documentation/screenshot/confirm-check.png | conformation.html | ![screenshot](documentation/screenshots/confirm-check.png) | no errors occurred when checking |
 
 ### CSS
 
-I have used the recommended [CSS W3C Validator](https://validator.w3.org) to validate my CSS file.
+I have used the recommended [CSS W3C Validator](https://jigsaw.w3.org/css-validator/) to validate my CSS file.
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| documentation/validation/screenshot.png | css.styles | ![screenshot](documentation) | no errors occurred when checking |
+| documentation/screenshots/css-check.png | css.styles | ![screenshot](documentation/screenshots/css-check.png) | no errors occurred when checking |
 
 ## Browser Compatibility
 

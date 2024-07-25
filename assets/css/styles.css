@@ -321,11 +321,11 @@ fieldset {
     margin-bottom: 5px;
 }
 
-#board {
+.board {
     margin-left: 11em;
 }
 
-#board:last-of-type {
+.board:last-of-type {
     margin-bottom: 10px;
 }
 
@@ -333,7 +333,7 @@ fieldset {
     margin: 5px 2px;
 }
 
-#area-of-stay {
+.area-of-stay {
     margin-top: 5px;
 }
 
@@ -482,7 +482,7 @@ footer {
         margin: 5px 0;
     }
 
-    #board {
+    .board {
         margin-left: 22em;
     }
 
@@ -550,7 +550,7 @@ footer {
         font-size: 15px;
     }
 
-    #board {
+    .board {
         margin-left: 20em;
     }
 
@@ -692,7 +692,7 @@ footer {
         font-size: 16px;
     }
 
-    #board {
+    .board {
         margin-left: 27em;
     }
 

@@ -155,9 +155,11 @@ nav {
 }
 
 .current {
-    border: 2px solid var(--p-text);
-    border-radius: 10%;
-    padding: 1px;
+    color: var(--p-text);
+}
+
+.current:hover {
+    color: var(--s-text);
 }
 
 /* Home styles */
@@ -225,51 +227,51 @@ main a {
 }
 
 #external-link {
-    color: var(--p-highlight);
+    color: var(--l-highlight);
     font-size: xx-large;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 2px;
     transform: translate(-50%, -50%);
     text-shadow:
-     0 1px 0 rgb(207, 207, 207), 
-     0 2px 0 rgb(202,202,202),
-     0 3px 0 rgb(197,197,197),
-     0 4px 0 rgb(192,192,192),
-     0 5px 0 rgb(187,187,187),
-     0 6px 0 rgb(182,182,182),
-     0 7px 0 rgb(177,177,177),
-     0 1px 5px rgb(48, 48, 48),
-     0 3px 5px rgb(53, 53, 53),
-     0 5px 10px rgba(58,58,58),
-     0 7px 10px rgba(63,63,63),
-     0 10px 15px rgba(68,68,68);
+     0 1px 0 rgb(30, 152, 91), 
+     0 2px 0 rgb(25,147,86),
+     0 3px 0 rgb(20,142,81),
+     0 4px 0 rgb(15,137,76),
+     0 5px 0 rgb(10,132,71),
+     0 6px 0 rgb(5,127,66),
+     0 7px 0 rgb(0,122,61),
+     0 1px 5px rgb(0, 46, 21),
+     0 3px 5px rgb(5, 51, 26),
+     0 5px 10px rgba(10,56,31),
+     0 7px 10px rgba(15,61,36),
+     0 10px 15px rgba(20,66,41);
     transition: all 0.3s ease-in-out; 
 }
 
 #external-link:hover {
     text-shadow:
-    0 1px 0 rgb(207,207,207),
-    0 2px 0 rgb(202,202,202),
-    0 3px 0 rgb(197,197,197),
-    0 4px 0 rgb(192,192,192),
-    0 5px 0 rgb(187,187,187),
-    0 6px 0 rgb(182,182,182),
-    0 7px 0 rgb(177,177,177),
-    0 8px 0 rgb(172,172,172),
-    0 9px 0 rgb(167,167,167),
-    0 1px 5px rgba(48,48,48),
-    0 5px 5px rgba(53,53,53),
-    0 10px 10px rgba(58,58,58),
-    0 15px 10px rgba(63,63,63),
-    0 20px 15px rgba(68,68,68);
+    0 1px 0 rgb(30,152,91),
+    0 2px 0 rgb(25,147,86),
+    0 3px 0 rgb(20,142,81),
+    0 4px 0 rgb(15,137,76),
+    0 5px 0 rgb(10,132,71),
+    0 6px 0 rgb(5,127,66),
+    0 7px 0 rgb(0,122,61),
+    0 8px 0 rgb(0,117,56),
+    0 9px 0 rgb(0,112,51),
+    0 1px 5px rgba(0,46,21),
+    0 5px 5px rgba(5,51,26),
+    0 10px 10px rgba(10,56,31),
+    0 15px 10px rgba(15,61,36),
+    0 20px 15px rgba(20,66,41);
     transform: translate(-51%,-51%);
     transition: all 0.3s ease-in-out;
 }
 
 /* Form styles */
 #form {
-    background-image: url("../images/pin-map.jpg");
+    background-image: url("../images/pin-map_1.avif");
     background-position: 60%;
     background-size: cover;
     padding: 6em 2em 6em 4em;
@@ -503,6 +505,10 @@ footer {
         flex-direction: column;
         position: absolute;
         justify-content: normal;
+    }
+
+    #navbar.navbar {
+        position: fixed;
     }
 
     #navbar a {

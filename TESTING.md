@@ -77,10 +77,19 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| documentation/validation/screenshot.png | index.html | ![screenshot](documentation/validation/screenshot.png) | no errors occurred when checking |
-| documentation/validation/screenshot.png | gallery.html | ![screenshot](documentation/validation/screenshot.png) | no errors occurred when checking |
-| documentation/validation/screenshot.png | form.html | ![screenshot](documentation/validation/screenshot.png) | no errors occurred when checking |
-| documentation/validation/screenshot.png | 404.html | ![screenshot](documentation/validation/screenshot.png) | no errors occurred when checking |
+| documentation/screenshot/ | index.html | ![screenshot](documentation) | no errors occurred when checking |
+| documentation/screenshot | gallery.html | ![screenshot](documentation) | no errors occurred when checking |
+| documentation/screenshot | form.html | ![screenshot](documentation) | no errors occurred when checking |
+| documentation/screenshot | 404.html | ![screenshot](documentation) | no errors occurred when checking |
+| documentation/screenshot | conformation.html | ![screenshot](documentation) | no errors occurred when checking |
+
+### CSS
+
+I have used the recommended [CSS W3C Validator](https://validator.w3.org) to validate my CSS file.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| documentation/validation/screenshot.png | css.styles | ![screenshot](documentation) | no errors occurred when checking |
 
 ## Browser Compatibility
 

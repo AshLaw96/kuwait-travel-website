@@ -100,7 +100,6 @@ header p {
 nav {
     display: none;
     width: 100%;
-    z-index: 100;
 }
 
 #tab-bar:checked~nav {
@@ -112,7 +111,7 @@ nav {
 }
 
 .tab-label {
-    font-size: 2rem;
+    font-size: 35px;
     cursor: pointer;
     margin-left: 10px;
 }
@@ -131,7 +130,7 @@ nav {
     font-family: 'Quicksand', sans-serif;
     color: 	var(--s-text);
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #navbar i {
@@ -367,30 +366,35 @@ fieldset {
 
 /* 404 styles */
 button {
-    margin: 10px 5em;
+    padding-top: 5px;
     background-color: transparent;
     color: var(--s-text);
     font-size: 170%;
+    border: none;
 }
 
 button span {
-    display: none;
+    display: block;
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
 }
 
 button:hover span {
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 
 #error-wrap {
     text-align: center;
-    font-size: 150%;
+    font-size: 25px;
     font-weight: bold;
     color: var(--p-text);
     padding: 0 10px;
 }
 
 #error-img {
-    width: 350px;
+    width: 300px;
 }
 
 /* Confirmation styles */
@@ -423,6 +427,7 @@ footer {
     font-size: 150%;
     padding: 4%;
     color: var(--s-text);
+    transition: all 0.3s ease-in-out;
 }
 
 #socials i:hover {
@@ -444,7 +449,6 @@ footer {
     #photos {
         column-count: 2;
         column-gap: 0;
-        margin: 0 5px 0 40px;
     }
 
     #photos img:first-child {
@@ -480,7 +484,7 @@ footer {
 
     /* Error styles */
     #error-img {
-        width: 500px;
+        width: 350px;
     }
 }
 
@@ -492,51 +496,18 @@ footer {
         line-height: 20px;
     }
 
-    aside {
-        position: sticky;
-        top: 0;
-    }
-
-    #navbar {
-        max-width: 11%;
-        min-height: 100vh;
-        flex-direction: column;
-        position: absolute;
-        justify-content: normal;
-    }
-
-    #navbar.navbar {
-        position: fixed;
-    }
-
     #navbar a {
-        font-size: 130%;
-        position: fixed;
-        margin-left: 2px;
+        font-size: 150%;
     }
 
-    #home-nav, #gallery-nav, #form-nav {
-        padding-top: 9em;   
-    }
-
-    #home-nav {
-        padding-left: 0;
-    }
-
-    #form-nav {
-        padding-right: 0;
-    }
-
-    #navbar a span {
-        transform: rotate(-90deg);
-        margin-bottom: 38px;
-        padding: 23px 0 40px;
+    #socials i {
+        font-size: 200%;
     }
 
     /* Home styles */
     .block {
         max-width: 83%;
-        margin-left: 6.6em;
+        margin-left: 4em;
     }
 
     .img-area {
@@ -554,9 +525,9 @@ footer {
     }
 
     #sign-up {
-        margin-left: 1em;
         max-width: 75%;
-        margin-left: 14%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     fieldset {
@@ -610,19 +581,13 @@ footer {
     }
 
     button {
-        margin: 3em 10px;
-        font-size: 130%;
-    }
-
-    button span {
-        transform: rotate(-90deg);
-        padding: 20px 0;
+        font-size: 180%;
     }
     
     #error-wrap {
-        font-size: 160%;
+        font-size: 32px;
         line-height: 45px;
-        margin-left: 4em;
+        padding-bottom: 20px;
     }
 
     /* Confirmation styles */
@@ -648,22 +613,8 @@ footer {
         line-height: 25px;
     }
 
-    #home-nav, #gallery-nav, #form-nav {
-        padding-bottom: 3px;
-    }
-
-    #navbar {
-        max-width: 7%;
-    }
-
     #navbar a {
-        font-size: 125%;
-        margin-left: 0;
-    }
-
-    #navbar a span {
-        margin-bottom: 34px;
-        padding: 22px 0;
+        font-size: 170%;
     }
 
      /* Home styles */
@@ -674,17 +625,13 @@ footer {
     #home-section-wrap {
         display: flex;
         flex-direction: column;
-        padding-right: 12px;
     }
 
     .block {
-        display: flex;
         max-width: 52%;
     }
 
     .txt-area-1, .txt-area-2, .txt-area-3 {
-        flex-direction: column;
-        margin-bottom: auto;
         margin-left: auto;
         z-index: 1;
     }
@@ -704,14 +651,6 @@ footer {
 
     .img-area {
         height: 600px;
-    }
-
-    .vid-area {
-        height: 550px;
-    }
-
-    #home-footer {
-        margin-top: 2em;
     }
 
     /* Gallery styles */
@@ -777,12 +716,11 @@ footer {
     }
 
     button {
-        margin: 3em 5px;
-        font-size: 125%;
+        font-size: 200%;
     }
     
     #error-wrap {
-        font-size: 170%;
+        font-size: 40px;
     }
 
     /* Confirmation styles */
@@ -798,20 +736,12 @@ footer {
 
 /* Large screens */
 @media screen and (min-width: 1200px) {
-    .tab-label {
-        font-size: 220%;
-    }
-
     header p {
         padding: 12px 0;
     }
 
-    #home-nav, #gallery-nav, #form-nav {
-        margin: 20px 0;
-    }
-
     #navbar a {
-        font-size: 170%;
+        font-size: 200%;
     }
 
     /* Home styles */
@@ -827,12 +757,8 @@ footer {
         height: 37em;
     }
 
-    .vid-area {
-        height: 35em;
-    }
-
     #socials i {
-        font-size: 200%;
+        font-size: 250%;
     }
     
     /* Gallery styles */
@@ -847,7 +773,6 @@ footer {
 
     #sign-up {
         max-width: 55%;
-        margin-left: 19%;
     }
 
     /* 404 styles */
@@ -856,10 +781,6 @@ footer {
     }
 
     #navbar button i {
-        font-size: 300%
-    }
-    
-    #error-wrap {
-        font-size: 180%;
+        font-size: 250%
     }
 }

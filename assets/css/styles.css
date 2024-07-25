@@ -205,6 +205,10 @@ main a {
 }
 
 /* Gallery styles */
+#hide {
+    display: none;
+}
+
 #photos img {
     width: 85%;
     float: right;

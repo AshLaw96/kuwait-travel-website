@@ -11,24 +11,13 @@ Feature-by-Feature Testing:
 - Display: I verified that each page were properly showcased with accurate descriptions, images, and links.
 - Form: I tested the form submission process, ensuring the user receives a confirmation message.
 
-<details>
-<summary>Click here to see website on different size devices</summary>
-
-- Mobile
-
-![Mobile](documentation/screenshots/mobile.jpeg)
-
-- Desktop
-
-![Desktop](documentation)
-</details>
-<br>
 User Experience Testing:
 
 - Usability Testing: I had users interact with the site and provide feedback.
 1. 
 2.
 3.
+
 - Accessibility Testing: I checked screen reader compatibility, proper alt text for images, and keyboard navigation would work.
 
 Compatibility Testing:
@@ -37,36 +26,56 @@ Compatibility Testing:
 
 - Device Compatibility: I ensured functionality across various devices.
 
-<details>
-<summary>Click here to see the site on different devices</summary>
-
-- Huawei
-
-![Huawei](documentation/screenshots/mobile.jpeg)
-
-- Dell
-
-![Dell](documentation/screenshots/chrome.png)
-</details>
-<br>
 Performance Testing:
 
 - Speed and Load Testing: I used PageSpeed Insights to check page load times and optimized where necessary.
 
-![screenshot]()
+<details>
+<summary>Click here to see the speed tests of each page</summary>
 
+- Home
+
+![screenshot](documentation/screenshots/home-speed.png)
+
+- Gallery
+
+![screenshot](documentation/screenshots/gallery-speed.png)
+
+- Form
+
+![screenshot](documentation/screenshots/form-speed.png)
+
+- 404
+
+![screenshot](documentation/screenshots/404-speed.png)
+
+- Confirmation
+
+![screenshot](documentation/screenshots/confirm-speed.png)
+</details>
+<br>
 - Scalability Testing: I assessed how the site handled increased traffic.
-
-![screenshot] ()
 
 Regression Testing:
 
 Documentation and Logs:
 
-- Whilst inputting my Favicon I notice when screens were in dark mode the image was visibly flawed. To fix this I had to change to a more clearer icon. 
-  - The issue: [screenshot](documentation/issues/dark-favicon.png) 
-  - The fix: [screenshot](documentation/issues/light-favicon.png)
-  
+- Whilst inputting my Favicon, I noticed when screens were in dark mode the image was visibly flawed. To fix this I had to change to a more clearer icon. 
+  - The issue: [Issue](documentation/issues/dark-favicon.png) 
+  - The fix: [Fix](documentation/issues/light-favicon.png)
+
+- Whilst designing my navigation bar, I noticed the height did not reached the desired height. To fix this required me to increase the vh to the height required.
+  - The issue: [Issue](documentation/issues/bad-navbar-length.png)
+  - The fix: [Fix](documentation/issues/good-navbar-length.png)
+
+- Whilst completing the form, I became aware that my second fieldset was overlapping the width of my screen. To fix this I needed to change the width of my internal elements.
+  - The issue: [Issue](documentation/issues/fieldset-large.png)
+  - The fix: [Fix](documentation/issues/fieldset-small.png)
+
+- Whilst making my form section, I became aware that my textarea was too small and the placeholder text was cut off slightly. To fix the issue I made the margin bigger so that the height could be increased making all the text visible.
+  - The issue: [Issue](documentation/issues/small-textarea.png)
+  - The fix: ![Fix](documentation/issues/big-textarea.png)   
+
 User Feedback Incorporation:
 
 ## Code Validation

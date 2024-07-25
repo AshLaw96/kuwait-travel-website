@@ -306,7 +306,7 @@ I've used [Moqups](https://my.moqups.com/login) to design my site wireframes.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
 - [![Moqups](https://img.shields.io/badge/Moqups-grey?logo=moqups&logoColor=0096FF)](https://moqups.com/) used for creating wireframes.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
-
+- [Short Pixel](https://img.shields.io/badge/Short_Pixel-grey?logo=shortpixel&logoColor=)(https://shortpixel.com/online-image-compression) used for compressing images.
 ## Testing
 
 > [!NOTE]  

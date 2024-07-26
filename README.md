@@ -70,7 +70,7 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 - As a returning site user, I would like to be able to keep my details in the form, so that I don't have to refill it every time I leave the site and return at a later date.
 - As a returning site user, I would like to be able to click on images and see them full-screen, so that I can see any particular image clearer.
 - As a returning site user, I would like to have easy to understand the information given, so that I can tell others about it.
-- As a returning site user, I would like to watch more videos, so that I can see different food establishments.
+- As a returning site user, I would like to watch more videos, so that I can see different food establishments etc.
 - As a returning site user, I would like to be able to click on links that take me to specific accommodation, so that I can find out more about what they have to offer.
 
 ## Wireframes
@@ -240,32 +240,11 @@ I've used [Moqups](https://my.moqups.com/login) to design my site wireframes.
 
 #### Navigation
 
-  - This will be situated near the top of the site on screen widths smaller than 768px and down the left side on larger. It will contain three buttons so the user can switch between the three main pages. These buttons will be fixed to the screen, so as the user scrolls down, they will not have to scroll back up to change pages. It will follow the colour scheme as the rest of the page.
-  <details>
-  <summary>click here to see the navigation sections</summary>
+  - This will be situated near the top of the site below the header but when scrolled down the screen it will stick to the top of the page so users won't have to scroll back up to change pages. It will contain three buttons so the user can switch between the three main pages. It will follow the colour scheme as the rest of the page.
+ ![Nav](documentation/screenshots/small-navbar.png)
 
- - Small screen Navbar
-
- ![Small nav](documentation/screenshots/small-navbar.png)
-
- - Large screen Navbar
-
- ![Large nav](documentation/screenshots/large-navbar.png)
-  </details>
-
-  - The 404 page navigation will still be featured at the side of the page on screens larger than 767px and at the top on smaller, however it will only contain one button so the user doesn't have to click the back button and can just press the navigation return to previous page button.
-
-  <details>
-  <summary>click here to see the 404 navigation section</summary>
-
- - 404 Small screen Navbar
-
+  - The 404 page navigation will still be featured at the top of the screen with the same concept as the other 3 main pages, however it will only contain one button so the user doesn't have to click the back button and can just press the navigation return to previous page button.
  ![404 small](documentation/screenshots/404-small-navbar.png)
- 
- - 404 Large screen Navbar
-
- ![404 large](documentation/screenshots/404-large-navbar.png)
-  </details>
 
 #### Footer
 
@@ -294,6 +273,16 @@ I've used [Moqups](https://my.moqups.com/login) to design my site wireframes.
 
   ![404](documentation/screenshots/404-footer.png)
   </details>
+
+### Future Features
+
+1. To add a potential visa page for different countries with information about why and how they can require these.
+2. To add a google translate button that will automatically translate the language to the users desired dialect.
+3. To add a drag bar for a minimum and maximum price range for the user to pick their desired price, in the form section.
+4. To add checkboxes for the user to pick what star rating they would like for accommodations, in the form section.
+5. To add a enlarge button on each image so that the user can see the pictures on full screen.
+6. Add PHP to collect data from the form every time a user submits it.
+7. Add JavaScript to save users information so each time they return to the form they don't have to refill it each time.  
 
 ## Tools & Technologies Used
 
@@ -356,7 +345,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-
+- No differences where found between the local version deployed and the live version. 
 
 ## Credits
 

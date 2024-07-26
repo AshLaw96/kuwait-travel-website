@@ -77,7 +77,7 @@ Documentation and Logs:
   - The issue: [Issue](documentation/issues/small-textarea.png)
   - The fix: [Fix](documentation/issues/big-textarea.png)   
 
-- Whilst checking my HTML validator, I found out that for correct validation some of my main content needed <h1-h6> to be correct. To fix the issue I added <h3 id="hide"> and used the id selector to hide the title. 
+- Whilst checking my HTML validator, I found out that for correct validation some of my main content needed h1-h6 to be correct. To fix the issue I added h3 and used an id selector to hide the title. 
   - The issue: [Issue](documentation/screenshots/no-title.png)
   - The fix: [Fix](documentation/screenshots/title.png) 
 
@@ -113,6 +113,7 @@ I have used the recommended [CSS W3C Validator](https://jigsaw.w3.org/css-valida
 - [Firefox](https://www.mozilla.org/firefox)
 - [Bing](https://www.bing.com/)
 - [Amazon Silk](https://www.amazon.co.uk/Amazon-com-Amazon-Silk-Web-Browser/dp/B01M35MQV4)
+- [Edge](https://www.microsoft.com/en-gb/edge?form=MA13FJ)
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
@@ -122,6 +123,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Firefox | ![screenshot](documentation/screenshots/firefox.png) | ![screenshot](documentation/screenshots/firefox-gallery.png) | ![screenshot](documentation/screenshots/firefox-form.png) | ![screenshot](documentation/screenshots/firefox-404.png) | ![screenshot](documentation/screenshots/firefox-confirm.png) | Works as expected |
 | Bing | ![screenshot](documentation/screenshots/home-xl.jpeg) | ![screenshot](documentation/screenshots/gallery-xl.jpeg) | ![screenshot](documentation/screenshots/form-xl.jpeg) | ![screenshot](documentation/screenshots/404-xl.jpeg) | ![screenshot](documentation/screenshots/confirm-xl.jpeg) | Works as expected |
 | Amazon Silk | ![screenshot](documentation/screenshots/tablet.jpeg) | ![screenshot](documentation/screenshots/amazon-gallery.jpeg) | ![screenshot](documentation/screenshots/amazon-form.jpeg) | ![screenshot](documentation/screenshots/amazon-404.jpeg) | ![screenshot](documentation/screenshots/amazon-confirm.jpeg) | Works as expected |
+| Edge | ![screenshot](documentation/screenshots/home-edge.jpeg) | ![screenshot](documentation/screenshots/gallery-edge.jpeg) | ![screenshot](documentation/screenshots/form-edge.jpeg) | ![screenshot](documentation/screenshots/404-edge.jpeg) | ![screenshot](documentation/screenshots/confirm-edge.jpeg) | Works as expected |
 
 ## Responsiveness
 

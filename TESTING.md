@@ -133,11 +133,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation) | ![screenshot](documentation) | Some minor warnings |
-| Gallery | ![screenshot](documentation) | ![screenshot](documentation) | Some minor warnings |
-| Form | ![screenshot](documentation) | ![screenshot](documentation) | Some minor warnings |
-| 404 | ![screenshot](documentation) | ![screenshot](documentation) | Some minor warnings |
-| Confirmation | ![screenshot](documentation) | ![screenshot](documentation) | Some minor warnings |
+| Home | ![screenshot](documentation/screenshots/home-lighthouse-mob.png) | ![screenshot](documentation/screenshots/home-lighthouse.png) | Some warnings |
+| Gallery | ![screenshot](documentation/screenshots/gallery-lighthouse-mob.png) | ![screenshot](documentation/screenshots/gallery-lighthouse.png) | Some warnings |
+| Form | ![screenshot](documentation/screenshots/form-lighthouse-mob.png) | ![screenshot](documentation/screenshots/form-lighthouse.png) | Some minor warnings |
+| 404 | ![screenshot](documentation/screenshots/404-lighthouse-mob.png) | ![screenshot](documentation/screenshots/404-lighthouse.png) | Some minor warnings |
+| Confirmation | ![screenshot](documentation/screenshots/confirm-lighthouse-mob.png) | ![screenshot](documentation/screenshots/confirm-lighthouse.png) | Some minor warnings |
 
 ## User Story Testing
 

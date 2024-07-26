@@ -22,18 +22,18 @@ Kuwait Escapes, will have a home page that has wealth of information to help use
 
 ### Colour Scheme
 
- - The tone of the desert, such as sand, sun and clouds will be the basis for the colour scheme. I will also integrate the red, green, black and white which make up the colours of the Kuwait flag.
-   - `#CE1126` used for primary text.
-   - `#FFFFF0` used for primary highlights.
-   - `#FF7B1F` used for secondary text.
-   - `#F2DDA0` used for secondary highlights.
-   - `#007A3D` used for links.
-   - `#9ACAE7` used for background colour.
-   - `#000` used for different elements.
-   - `#FFF` used for shadows.
-   - `#FFEAAA` used for shadows.
+- The tone of the desert, such as sand, sun and clouds will be the basis for the colour scheme. I will also integrate the red, green, black and white which make up the colours of the Kuwait flag.
+  - `#CE1126` used for primary text.
+  - `#FFFFF0` used for primary highlights.
+  - `#FF7B1F` used for secondary text.
+  - `#F2DDA0` used for secondary highlights.
+  - `#007A3D` used for links.
+  - `#9ACAE7` used for background colour.
+  - `#000` used for different elements.
+  - `#FFF` used for shadows.
+  - `#FFEAAA` used for shadows.
 
-I used [coolors.co](https://coolors.co/ce1126-fffff0-ff7b1f-f2dda0-007a3d) to generate my colour palette.
+I used [coolors.co](https://coolors.co/ce1126-fffff0-ff7b1f-f2dda0-007a3d-ffffff-000000-ffeaaa-9acae7) to generate my colour palette.
 
 ![Colours](documentation/screenshots/colours.png)
 
@@ -160,10 +160,10 @@ I've used [Moqups](https://my.moqups.com/login) to design my site wireframes.
 
 #### Header
 
- - The header contains the title of the current page, a background image or background colour and a brief description of what that page holds.
+The header contains the title of the current page, a background image or background colour and a brief description of what that page holds.
 
-  <details>
-  <summary>click here to see the Headers for each page</summary>
+<details>
+<summary>click here to see the Headers for each page</summary>
 
  - Home header
 
@@ -184,74 +184,74 @@ I've used [Moqups](https://my.moqups.com/login) to design my site wireframes.
  - 404 header
 
   ![404](documentation/screenshots/404-header.png)
-  </details>
+</details>
 
 #### Main
 
- - The main section on the first page will have informative blocks to tell the user about attractions and activities, like restaurants and tours. The text will also inform users of top quality accommodations. The first page will have visual pleasing images and videos of Kuwait. Using the colour scheme to design parts of the main section to make it pop and look professional.
+- The main section on the first page will have informative blocks to tell the user about attractions and activities, like restaurants and tours. The text will also inform users of top quality accommodations. The first page will have visual pleasing images and videos of Kuwait. Using the colour scheme to design parts of the main section to make it pop and look professional.
 
-  <details>
-  <summary>click here to see the home page main section</summary>
+<details>
+<summary>click here to see the home page main section</summary>
 
  - Home main
 
   ![Home](documentation/screenshots/home-main.png)
-  </details>
+</details>
 
- - The main section on the second page will contain a multitude of images and again using the colour scheme to design different parts of this section to give a consistent feel.
+- The main section on the second page will contain a multitude of images and again using the colour scheme to design different parts of this section to give a consistent feel.
 
-  <details>
-  <summary>click here to see the gallery page main section</summary>
+<details>
+<summary>click here to see the gallery page main section</summary>
 
  - Gallery main
 
   ![Gallery](documentation/screenshots/gallery-main.png)
-  </details>
+</details>
 
- - The main section on the third page will contain a form block so the user can fill out some personal details and two buttons to refresh the form and to submit the form where it will then take them to the confirmation page. This section will again follow the same colour scheme as the other sections.
+- The main section on the third page will contain a form block so the user can fill out some personal details and two buttons to refresh the form and to submit the form where it will then take them to the confirmation page. This section will again follow the same colour scheme as the other sections.
 
-  <details>
-  <summary>click here to see the form page main section</summary>
+<details>
+<summary>click here to see the form page main section</summary>
 
  - Form main
 
   ![Form](documentation/screenshots/form-main.png)
-  </details>
+</details>
 
- - The main section of the confirmation page will contain text informing the user that they have successfully filled out the form and some one will be in-touch shortly and that they will be automatically returned to the home page.
+- The main section of the confirmation page will contain text informing the user that they have successfully filled out the form and some one will be in-touch shortly and that they will be automatically returned to the home page.
 
-  <details>
-  <summary>click here to see the confirmation page main section</summary>
+<details>
+<summary>click here to see the confirmation page main section</summary>
 
  - Confirmation main
 
   ![Confirmation](documentation/screenshots/confirm-main.png)
-  </details>
+</details>
 
- - The main section of the 404 page will contain text informing the user that an error has occurred and they need to go back to the previous page.
+- The main section of the 404 page will contain text informing the user that an error has occurred and they need to go back to the previous page.
 
-  <details>
-  <summary>click here to see the 404 page main section</summary>
+<details>
+<summary>click here to see the 404 page main section</summary>
 
  - 404 main
 
   ![404](documentation/screenshots/404-main.png)
-  </details>
+</details>
 
 #### Navigation
 
-  - This will be situated near the top of the site below the header but when scrolled down the screen it will stick to the top of the page so users won't have to scroll back up to change pages. It will contain three buttons so the user can switch between the three main pages. It will follow the colour scheme as the rest of the page.
- ![Nav](documentation/screenshots/small-navbar.png)
+- This will be situated near the top of the site below the header but when scrolled down the screen it will stick to the top of the page so users won't have to scroll back up to change pages. It will contain three buttons so the user can switch between the three main pages. It will follow the colour scheme as the rest of the page.
+  - ![Nav](documentation/screenshots/small-navbar.png)
 
-  - The 404 page navigation will still be featured at the top of the screen with the same concept as the other 3 main pages, however it will only contain one button so the user doesn't have to click the back button and can just press the navigation return to previous page button.
- ![404 small](documentation/screenshots/404-small-navbar.png)
+- The 404 page navigation will still be featured at the top of the screen with the same concept as the other 3 main pages, however it will only contain one button so the user doesn't have to click the back button and can just press the navigation return to previous page button.
+  - ![404 small](documentation/screenshots/404-small-navbar.png)
 
 #### Footer
 
-  - This will be situated at the bottom of each page and will contain social media links for the users and will follow a similar colour scheme as the rest of each page.
+This will be situated at the bottom of each page and will contain social media links for the users and will follow a similar colour scheme as the rest of each page.
 
-  <details>
-  <summary>click here to see the footer sections</summary>
+<details>
+<summary>click here to see the footer sections</summary>
 
  - Home footer
 
@@ -272,7 +272,7 @@ I've used [Moqups](https://my.moqups.com/login) to design my site wireframes.
  - 404 footer
 
   ![404](documentation/screenshots/404-footer.png)
-  </details>
+</details>
 
 ### Future Features
 
@@ -345,7 +345,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-- No differences where found between the local version deployed and the live version. 
+No differences where found between the local version deployed and the live version. 
 
 ## Credits
 

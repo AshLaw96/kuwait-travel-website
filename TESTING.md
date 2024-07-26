@@ -133,7 +133,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | --- | --- | --- | --- | --- | --- | --- |
 | Mobile | ![screenshot](documentation/screenshots/mob-home.jpeg) | ![screenshot](documentation/screenshots/mobile.jpeg) | ![screenshot](documentation/screenshots/mob-form.jpeg) | ![screenshot](documentation/screenshots/mob-404.jpeg) | ![screenshot](documentation/screenshots/mob-confirm.jpeg)  | Works as expected |
 | Tablet | ![screenshot](documentation/screenshots/tablet.jpeg) | ![screenshot](documentation/screenshots/amazon-gallery.jpeg) | ![screenshot](documentation/screenshots/amazon-form.jpeg) | ![screenshot](documentation/screenshots/amazon-404.jpeg) | ![screenshot](documentation/screenshots/amazon-confirm.jpeg) | Works as expected |
-| Desktop | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Works as expected |
+| Desktop | ![screenshot](documentation/screenshots/home-edge.jpeg) | ![screenshot](documentation/screenshots/gallery-edge.jpeg) | ![screenshot](documentation/screenshots/form-edge.jpeg) | ![screenshot](documentation/screenshots/404-edge.jpeg) | ![screenshot](documentation/screenshots/confirm-edge.jpeg) | Works as expected |
 | XL Screen | ![screenshot](documentation/screenshots/home-xl.jpeg) | ![screenshot](documentation/screenshots/gallery-xl.jpeg) | ![screenshot](documentation/screenshots/form-xl.jpeg) | ![screenshot](documentation/screenshots/404-xl.jpeg) | ![screenshot](documentation/screenshots/confirm-xl.jpeg) | Layout has slight issues |
 
 ## Lighthouse Audit

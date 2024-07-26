@@ -54,9 +54,10 @@ Performance Testing:
 ![screenshot](documentation/screenshots/confirm-speed.png)
 </details>
 <br>
+
 - Scalability Testing: I assessed how the site handled increased traffic.
 
-Regression Testing:
+- Regression Testing: I ensured that all features and functionalities worked as intended. 
 
 Documentation and Logs:
 
@@ -75,8 +76,6 @@ Documentation and Logs:
 - Whilst making my form section, I became aware that my textarea was too small and the placeholder text was cut off slightly. To fix the issue I made the margin bigger so that the height could be increased making all the text visible.
   - The issue: [Issue](documentation/issues/small-textarea.png)
   - The fix: [Fix](documentation/issues/big-textarea.png)   
-
-User Feedback Incorporation:
 
 ## Code Validation
 
@@ -160,6 +159,29 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | As a site administrator, I should be able to monitor how many users click on certain external links, so that I can update links if needed. | (https://marketingplatform.google.com/intl/en_uk/about/analytics/) |
 
 ## Bugs
+
+<details>
+<summary>Click here to view all images of found bugs</summary>
+
+- Dark Favicon
+
+  ![Dark-Favicon](documentation/issues/dark-favicon.png)
+
+- Small Navbar Height
+
+  ![Small-Navbar-Height](documentation/issues/bad-navbar-length.png)
+
+- Over Large Fieldset Border
+
+  ![Over-Large-Fieldset-Border](documentation/issues/fieldset-large.png)
+
+- Cut Off Placeholder Textarea
+
+  ![Cut-Off-Placeholder-Textarea](documentation/issues/small-textarea.png)
+</details>
+<br>
+
+- I will be more informative and not include full stops in future commits.
 
 > [!NOTE]  
 > There are no remaining bugs that I am aware of.

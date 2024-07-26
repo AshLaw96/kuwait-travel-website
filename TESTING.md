@@ -14,11 +14,11 @@ Feature-by-Feature Testing:
 User Experience Testing:
 
 - Usability Testing: I had users interact with the site and provide feedback.
-1.  (Person has been to Kuwait)
-2.  (Person wants to visit Kuwait)
-3.  (Person didn't to visit Kuwait)
+1. My first usability test was a mid-20s woman who considered herself a seasoned traveler who had been to Kuwait in the past year. She thought that the website reflected what the country had to offer well & enjoyed how people could pick their preferred location on the booking page, something which she would have liked when she booked her trip. She viewed this on her mobile and explained how it was easy to navigate and switch between pages thanks to the navigation bar always being present at the top. (Person has been to Kuwait)
+2. A second interviewee was a 60-year-old gentleman who has not been to Kuwait but would like to visit in his lifetime. As an older subject, he thought it was an easy to navigate website which didn't overload him with information, but just enough for him to get a feel of how a trip could look for him. He especially enjoyed the range of accommodation on offer and liked the idea of hotels or self-catering accommodation. He also explained how the website links for accommodation were really helpful with brief descriptions helping decide which to explore further. He viewed this on his laptop and enjoyed that new tabs opened for each link, so he could go back and revisit pages. (Person wants to visit Kuwait)
+3. The final person who used my website was a single mum in her 30s who hadn't known much about Kuwait as she holidays with her young son alone, so somewhere she never thought was an option. After seeing everything on offer through my website she explained how she would consider looking into the country more for a holiday as there was great knowledge on what to do, where to go and places to eat. She especially liked the gallery page as this gave her an insight as to what a holiday could look like for her. She mentioned how the gallery showcased a range of things, not anything specific. She viewed this on her phone and said it was easy to navigate, but thought there could be more in-depth information about visas & other minors things to consider when traveling such as money and holiday insurance. (Person didn't to visit Kuwait)
 
-- Accessibility Testing: I checked screen reader compatibility, proper alt text for images, and keyboard navigation would work.
+Accessibility Testing: I checked screen reader compatibility, proper alt text for images, and keyboard navigation would work.
 
 Compatibility Testing:
 
@@ -55,9 +55,9 @@ Performance Testing:
 </details>
 <br>
 
-- Scalability Testing: I assessed how the site handled increased traffic.
+Scalability Testing: I assessed how the site handled increased traffic.
 
-- Regression Testing: I ensured that all features and functionalities worked as intended. 
+Regression Testing: I ensured that all features and functionalities worked as intended. 
 
 Documentation and Logs:
 

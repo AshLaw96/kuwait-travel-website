@@ -104,7 +104,7 @@ I have used the recommended [CSS W3C Validator](https://jigsaw.w3.org/css-valida
 
 - [Chrome](https://www.google.com/chrome)
 - [Firefox](https://www.mozilla.org/firefox)
-- [Edge](https://www.microsoft.com/edge)
+- [Bing](https://www.bing.com/)
 - [Amazon Silk](https://www.amazon.co.uk/Amazon-com-Amazon-Silk-Web-Browser/dp/B01M35MQV4)
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
@@ -113,7 +113,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | --- | --- | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/screenshots/chrome-home.png) | ![screenshot](documentation/screenshots/chrome-gallery.png) | ![screenshot](documentation/screenshots/chrome.png) | ![screenshot](documentation/screenshots/chrome-404.png) | ![screenshot](documentation/screenshots/chrome-confirm.png) | Works as expected |
 | Firefox | ![screenshot](documentation/screenshots/firefox.png) | ![screenshot](documentation/screenshots/firefox-gallery.png) | ![screenshot](documentation/screenshots/firefox-form.png) | ![screenshot](documentation/screenshots/firefox-404.png) | ![screenshot](documentation/screenshots/firefox-confirm.png) | Works as expected |
-| Edge | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Works as expected |
+| Bing | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Works as expected |
 | Amazon Silk | ![screenshot](documentation/screenshots/tablet.jpeg) | ![screenshot](documentation/screenshots/amazon-gallery.jpeg) | ![screenshot](documentation/screenshots/amazon-form.jpeg) | ![screenshot](documentation/screenshots/amazon-404.jpeg) | ![screenshot](documentation/screenshots/amazon-confirm.jpeg) | Works as expected |
 
 ## Responsiveness

@@ -77,6 +77,14 @@ Documentation and Logs:
   - The issue: [Issue](documentation/issues/small-textarea.png)
   - The fix: [Fix](documentation/issues/big-textarea.png)   
 
+- Whilst checking my HTML validator, I found out that for correct validation some of my main content needed <h1-h6> to be correct. To fix the issue I added <h3 id="hide"> and used the id selector to hide the title. 
+  - The issue: [Issue](documentation/screenshots/no-title.png)
+  - The fix: [Fix](documentation/screenshots/title.png) 
+
+- Whilst testing my HTML, I found out that I used the same id for multiple inputs on my form page. To fix this I changed the id of each and added a class indicator that was the same for each input.
+  - The issue: [Issue](documentation/screenshots/same-id.png)
+  - The fix: [Fix](documentation/screenshots/mix-id.png) 
+
 ## Code Validation
 
 ### HTML
@@ -178,6 +186,14 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 - Cut Off Placeholder Textarea
 
   ![Cut-Off-Placeholder-Textarea](documentation/issues/small-textarea.png)
+
+- No Title
+
+  ![No-title](documentation/screenshots/no-title.png)
+
+- Same ID
+
+  ![Same-ID](documentation/screenshots/same-id.png)
 </details>
 <br>
 

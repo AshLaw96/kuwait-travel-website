@@ -143,19 +143,21 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to be able to quickly find where to stop, so that I can move on to decide what to pack. | ![screenshot](documentation) |
-| As a new site user, I would like to change pages without having to scroll to the top of the screen, so that I can. | ![screenshot](documentation) |
-| As a new site user, I would like to see a variety of images, so that I can see what Kuwait looks like. | ![screenshot](documentation) |
-| As a new site user, I would like to see videos of what activities can be done, so that I can decide what I would like to do when I'm there. | ![screenshot](documentation) |
-| As a new site user, I would like to be able to follow the websites social media, so that I can keep up to date with any new information. | ![screenshot](documentation) |
-| As a returning site user, I would like to be able to keep my details in the form, so that I don't have to refill it every time I leave the site and return at a later date. | ![screenshot](documentation) |
-| As a returning site user, I would like to be able to click on images and see them full-screen, so that I can see any particular image clearer. | ![screenshot](documentation) |
-| As a returning site user, I would like to be able to easily understand the information given, so that I can tell others about it. | ![screenshot](documentation) |
-| As a returning site user, I would like to watch more videos, so that I can see different food establishments. | ![screenshot](documentation) |
-| As a returning site user, I would like to be able to click on links that take me to specific accommodation, so that I can find out more about what they have to offer. | ![screenshot](documentation) |
-| As a site administrator, I should be able to see statistics, so that I can monitor the websites usage. | ![screenshot](documentation) |
-| As a site administrator, I should be able to be notified when a user submits the form, so that I can examine the information provided and reply. | ![screenshot](documentation) |
-| As a site administrator, I should be able to monitor how many users click on certain external links, so that I can update links if needed. | ![screenshot](documentation/) |
+| As a new site user, I would like to be able to quickly find where to stop, so that I can move on to decide what to pack. | ![screenshot](documentation/screenshots/lodgings.png) |
+| As a new site user, I would like to change pages without having to scroll to the top of the screen, so that I can. | ![screenshot](documentation/screenshots/navigation.png) |
+| As a new site user, I would like to see a variety of images, so that I can see what Kuwait looks like. | ![screenshot](documentation/screenshots/photos.png) |
+| As a new site user, I would like to see videos of what activities can be done, so that I can decide what I would like to do when I'm there. | ![screenshot](documentation/screenshots/activity-vids.png) |
+| As a new site user, I would like to be able to follow the websites social media, so that I can keep up to date with any new information. | ![screenshot](documentation/screenshots/socials.png) |
+| --- | --- |
+| As a returning site user, I would like to be able to keep my details in the form, so that I don't have to refill it every time I leave the site and return at a later date. | (JavaScript required) |
+| As a returning site user, I would like to be able to click on images and see them full-screen, so that I can see any particular image clearer. | (Potential future add) |
+| As a returning site user, I would like to be able to easily understand the information given, so that I can tell others about it. | ![screenshot](documentation/screenshots/txt.png) |
+| As a returning site user, I would like to watch more videos, so that I can see different food establishments. | ![screenshot](documentation/screenshots/food-vids.png) |
+| As a returning site user, I would like to be able to click on links that take me to specific accommodation, so that I can find out more about what they have to offer. | ![screenshot](documentation/screenshots/link-stays.png) |
+| --- | --- |
+| As a site administrator, I should be able to see statistics, so that I can monitor the websites usage. | (https://www.semrush.com/partner/semrushprotrial_11535?irclickid=WlL2EuwIYxyKRa30qrT6uyWVUkC2t-WFA2u4w80&irgwc=1) |
+| As a site administrator, I should be able to be notified when a user submits the form, so that I can examine the information provided and reply. | (PHP required) |
+| As a site administrator, I should be able to monitor how many users click on certain external links, so that I can update links if needed. | (https://marketingplatform.google.com/intl/en_uk/about/analytics/) |
 
 ## Bugs
 

@@ -5,7 +5,7 @@
 
 Feature-by-Feature Testing:
 
-- Navigation: I've ensured smooth transitions between pages and the links direct to the correct destinations.
+- Navigation: I've ensured smooth transitions between pages and the links directed to the correct destinations.
 - Responsive Design: I have checked for compatibility across various devices and screen sizes.
 - Images/Videos: I have made sure that all images and videos are at high quality on different screen sizes. 
 - Display: I verified that each page were properly showcased with accurate descriptions, images, and links.
@@ -14,9 +14,9 @@ Feature-by-Feature Testing:
 User Experience Testing:
 
 - Usability Testing: I had users interact with the site and provide feedback.
-1. 
-2.
-3.
+1.  (Person has been to Kuwait)
+2.  (Person wants to visit Kuwait)
+3.  (Person didn't to visit Kuwait)
 
 - Accessibility Testing: I checked screen reader compatibility, proper alt text for images, and keyboard navigation would work.
 
@@ -112,7 +112,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | --- | --- | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/screenshots/chrome-home.png) | ![screenshot](documentation/screenshots/chrome-gallery.png) | ![screenshot](documentation/screenshots/chrome.png) | ![screenshot](documentation/screenshots/chrome-404.png) | ![screenshot](documentation/screenshots/chrome-confirm.png) | Works as expected |
 | Firefox | ![screenshot](documentation/screenshots/firefox.png) | ![screenshot](documentation/screenshots/firefox-gallery.png) | ![screenshot](documentation/screenshots/firefox-form.png) | ![screenshot](documentation/screenshots/firefox-404.png) | ![screenshot](documentation/screenshots/firefox-confirm.png) | Works as expected |
-| Bing | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Works as expected |
+| Bing | ![screenshot](documentation/screenshots/home-xl.jpeg) | ![screenshot](documentation/screenshots/gallery-xl.jpeg) | ![screenshot](documentation/screenshots/form-xl.jpeg) | ![screenshot](documentation/screenshots/404-xl.jpeg) | ![screenshot](documentation/screenshots/confirm-xl.jpeg) | Works as expected |
 | Amazon Silk | ![screenshot](documentation/screenshots/tablet.jpeg) | ![screenshot](documentation/screenshots/amazon-gallery.jpeg) | ![screenshot](documentation/screenshots/amazon-form.jpeg) | ![screenshot](documentation/screenshots/amazon-404.jpeg) | ![screenshot](documentation/screenshots/amazon-confirm.jpeg) | Works as expected |
 
 ## Responsiveness
@@ -124,7 +124,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Mobile | ![screenshot](documentation/screenshots/mob-home.jpeg) | ![screenshot](documentation/screenshots/mobile.jpeg) | ![screenshot](documentation/screenshots/mob-form.jpeg) | ![screenshot](documentation/screenshots/mob-404.jpeg) | ![screenshot](documentation/screenshots/mob-confirm.jpeg)  | Works as expected |
 | Tablet | ![screenshot](documentation/screenshots/tablet.jpeg) | ![screenshot](documentation/screenshots/amazon-gallery.jpeg) | ![screenshot](documentation/screenshots/amazon-form.jpeg) | ![screenshot](documentation/screenshots/amazon-404.jpeg) | ![screenshot](documentation/screenshots/amazon-confirm.jpeg) | Works as expected |
 | Desktop | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Works as expected |
-| XL Screen | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | ![screenshot](documentation) | Scaling starts to have minor issues |
+| XL Screen | ![screenshot](documentation/screenshots/home-xl.jpeg) | ![screenshot](documentation/screenshots/gallery-xl.jpeg) | ![screenshot](documentation/screenshots/form-xl.jpeg) | ![screenshot](documentation/screenshots/404-xl.jpeg) | ![screenshot](documentation/screenshots/confirm-xl.jpeg) | Layout has slight issues |
 
 ## Lighthouse Audit
 

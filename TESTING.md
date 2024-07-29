@@ -8,7 +8,7 @@ Feature-by-Feature Testing:
 - Navigation: I've ensured smooth transitions between pages and the links directed to the correct destinations.
 - Responsive Design: I have checked for compatibility across various devices and screen sizes.
 - Images/Videos: I have made sure that all images and videos are at high quality on different screen sizes. 
-- Display: I verified that each page were properly showcased with accurate descriptions, images, and links.
+- Display: I verified that each page was properly showcased with accurate descriptions, images and links.
 - Form: I tested the form submission process, ensuring the user receives a confirmation message.
 
 User Experience Testing:
@@ -16,9 +16,9 @@ User Experience Testing:
 - Usability Testing: I had users interact with the site and provide feedback.
 1. My first usability test was a mid-20s woman who considered herself a seasoned traveler who had been to Kuwait in the past year. She thought that the website reflected what the country had to offer well & enjoyed how people could pick their preferred location on the booking page, something which she would have liked when she booked her trip. She viewed this on her mobile and explained how it was easy to navigate and switch between pages thanks to the navigation bar always being present at the top. (Person has been to Kuwait)
 2. A second interviewee was a 60-year-old gentleman who has not been to Kuwait but would like to visit in his lifetime. As an older subject, he thought it was an easy to navigate website which didn't overload him with information, but just enough for him to get a feel of how a trip could look for him. He especially enjoyed the range of accommodation on offer and liked the idea of hotels or self-catering accommodation. He also explained how the website links for accommodation were really helpful with brief descriptions helping decide which to explore further. He viewed this on his laptop and enjoyed that new tabs opened for each link, so he could go back and revisit pages. (Person wants to visit Kuwait)
-3. The final person who used my website was a single mum in her 30s who hadn't known much about Kuwait as she holidays with her young son alone, so somewhere she never thought was an option. After seeing everything on offer through my website she explained how she would consider looking into the country more for a holiday as there was great knowledge on what to do, where to go and places to eat. She especially liked the gallery page as this gave her an insight as to what a holiday could look like for her. She mentioned how the gallery showcased a range of things, not anything specific. She viewed this on her phone and said it was easy to navigate, but thought there could be more in-depth information about visas & other minors things to consider when traveling such as money and holiday insurance. (Person didn't to visit Kuwait)
+3. The final person who used my website was a single mum in her 30s who hadn't known much about Kuwait as she holidays with her young son alone, so somewhere she never thought was an option. After seeing everything on offer through my website she explained how she would consider looking into the country more for a holiday as there was great knowledge on what to do, where to go and places to eat. She especially liked the gallery page as this gave her an insight as to what a holiday could look like for her. She mentioned how the gallery showcased a range of things, not anything specific. She viewed this on her phone and said it was easy to navigate, but thought there could be more in-depth information about visas & other minors things to consider when traveling such as money and holiday insurance. (Person doesn't want to visit Kuwait)
 
-Accessibility Testing: I checked screen reader compatibility, proper alt text for images, and keyboard navigation would work.
+Accessibility Testing: I checked the screen readers compatibility, proper alt text for images, and that the keyboard navigation would work.
 
 Compatibility Testing:
 
@@ -61,7 +61,7 @@ Regression Testing: I ensured that all features and functionalities worked as in
 
 Documentation and Logs:
 
-- Whilst inputting my Favicon, I noticed when screens were in dark mode the image was visibly flawed. To fix this I had to change to a more clearer icon. 
+- Whilst inputting my Favicon, I noticed when screens were in dark mode the image was visibly flawed. To fix this I had to change to a clearer icon. 
   - The issue: [Issue](documentation/issues/dark-favicon.png) 
   - The fix: [Fix](documentation/issues/light-favicon.png)
 
@@ -153,10 +153,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | User Story | Screenshot |
 | --- | --- |
 | As a new site user, I would like to be able to quickly find where to stop, so that I can move on to decide what to pack. | ![screenshot](documentation/screenshots/lodgings.png) |
-| As a new site user, I would like to change pages without having to scroll to the top of the screen, so that I can. | ![screenshot](documentation/screenshots/navigation.png) |
+| As a new site user, I would like to change pages without having to scroll to the top of the screen, so that I can quickly navigate the site. | ![screenshot](documentation/screenshots/navigation.png) |
 | As a new site user, I would like to see a variety of images, so that I can see what Kuwait looks like. | ![screenshot](documentation/screenshots/photos.png) |
 | As a new site user, I would like to see videos of what activities can be done, so that I can decide what I would like to do when I'm there. | ![screenshot](documentation/screenshots/activity-vids.png) |
-| As a new site user, I would like to be able to follow the websites social media, so that I can keep up to date with any new information. | ![screenshot](documentation/screenshots/socials.png) |
+| As a new site user, I would like to be able to follow the websites social media's, so that I can keep up to date with any new information. | ![screenshot](documentation/screenshots/socials.png) |
 | --- | --- |
 | As a returning site user, I would like to be able to keep my details in the form, so that I don't have to refill it every time I leave the site and return at a later date. | (JavaScript required) |
 | As a returning site user, I would like to be able to click on images and see them full-screen, so that I can see any particular image clearer. | (Potential future add) |

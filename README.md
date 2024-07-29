@@ -6,9 +6,9 @@
 
 # Kuwait Escapes
 
-Kuwait Escapes is a travel website hoping to both encourage and inform people to visit Kuwait and explore all of it Arabian wonders. 
+Kuwait Escapes is a travel website hoping to both encourage and inform people to visit Kuwait and explore all of its Arabian wonders. 
 
-Users enticed on to the website, will find an abundance of information about the top attractions, the most beautiful sceneries, and the most exceptional accommodations they can stop at if they visit the country of Kuwait. The demographic of the site is directed to anyone going or wanting to go explore Kuwait.
+Users visiting the website will find an abundance of information about the top attractions, the most beautiful sceneries, and the most exceptional accommodations they can stop at if they visit the country of Kuwait. The demographic of the site is directed to anyone going or wanting to go explore Kuwait.
 
 ![responsiveness](documentation/screenshots/mockup.png)
 
@@ -16,9 +16,9 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://ashlaw96.github
 
 ## UX
 
-The purpose of Kuwait Escapes is to help the user avoid travel headaches and the stress of finding the perfect accommodation and activities to do.
+The purpose of Kuwait Escapes is to help the user avoid travel headaches and the stress of finding the perfect accommodation, and activities on offer.
 
-Kuwait Escapes, will have a home page that has wealth of information to help users with their holiday worries. There will then be a gallery page to visually allure the user with the beautiful sites of Kuwait. The final page will contain a form that the user can fill out with basic personal information, which when submitted will take the user to a confirmation page letting them know that someone will be in touch.   
+Kuwait Escapes will have a home page that has a wealth of information to help users with their holiday worries. There will be a gallery page to visually allure the user with the beautiful sites of Kuwait. The final page will contain a form that the user can fill out with basic personal information, which when submitted will take the user to a confirmation page letting them know that someone will be in touch.   
 
 ### Colour Scheme
 
@@ -60,16 +60,16 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 ### New Site Users
 
 - As a new site user, I would like to be able to quickly find where to stop, so that I can move on to decide what to pack.
-- As a new site user, I would like to change pages without having to scroll to the top of the screen, so that I can .
+- As a new site user, I would like to change pages without having to scroll to the top of the screen, so that I can quickly navigate the site.
 - As a new site user, I would like to see a variety of images, so that I can see what Kuwait looks like.
 - As a new site user, I would like to see videos of what activities can be done, so that I can decide what I would like to do when I'm there.
-- As a new site user, I would like to be able to follow the websites social media, so that I can keep up to date with any new information.
+- As a new site user, I would like to be able to follow the websites social media's, so that I can keep up-to-date with any new information.
 
 ### Returning Site Users
 
 - As a returning site user, I would like to be able to keep my details in the form, so that I don't have to refill it every time I leave the site and return at a later date.
 - As a returning site user, I would like to be able to click on images and see them full-screen, so that I can see any particular image clearer.
-- As a returning site user, I would like to have easy to understand the information given, so that I can tell others about it.
+- As a returning site user, I would like to have easy to understand information, so that I can tell others about it.
 - As a returning site user, I would like to watch more videos, so that I can see different food establishments etc.
 - As a returning site user, I would like to be able to click on links that take me to specific accommodation, so that I can find out more about what they have to offer.
 
@@ -277,10 +277,10 @@ This will be situated at the bottom of each page and will contain social media l
 ### Future Features
 
 1. To add a potential visa page for different countries with information about why and how they can require these.
-2. To add a google translate button that will automatically translate the language to the users desired dialect.
+2. To add a Google Translate button that will automatically translate to the users preferred language.
 3. To add a drag bar for a minimum and maximum price range for the user to pick their desired price, in the form section.
-4. To add checkboxes for the user to pick what star rating they would like for accommodations, in the form section.
-5. To add a enlarge button on each image so that the user can see the pictures on full screen.
+4. To add checkboxes for the user to pick what star rating they would like for accommodations in the form section.
+5. To add an enlarge button on each image so that the user can see the pictures on full screen.
 6. Add PHP to collect data from the form every time a user submits it.
 7. Add JavaScript to save users information so each time they return to the form they don't have to refill it each time.  
 
@@ -296,6 +296,7 @@ This will be situated at the bottom of each page and will contain social media l
 - [![Moqups](https://img.shields.io/badge/Moqups-grey?logo=moqups&logoColor=0096FF)](https://moqups.com/) used for creating wireframes.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
 - [![Short Pixel](https://img.shields.io/badge/Short_Pixel-grey?logo=probot&logoColor=116C7E)](https://shortpixel.com/online-image-compression) used for compressing images.
+- [![Google Fonts](https://img.shields.io/badge/Google_Fonts-grey?logo=googlefonts&logoColour=4285F4)](https://googlefonts.com) used for text font.
 ## Testing
 
 > [!NOTE]  

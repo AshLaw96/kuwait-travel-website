@@ -19,6 +19,15 @@
     --l-highlight: #007A3D;
 }
 
+/* Color Utilities */
+.text-p { color: var(--p-text) !important; }
+.text-s { color: var(--s-text) !important; }
+.text-l { color: var(--l-highlight) !important; }
+
+.bg-p { background-color: var(--p-highlight) !important; }
+.bg-s { background-color: var(--s-highlight) !important; }
+.bg-l { background-color: var(--l-highlight) !important; }
+
 body {
     font-family: 'Quicksand', sans-serif;
     min-height: 100vh;
@@ -33,7 +42,6 @@ main aside {
     top: 0;
     width: 100%;
     height: 40px;
-    background-color: var(--s-highlight);
     box-shadow: 0 0 6px 4px #FFEAAA;
     z-index: 999;
 }
@@ -54,13 +62,12 @@ h1, h2 {
     text-align: center;
     margin: auto 5px;
     padding: 2px;
-    color: var(--p-text);
-    background-color: rgba(242, 221, 160, 0.8);
     border-radius: 5px;
 }
 
 h1 {
     font-size: 220%;
+    background-color: rgba(242, 221, 160, 0.8);
 }
 
 h2 {
@@ -76,7 +83,6 @@ header {
 
 header p {
     background-color: rgba(242, 221, 160, 0.8);
-    color: var(--p-text);
     text-align: center;
     padding: 4px 2px;
     line-height: 16px;
@@ -97,94 +103,126 @@ header p {
     margin: 5px;
 }
 
-/* Navbar styles with dropdown button */
-nav {
-    display: none;
-    width: 100%;
-}
-
-#tab-bar:checked~nav {
-    display: block;
-}
-
+/* Hide original nav toggle input */
 #tab-bar {
-    display: none;
+  display: none;
 }
 
-.tab-label {
-    font-size: 35px;
-    cursor: pointer;
-    margin-left: 10px;
+/* Navbar container */
+.navbar-custom {
+  background-color: var(--s-highlight);
+  box-shadow: 0 0 6px 4px #FFEAAA;
 }
 
-#navbar {
-    background-color: var(--s-highlight);
-    box-shadow: 0 0 6px 4px #FFEAAA;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
+/* Navbar links */
+.navbar-custom .nav-link {
+  color: var(--s-text);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding-top: 5px;
 }
 
-#navbar a {
-    font-family: 'Quicksand', sans-serif;
-    color: 	var(--s-text);
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
+/* Icon inside nav links */
+.navbar-custom .nav-link i {
+  font-size: 170%;
 }
 
-#navbar i {
-    font-size: 170%;
+/* Show spans on hover (like current style) */
+.navbar-custom .nav-link span {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
+  font-weight: 500;
 }
 
-#home-nav, #gallery-nav, #form-nav {
-    padding-top: 5px;
+.navbar-custom .nav-link:hover span {
+  visibility: visible;
+  opacity: 1;
 }
 
-#navbar a:hover {
-    color: var(--p-text)
+/* Hover and active states */
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  color: var(--p-text);
 }
 
-#navbar a span {
-    display: block;
-    visibility: hidden;
-    text-align: center;
-    opacity: 0;
+/* Center nav items with spacing */
+.navbar-nav {
+  justify-content: space-evenly;
+  width: 100%;
 }
 
-#navbar a:hover span {
-    visibility: visible;
-    opacity: 1;
+/* Bootstrap toggler button style override */
+.navbar-custom .navbar-toggler {
+  border-color: var(--s-text);
+  font-size: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: var(--s-text);
 }
 
-#navbar .current {
-    color: var(--p-text);
+.navbar-custom .navbar-toggler-icon {
+  display: none; /* Hide default icon */
 }
 
-/* Home styles */
+/* Use FontAwesome bars icon inside toggler */
+.navbar-custom .navbar-toggler i.fa-bars {
+  font-size: 35px;
+  color: var(--s-text);
+}
+
+/* General block styling */
 .block {
     background-color: var(--p-highlight);
     color: var(--p-text);
     max-width: 80%;
-    border-radius: 2%;
-    margin: 2em 0 0 3rem;
+    border-radius: 8px;
+    margin: 2em auto 2em auto; /* Center blocks horizontally */
     font-size: 18px;
     box-shadow: 0 0 6px 4px #FFF;
+    padding: 1.25rem; /* add padding inside the block */
 }
 
+/* Use Bootstrap container margin, so we reduce redundant margins on block */
+.container > .block {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Anchor links inside main */
 main a {
     color: var(--l-highlight);
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.25rem; /* equivalent to 20px */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
+main a:hover,
+main a:focus {
+    text-decoration: underline;
+}
+
+/* Text areas padding */
 .txt-area-1, .txt-area-2, .txt-area-3 {
-    padding: 5px;
+    padding: 0.5rem;
 }
 
+/* Specific margin for last text area */
+.txt-area-3 {
+    margin-bottom: 2rem;
+}
+
+/* Image area */
 .img-area {
-    height: 20em;
+    height: 20em; /* fixed height */
+    overflow: hidden; /* crop overflow */
 }
 
 .img-area img {
@@ -194,15 +232,12 @@ main a {
     object-fit: cover;
 }
 
+/* Video area */
 .vid-area video {
     border-radius: 5px;
     width: 100%;
-    height: 100%;
+    height: auto; /* maintain aspect ratio */
     object-fit: contain;
-}
-
-.txt-area-3 {
-    margin-bottom: 2rem;
 }
 
 /* Gallery styles */
@@ -415,32 +450,15 @@ button:hover span {
 /* Footer styles */
 footer {
     background-color: var(--s-highlight);
-    width: 100%;
-    margin-top: auto;
-    z-index: 1; 
-}
-
-#socials {
-    text-align: center;
-    padding: 25px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
 }
 
 #socials i {
-    font-size: 150%;
-    padding: 4%;
     color: var(--s-text);
     transition: all 0.3s ease-in-out;
 }
 
 #socials i:hover {
     color: var(--p-text);
-}
-
-#gallery-footer {
-    margin-top: 10px;
 }
 
 /* landscape mobiles */

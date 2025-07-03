@@ -37,15 +37,6 @@ body {
     background-color: #9acae7;
 }
 
-main aside {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: 40px;
-    box-shadow: 0 0 6px 4px #FFEAAA;
-    z-index: 999;
-}
-
 main section {
     width: 100%;
     padding: 2em 1em;
@@ -66,12 +57,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 220%;
     background-color: rgba(242, 221, 160, 0.8);
-}
-
-h2 {
-    font-size: 200%;
 }
 
 /* Header styles */
@@ -189,12 +175,6 @@ header p {
     padding: 1.25rem; /* add padding inside the block */
 }
 
-/* Use Bootstrap container margin, so we reduce redundant margins on block */
-.container > .block {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
 /* Anchor links inside main */
 main a {
     color: var(--l-highlight);
@@ -246,69 +226,13 @@ main a:focus {
 }
 
 #photos img {
-    width: 85%;
-    float: right;
-    border-radius: 2%;
-    margin: 5px 5px 5px 0;
-    box-shadow: 0 0 6px 4px #FFF;
+    width: 100%; /* Let Bootstrap cols handle width */
+    height: 100%;
     object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 6px 2px #FFF;
 }
 
-#photos img:first-child {
-    margin-top: 2rem;
-}
-
-#photos img:last-child {
-    margin-bottom: 1rem;
-}
-
-#external-link-wrap {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#external-link {
-    color: var(--l-highlight);
-    font-size: xx-large;
-    font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transform: translate(-50%, -50%);
-    text-shadow:
-     0 1px 0 rgb(30, 152, 91), 
-     0 2px 0 rgb(25,147,86),
-     0 3px 0 rgb(20,142,81),
-     0 4px 0 rgb(15,137,76),
-     0 5px 0 rgb(10,132,71),
-     0 6px 0 rgb(5,127,66),
-     0 7px 0 rgb(0,122,61),
-     0 1px 5px rgb(0, 46, 21),
-     0 3px 5px rgb(5, 51, 26),
-     0 5px 10px rgba(10,56,31),
-     0 7px 10px rgba(15,61,36),
-     0 10px 15px rgba(20,66,41);
-    transition: all 0.3s ease-in-out; 
-}
-
-#external-link:hover {
-    text-shadow:
-    0 1px 0 rgb(30,152,91),
-    0 2px 0 rgb(25,147,86),
-    0 3px 0 rgb(20,142,81),
-    0 4px 0 rgb(15,137,76),
-    0 5px 0 rgb(10,132,71),
-    0 6px 0 rgb(5,127,66),
-    0 7px 0 rgb(0,122,61),
-    0 8px 0 rgb(0,117,56),
-    0 9px 0 rgb(0,112,51),
-    0 1px 5px rgba(0,46,21),
-    0 5px 5px rgba(5,51,26),
-    0 10px 10px rgba(10,56,31),
-    0 15px 10px rgba(15,61,36),
-    0 20px 15px rgba(20,66,41);
-    transform: translate(-51%,-51%);
-    transition: all 0.3s ease-in-out;
-}
 
 /* Form styles */
 #form {
@@ -316,6 +240,15 @@ main a:focus {
     background-position: 60%;
     background-size: cover;
     padding: 6em 2em 6em 4em;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.btn-success {
+    letter-spacing: 2px;
 }
 
 #sign-up {

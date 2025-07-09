@@ -239,102 +239,35 @@ main a:focus {
     background-image: url("../images/pin-map_1.avif");
     background-position: 60%;
     background-size: cover;
-    padding: 6em 2em 6em 4em;
+    padding: 2em 1em;
 }
 
-.card-title {
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-}
-
-.btn-success {
-    letter-spacing: 2px;
-}
-
-#sign-up {
-    color: var(--s-text);
-    background-color: rgba(255, 255, 240, 0.90);
-    box-shadow: 0 0 6px 4px #FFF;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 5px;
-    font-family: 'Quicksand', sans-serif;
+.card {
+    border-radius: 0.75rem;
 }
 
 fieldset {
-    border: 1px solid var(--s-text);
-    margin: 2px 2px 25px 2px;
-    padding: 5px;
-    font-family: 'Quicksand', sans-serif;
+  border: 1px solid var(--s-text);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
 }
 
-#form label {
-    display: block;
+legend {
+  font-weight: 600;
+  color: var(--p-text);
+  padding-inline: 0.5rem;
 }
 
-.details {
-    background: transparent;
-    height: 30px;
-    width: 98%;
-    margin: 5px 2px 8px 2px;
-    padding: 0 5px;
-    font-family: 'Quicksand', sans-serif;
+.bg-transparent-light {
+  /* ivory tone with 90% opacity */
+  background-color: rgba(255, 255, 240, 0.9);
 }
 
-::placeholder {
-    color: #000;
-    opacity: 0.8;
-}
-
-#packages {
-    margin-bottom: 5px;
-}
-
-.board {
-    margin-left: 11em;
-}
-
-.board:last-of-type {
-    margin-bottom: 10px;
-}
-
-#area-wrap {
-    margin: 5px 2px;
-}
-
-.area-of-stay {
-    margin-top: 5px;
-}
-
-#area-wrap .options-label {
-    display: inline-block;
-}
-
-.area-text {
-    background: transparent;
-    width: 100%;
-    min-height: 100px;
-    opacity: 0.6;
-    border: 3px inset #000;
-}
-
-#terms-wrap {
-    text-align: center;
-}
-
-.form-button {
-    border-radius: 4px;
-    font-size: 100%;
-    width: 100%;
-    margin-top: 20px;
-    padding: 7px 16px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.form-button:hover {
-    background-color: var(--p-text);
+form input,
+form textarea,
+form select {
+  padding: 0.5rem;
 }
 
 /* 404 styles */
@@ -368,16 +301,6 @@ button:hover span {
 
 #error-img {
     width: 300px;
-}
-
-/* Confirmation styles */
-#confirm-wrap {
-    font-size: 160%;
-    margin-top: 40%;
-    padding: 0 15px;
-    text-align: center;
-    font-weight: bold;
-    color: var(--p-text);
 }
 
 /* Footer styles */

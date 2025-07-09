@@ -28,54 +28,40 @@
 .bg-s { background-color: var(--s-highlight) !important; }
 .bg-l { background-color: var(--l-highlight) !important; }
 
-body {
+html, body {
     font-family: 'Quicksand', sans-serif;
-    min-height: 100vh;
-    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #9acae7;
 }
 
-main section {
-    width: 100%;
-    padding: 2em 1em;
+main {
+    flex: 1;
 }
 
 /* Title styles */
 h1, h2, h3 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 2px;
     font-weight: bolder;
 }
 
-h1, h2 {
-    text-align: center;
-    margin: auto 5px;
-    padding: 2px;
-    border-radius: 5px;
-}
-
-h1 {
+header h1, header h2 {
     background-color: rgba(242, 221, 160, 0.8);
 }
 
 /* Header styles */
 header {
-    width: 100%;
-    display: flex;
     background: url("../images/header.webp") no-repeat center center/cover;
 }
 
 header p {
     background-color: rgba(242, 221, 160, 0.8);
-    text-align: center;
     padding: 4px 2px;
     line-height: 16px;
     font-size: 16px;
     font-weight: 600;
-    margin: 5% 4px 5%;
-    border-radius: 5px;
 }
 
 /* 404 styles (header) */
@@ -165,13 +151,13 @@ header p {
 
 /* General block styling */
 .block {
-    background-color: var(--p-highlight);
+    background-color: var(--s-highlight);
     color: var(--p-text);
     max-width: 80%;
     border-radius: 8px;
     margin: 2em auto 2em auto; /* Center blocks horizontally */
     font-size: 18px;
-    box-shadow: 0 0 6px 4px #FFF;
+    box-shadow: 0 0 6px 4px #FFEAAA;
     padding: 1.25rem; /* add padding inside the block */
 }
 

@@ -57,23 +57,48 @@
         </div>
     </nav>
 
-    <main>
-        <section class="container py-5 text-center text-p">
+    <main id="form" class="d-flex align-items-center">
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-10 col-lg-8">
-                    <h3 class="visually-hidden">Confirm</h3>
-                    <p class="fs-3 fw-bold">
+                <div class="col-12 col-md-8 col-lg-6">
+                    
+                    <!-- The Ivory Card -->
+                    <div class="card shadow-lg border-0 rounded-4 overflow-hidden bg-transparent-light text-center p-5">
+                        
+                        <!-- Success Icon -->
+                        <div class="mb-4">
+                            <i class="fa-solid fa-circle-check text-success display-1"></i>
+                        </div>
+
+                        <h2 class="text-p fw-bold mb-3">Submission Received!</h2>
+                        
+                        <div class="card-body">
+                            <p class="fs-4 fw-semibold text-p">
                     You have successfully completed the form. 📝
                     </p>
-                    <p class="fs-4 fw-semibold">
-                    A member of our team will aim to be in touch with you within the next 48hrs. ⏳
+                            
+                            <p class="text-muted mb-4">
+                                A member of our team will aim to be in touch with you within the next <strong>48hrs</strong>. ⏳
                     </p>
-                    <p class="fs-5 fw-semibold">
-                    You will be automatically redirected to the home page in 30 seconds.
-                    </p>
+
+                            <!-- Manual Actions -->
+                            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                <!-- Home Button with House Icon -->
+                                <a href="index.html" class="btn btn-success btn-lg px-4 gap-3 fw-bold">
+                                    <i class="fa-solid fa-house me-2"></i>Return Home Now
+                                </a>
+                                
+                                <!-- Contact Button with Headset Icon -->
+                                <a href="contact.html" class="btn btn-outline-secondary btn-lg px-4">
+                                    <i class="fa-solid fa-headset me-2"></i>Contact Support
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     
     <!-- Footer -->

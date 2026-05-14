@@ -60,120 +60,140 @@
             </div>
         </nav>
         
-        <!-- Main content -->
-        <main>
-            <section id="form">
-                <div class="container-fluid py-4">
-                    <div class="row justify-content-center">
-                        <div class="col-12 px-3">
-                            <div class="card bg-transparent-light shadow p-4 w-100">
-                                <h3 class="text-center mb-4 text-s">Sign up</h3>
+        <!-- Main Content -->
+        <main id="form" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-lg-8 col-xl-7">
+                        
+                        <div class="card shadow-lg border-0 rounded-4 overflow-hidden bg-transparent-light">
+                            <div class="card-header bg-s text-center py-3">
+                                <h3 class="text-p mb-0 fw-bold">Sign Up</h3>
+                            </div>
+                            
+                            <div class="card-body p-4 p-md-5">
                                 <form action="confirmation.html" id="sign-up">
+                                    
                                     <!-- Personal Details -->
-                                    <fieldset class="mb-4">
-                                        <legend>Personal Details <i class="fa-solid fa-id-card"></i></legend>
-
+                                    <fieldset class="mb-5">
+                                        <legend class="fw-bold text-p border-bottom pb-2 mb-4">
+                                            Personal Details <i class="fa-solid fa-id-card ms-2 text-success"></i>
+                                        </legend>
+                                        
                                         <div class="mb-3">
-                                            <label for="full-name" class="form-label">Full Name</label>
-                                            <input type="text" id="full-name" name="full-name" class="form-control" required placeholder="Name required">
+                                            <label for="full-name" class="form-label fw-semibold">Full Name</label>
+                                            <input type="text" id="full-name" name="full-name" class="form-control form-control-lg" required placeholder="John Doe">
                                         </div>
-
+                                        
                                         <div class="mb-3">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="email" id="email" name="email" class="form-control" required placeholder="Email required">
+                                            <label for="email" class="form-label fw-semibold">Email</label>
+                                            <input type="email" id="email" name="email" class="form-control form-control-lg" required placeholder="email@example.com">
                                         </div>
                                     </fieldset>
-
+                                    
                                     <!-- Travel Details -->
-                                    <fieldset class="mb-4">
-                                        <legend>Travel Details <i class="fa-solid fa-globe"></i></legend>
-
-                                        <div class="row mb-3">
+                                    <fieldset class="mb-5">
+                                        <legend class="fw-bold text-p border-bottom pb-2 mb-4">
+                                            Travel Details <i class="fa-solid fa-globe ms-2 text-success"></i>
+                                        </legend>
+                                        
+                                        <div class="row g-3 mb-4">
                                             <div class="col-md-6">
-                                                <label for="adults" class="form-label">Adults</label>
-                                                <input type="number" id="adults" name="adults" class="form-control" required min="1" placeholder="Total required">
+                                                <label for="adults" class="form-label fw-semibold">Adults</label>
+                                                <input type="number" id="adults" name="adults" class="form-control" required min="1" value="1">
                                             </div>
-                                        <div class="col-md-6">
-                                            <label for="child" class="form-label">Children</label>
-                                            <input type="number" id="child" name="child" class="form-control" required placeholder="Total required">
-                                        </div>
-                                        </div>
-
-                                        <div class="row mb-3">
                                             <div class="col-md-6">
-                                                <label for="arrival" class="form-label">Arrival</label>
+                                                <label for="child" class="form-label fw-semibold">Children</label>
+                                                <input type="number" id="child" name="child" class="form-control" required min="0" value="0">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row g-3 mb-4">
+                                            <div class="col-md-6">
+                                                <label for="arrival" class="form-label fw-semibold">Arrival Date</label>
                                                 <input type="date" id="arrival" name="arrival" class="form-control" required>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <label for="depart" class="form-label">Departure</label>
-                                                <input type="date" id="depart" name="depart" class="form-control" required>
-                                            </div>
                                         </div>
-
-                                        <div class="mb-3">
-                                            <label class="form-label d-block">Packages</label>
-                                            <div class="form-check form-check-inline">
+                                        <div class="col-md-6">
+                                            <label for="depart" class="form-label fw-semibold">Departure Date</label>
+                                            <input type="date" id="depart" name="depart" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-4">
+                                        <label class="form-label fw-bold d-block mb-3">Choose Your Package</label>
+                                        <div class="bg-light p-3 rounded-3 d-flex flex-wrap gap-3">
+                                            <div class="form-check">
                                                 <input type="checkbox" id="all-incluse" class="form-check-input" name="packages" value="All-inclusive" checked>
                                                 <label for="all-incluse" class="form-check-label">All Inclusive</label>
                                             </div>
-                                            <div class="form-check form-check-inline">
+                                            <div class="form-check">
                                                 <input type="checkbox" id="full" class="form-check-input" name="packages" value="Full-board">
                                                 <label for="full" class="form-check-label">Full Board</label>
                                             </div>
-                                            <div class="form-check form-check-inline">
+                                            <div class="form-check">
                                                 <input type="checkbox" id="half" class="form-check-input" name="packages" value="Half-board">
                                                 <label for="half" class="form-check-label">Half Board</label>
                                             </div>
-                                            <div class="form-check form-check-inline">
+                                            <div class="form-check">
                                                 <input type="checkbox" id="b-b" class="form-check-input" name="packages" value="B&B">
                                                 <label for="b-b" class="form-check-label">Bed & Breakfast</label>
                                             </div>
                                         </div>
-
-                                        <div class="mb-3">
-                                            <label for="area-stay" class="form-label">City/Town/Village (optional)</label>
-                                            <select name="area-of-stay" id="area-stay" class="form-select">
-                                                <option value="">(select one)</option>
-                                                <option value="1">Kuwait City</option>
-                                                <option value="2">Al Jahra</option>
-                                                <option value="3">Ahmadi</option>
-                                                <option value="4">Salmiya</option>
-                                                <option value="5">Other</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="mb-3">
-                                            <textarea name="area-of-stay" class="form-control" rows="4" placeholder="Please tell us if there is a specific place or zone you would like to stay."></textarea>
-                                        </div>
-                                    </fieldset>
-
-                                    <!-- Terms -->
-                                    <div class="mb-4 text-center">
-                                        <p>
+                                    </div>
+                                    
+                                    <div class="mb-4">
+                                        <label for="area-stay" class="form-label fw-semibold">Preferred Region</label>
+                                        <select name="area-of-stay" id="area-stay" class="form-select">
+                                            <option value="" selected disabled>Select a location...</option>
+                                            <option value="1">Kuwait City</option>
+                                            <option value="2">Al Jahra</option>
+                                            <option value="3">Ahmadi</option>
+                                            <option value="4">Salmiya</option>
+                                            <option value="5">Other (Specify below)</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="notes" class="form-label fw-semibold">Specific Interests or Zones</label>
+                                        <textarea id="notes" name="specific-notes" class="form-control" rows="4" placeholder="Tell us about any specific landmarks or districts you want to visit..."></textarea>
+                                    </div>
+                                </fieldset>
+                                
+                                <!-- Terms -->
+                                <div class="mb-5 p-4 bg-light rounded-4 text-center">
+                                    <p class="mb-3">
                                         I agree to the 
-                                        <a href="https://documents.travelguard.com/dynamicdoc?parser=tags&document-type=pwd&partner=qatar&country=kw" target="_blank">Terms & Conditions</a>
-                                        </p>
-                                        <div class="form-check form-check-inline">
+                                        <a href="https://documents.travelguard.com/..." target="_blank" class="text-decoration-underline fw-bold">Terms & Conditions</a>
+                                    </p>
+                                    <div class="d-flex justify-content-center gap-4">
+                                        <div class="form-check">
                                             <input type="radio" id="agree" class="form-check-input" name="terms" value="Agree" required>
-                                            <label for="agree" class="form-check-label">Agree</label>
+                                            <label for="agree" class="form-check-label">I Agree</label>
                                         </div>
-                                        <div class="form-check form-check-inline">
+                                        <div class="form-check">
                                             <input type="radio" id="disagree" class="form-check-input" name="terms" value="Disagree" checked required>
-                                            <label for="disagree" class="form-check-label">Disagree</label>
+                                            <label for="disagree" class="form-check-label">I Disagree</label>
                                         </div>
                                     </div>
-
-                                    <!-- Buttons -->
-                                    <div class="d-grid gap-2">
-                                        <input type="submit" class="btn btn-success" value="Submit">
-                                        <input type="reset" class="btn btn-secondary" value="Refresh">
+                                </div>
+                                
+                                <!-- Buttons -->
+                                <div class="row g-3">
+                                    <div class="col-sm-8">
+                                        <button type="submit" class="btn btn-success btn-lg w-100 fw-bold text-uppercase shadow-sm">Submit Request</button>
                                     </div>
-                                </form>
-                            </div>
+                                    <div class="col-sm-4">
+                                        <button type="reset" class="btn btn-outline-secondary btn-lg w-100 shadow-sm">Reset</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
+                    
                 </div>
-            </section>
+            </div>
+        </div>
         </main>
 
         <!-- Footer -->
@@ -196,13 +216,12 @@
         <!-- JS navigation listener -->
         <script>
             document.addEventListener('click', function (event) {
-                const navbar = document.getElementById('navbarNav'); // Ensure your navbar <div> has this ID
+                const navbar = document.getElementById('navbarNav');
                     const bCollapse = new bootstrap.Collapse(navbar, {toggle: false});
                     const isOpen = navbar.classList.contains('show');
                     const clickedInside = navbar.contains(event.target);
                     const isToggler = event.target.closest('.navbar-toggler');
                     
-                    // If the menu is open and we clicked outside of it (and not on the toggle button itself)
                     if (isOpen && !clickedInside && !isToggler) {
                         bCollapse.hide();
                     }

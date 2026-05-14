@@ -272,13 +272,12 @@
         <!-- JS navigation listener -->
         <script>
             document.addEventListener('click', function (event) {
-                const navbar = document.getElementById('navbarNav'); // Ensure your navbar <div> has this ID
+                const navbar = document.getElementById('navbarNav');
                     const bCollapse = new bootstrap.Collapse(navbar, {toggle: false});
                     const isOpen = navbar.classList.contains('show');
                     const clickedInside = navbar.contains(event.target);
                     const isToggler = event.target.closest('.navbar-toggler');
-                    
-                    // If the menu is open and we clicked outside of it (and not on the toggle button itself)
+
                     if (isOpen && !clickedInside && !isToggler) {
                         bCollapse.hide();
                     }

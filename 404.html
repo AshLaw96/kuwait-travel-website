@@ -7,69 +7,91 @@
         <meta name="description" content="Visit Kuwait. A guide why you should visit Kuwait. Ideas on places to visit, attractions, hotels and other information of Kuwait.">
         <meta name="keywords" content="visit kuwait, travel, holiday, middle east, arabic.">
         <title>Visit Kuwait</title>
+        
         <!-- favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        
+        <!-- BOOTSTRAP CSS (This is what was missing!) -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
         <!-- CSS styles -->
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
-<body class="bg-travel-theme">
-    <header class="py-5 text-center border-bottom shadow-sm bg-white">
-        <div class="container">
-            <h1 class="text-p display-5 fw-bold mb-0">Lost in the Dunes?</h1>
-        </div>
-    </header>
-    <main>
-         <!-- Navigation content -->
-         <aside>
-            <label for="tab-bar" class="tab-label">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-            <input type="checkbox" id="tab-bar" name="tab-bar">
-            <nav>
-                <ul id="navbar" class="navbar">
-                    <li>
-                        <button onclick="history.back()" class="current">
-                            <i class="fa-solid fa-rotate-left"></i>
-                            <span>Return</span>
-                        </button>
-                    </li>
-                </ul>
-            </nav>
-        </aside>
-        <!-- Main content -->
-        <section id="error-wrap">
-            <h3 id="hide">Error page</h3>
-            <img src="assets/images/warning.avif" alt="Yellow 3D warning triangle with black exclamation icon" id="error-img">
-            <p>Oops! Looks like you've wandered off into the Kuwaiti desert. &#128042;</p>
-            <br> 
-            <p>Our oasis of information isn't here, but don't worry, there's plenty more to explore! Try navigating back to civilization or enjoy a virtual sunset over the Arabian Gulf. &#127964;</p>
-            <br> 
-            <p>Happy travels from Kuwait!</p>
-        </section>
-    </main>
-    <!-- Footer content -->
-    <footer>
-        <ul id="socials">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="Visit our TikTok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
-            </li>
-        </ul>
-    </footer>
-     <!-- Font Awesome kit -->
-     <script src="https://kit.fontawesome.com/5c8b8e6738.js" crossorigin="anonymous"></script>
-</body>
+    <body class="bg-travel-theme">
+        <header class="py-5 text-center border-bottom shadow-sm bg-white">
+            <div class="container">
+                <h1 class="text-p display-5 fw-bold mb-0">Lost in the Dunes?</h1>
+            </div>
+        </header>
+
+        <!-- Main Content using the map background ID -->
+        <main id="form" class="py-5">
+            <div class="w-100 d-flex flex-column justify-content-center" style="min-height: 50vh;">
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+                            
+                            <!-- The Ivory Card -->
+                            <div class="card shadow-lg border-0 rounded-4 overflow-hidden bg-transparent-light text-center p-5">
+                                
+                                <!-- Large 404 Graphic/Icon -->
+                                <div class="error-visual mb-4">
+                                    <h2 class="display-1 fw-black text-p opacity-50">404</h2>
+                                    <img src="assets/images/warning.avif" alt="Warning Icon" id="error-img" class="img-fluid mx-auto d-block" style="max-width: 150px; margin-top: -20px;">
+                                </div>
+        
+                                <div class="card-body">
+                                    <h3 class="fw-bold text-p mb-3">Oops! You've wandered off...</h3>
+                                    
+                                    <p class="fs-5 mb-4 text-p">
+                                        It looks like you've strayed off into the Kuwaiti desert.
+                                        <span style="color: initial !important;">&#128042;</span> 
+                                        <br>
+                                        Our oasis of information isn't here, but don't worry.
+                                    </p>
+                                    
+                                    <p class="mb-5">
+                                        Head back to civilisation and continue exploring, or pause to enjoy a virtual sunset over the Arabian Gulf. 
+                                        <span style="color: initial !important;" >&#127964;</span>  
+                                    </p>
+        
+                                    <!-- Clear Navigation Actions -->
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                        <button onclick="history.back()" class="btn btn-outline-secondary btn-lg px-4">
+                                            <i class="fa-solid fa-rotate-left me-2"></i>Go Back
+                                        </button>
+                                        <a href="index.html" class="btn btn-success btn-lg px-4 fw-bold">
+                                            <i class="fa-solid fa-house me-2"></i>Return Home
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> <!-- End Card -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="py-4 border-top">
+            <div class="container text-center">
+                <p class="small fw-medium mb-3">Happy travels from Kuwait!</p>
+
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="fs-4 text-p"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" class="fs-4 text-p"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="fs-4 text-p"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="fs-4 text-p"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/5c8b8e6738.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>

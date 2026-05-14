@@ -31,33 +31,27 @@
     </header>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-custom">
-        <div class="container-fluid">
-            <!-- Toggler button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm sticky-top mb-4">
+        <div class="container">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fs-1"></i>
             </button>
 
-            <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav w-100 justify-content-evenly text-center">
-                    <li class="nav-item" id="home-nav">
-                        <a href="index.html" class="nav-link active" aria-current="page">
-                            <i class="fa-solid fa-house"></i>
-                            <span>Welcome page</span>
+                <ul class="navbar-nav w-100 justify-content-center text-center gap-lg-5 gap-3">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active fw-semibold px-3" aria-current="page">
+                            <i class="fa-solid fa-house me-1"></i> Welcome
                         </a>
                     </li>
-                    <li class="nav-item" id="gallery-nav">
-                        <a href="gallery.html" class="nav-link">
-                            <i class="fa-solid fa-images"></i>
-                            <span>Photo album</span>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link fw-semibold px-3">
+                            <i class="fa-solid fa-images me-1"></i> Photo Album
                         </a>
                     </li>
-                    <li class="nav-item" id="form-nav">
-                        <a href="form.html" class="nav-link">
-                            <i class="fa-solid fa-file-signature"></i>
-                            <span>Get in touch</span>
+                    <li class="nav-item">
+                        <a href="form.html" class="nav-link fw-semibold px-3">
+                            <i class="fa-solid fa-file-signature me-1"></i> Get in Touch
                         </a>
                     </li>
                 </ul>
@@ -200,5 +194,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/5c8b8e6738.js" crossorigin="anonymous"></script>
+        <!-- JS navigation listener -->
+            <script>
+                document.addEventListener('click', function (event) {
+                    const navbar = document.getElementById('navbarNav'); // Ensure your navbar <div> has this ID
+                        const bCollapse = new bootstrap.Collapse(navbar, {toggle: false});
+                        const isOpen = navbar.classList.contains('show');
+                        const clickedInside = navbar.contains(event.target);
+                        const isToggler = event.target.closest('.navbar-toggler');
+                        
+                        // If the menu is open and we clicked outside of it (and not on the toggle button itself)
+                        if (isOpen && !clickedInside && !isToggler) {
+                            bCollapse.hide();
+                        }
+                    });
+            </script>
 </body>
 </html>
